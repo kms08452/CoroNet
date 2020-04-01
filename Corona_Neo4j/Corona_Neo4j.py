@@ -2246,6 +2246,7 @@ if __name__ == '__main__':
     #node_input_BERN()
     edge_pmid_input_Bern()
 
+    #subscribe test
 
     #a.load_all_nodes()
     #edge_year_input_node_loaded("./pmid_results_NoneGene_NonGene.csv")
