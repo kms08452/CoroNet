@@ -1,0 +1,7 @@
+Chloroalkane and chloroalkene degradation pathway@#$pathway@#$PATH:ko00625|BERN:15007
+PPAR signaling pathway@#$pathway@#$PATH:ko03320|BERN:29107
+MAPK signaling pathway@#$pathway@#$PATH:ko04010|BERN:19707
+p53 signaling pathway@#$pathway@#$PATH:ko04115|BERN:25107
+mTOR signaling pathway@#$pathway@#$PATH:ko04150|BERN:22507
+Toll-like receptor signaling pathway@#$pathway@#$PATH:ko04620|BERN:26807
+Jak-STAT signaling pathway@#$pathway@#$PATH:ko04630|BERN:21207

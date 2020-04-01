@@ -1,0 +1,16 @@
+SARS-CoV-2@#$disease@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$3@#$32100877@#$32155444@#$32169119
+SARS-CoV-2@#$disease@#$CUI-less@#$human ACE2@#$gene@#$CUI-less@#$2@#$32155444@#$32157732
+SARS-CoV-2 virus infections@#$disease@#$MESH:D006479|BERN:107271301@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32129518
+SARS-CoV-2 virus@#$disease@#$BERN:267365201@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32129518
+SARS-CoV-2 Spike Glycoprotein@#$gene@#$CUI-less@#$human ACE2@#$gene@#$CUI-less@#$1@#$32155444
+SARS-CoV-2 Spike Glycoprotein@#$gene@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32155444
+SARS-CoV-2 S glycoprotein@#$gene@#$CUI-less@#$human ACE2@#$gene@#$CUI-less@#$1@#$32155444
+SARS-CoV-2 S glycoprotein@#$gene@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32155444
+SARS-CoV-2 S@#$gene@#$CUI-less@#$human ACE2@#$gene@#$CUI-less@#$1@#$32155444
+SARS-CoV-2 S@#$gene@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32155444
+SARS-CoV-2 S ectodomain trimer@#$gene@#$CUI-less@#$human ACE2@#$gene@#$CUI-less@#$1@#$32155444
+SARS-CoV-2 S ectodomain trimer@#$gene@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32155444
+SARS-CoV-2 receptor@#$gene@#$CUI-less@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32125455
+SARS-CoV-2 infections@#$disease@#$MESH:D045169|BERN:106916301@#$ACE2@#$gene@#$MIM:300335|HGNC:13557|Ensembl:ENSG00000130234|BERN:324585302@#$1@#$32129518
+(ACE2) receptors@#$gene@#$CUI-less@#$SARS-CoV-2 infections@#$disease@#$MESH:D045169|BERN:106916301@#$1@#$32186711
+ACE2 receptors@#$gene@#$CUI-less@#$SARS-CoV-2@#$disease@#$CUI-less@#$1@#$32100877

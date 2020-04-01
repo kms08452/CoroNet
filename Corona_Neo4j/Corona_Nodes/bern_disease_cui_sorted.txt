@@ -1,0 +1,3628 @@
+Leptospirosis@#$disease@#$BERN:106921701
+AOC hepatitis B@#$disease@#$BERN:106970301
+diphtheria@#$disease@#$BERN:106994201
+Bronchitis Virus@#$disease@#$BERN:106999501
+ASC@#$disease@#$BERN:107436601
+Chronic bronchitis@#$disease@#$BERN:107515001
+allergic (birch pollen) rhinitis@#$disease@#$BERN:107544101
+malignant catarrhal fever@#$disease@#$BERN:111130501
+SARS coronaries diagnosis@#$disease@#$BERN:1792001
+Feline odontoclastic resorptive lesions@#$disease@#$BERN:2131901
+MS-like disease@#$disease@#$BERN:254041301
+myelinopathy@#$disease@#$BERN:254044901
+focal necrotic hepatitis@#$disease@#$BERN:254045801
+enlargement of pulmonary veins@#$disease@#$BERN:254046201
+HIV-infected@#$disease@#$BERN:254051401
+Theiler'@#$disease@#$BERN:254057301
+Chronic rhinosinusitis@#$disease@#$BERN:254075701
+-East respiratory syndrome@#$disease@#$BERN:254077501
+winter@#$disease@#$BERN:254081901
+squamous@#$disease@#$BERN:254094701
+human and animal diarrhoea@#$disease@#$BERN:254103101
+porcine coronavirus@#$disease@#$BERN:254103301
+tonsillectomy@#$disease@#$BERN:254110001
+acute human respiratory illness@#$disease@#$BERN:254110301
+Trypanosoma@#$disease@#$BERN:254131101
+fetal loss syndrome@#$disease@#$BERN:254136001
+pulmonary hypoplasia@#$disease@#$BERN:254142801
+neurologic sequelae@#$disease@#$BERN:254145501
+necrosis of the pneumocytes and bronchial epithelial cells@#$disease@#$BERN:254158901
+DEL@#$disease@#$BERN:254164701
+tobacco mosaic@#$disease@#$BERN:254183601
+virulent@#$disease@#$BERN:254186501
+arbovirus diseases@#$disease@#$BERN:254191501
+transplacental fetal infection@#$disease@#$BERN:254228101
+chronic demyelinating encephalomyelitis@#$disease@#$BERN:254229701
+perihepatitis@#$disease@#$BERN:254239801
+organ dysfunction@#$disease@#$BERN:254245301
+valvular replacement surgery@#$disease@#$BERN:254251101
+Atrial chaotic tachycardia@#$disease@#$BERN:254265201
+Acute peristome edema disease@#$disease@#$BERN:254275401
+Escherichia coli septicemia@#$disease@#$BERN:254284801
+perivascular necrotizing pyogranulomatous inflammation@#$disease@#$BERN:254290601
+Sendai infection@#$disease@#$BERN:254294901
+Severe Immune Thrombocytopenia@#$disease@#$BERN:254312701
+MERS-CoV Eng 1 infection@#$disease@#$BERN:254314301
+Marble spleen disease@#$disease@#$BERN:254327101
+arthropod-borne infectious disease@#$disease@#$BERN:254379901
+Crimea-and-Congo hemorrhage fever@#$disease@#$BERN:254381201
+metabolic disturbances@#$disease@#$BERN:254386501
+icterus@#$disease@#$BERN:254390401
+mesenteric lymphadenopathy@#$disease@#$BERN:254396701
+Acute febrile respiratory illness@#$disease@#$BERN:254415701
+fatal@#$disease@#$BERN:254416901
+AE lesion@#$disease@#$BERN:254420301
+DVT@#$disease@#$BERN:254433601
+Healthcare-associated infections@#$disease@#$BERN:254433701
+P@#$disease@#$BERN:254439801
+Postinflammatory remyelination@#$disease@#$BERN:254440501
+intracellular deficit@#$disease@#$BERN:254443301
+Tracheal lesions@#$disease@#$BERN:254445601
+allergen sensitization@#$disease@#$BERN:254446901
+Microcytic anemia@#$disease@#$BERN:254447701
+NPC rejection@#$disease@#$BERN:254491901
+inflammation of the choroid plexus@#$disease@#$BERN:254492701
+epizootic@#$disease@#$BERN:254500901
+lung allograft dysfunction@#$disease@#$BERN:254504501
+general malaise@#$disease@#$BERN:254505401
+epizootic haemorrhagic disease@#$disease@#$BERN:254526201
+body soreness@#$disease@#$BERN:254527501
+chronic inflammatory disease of the CNS@#$disease@#$BERN:254546201
+transplanted allogeneic NPC rejection@#$disease@#$BERN:254547701
+infectious gastroenteritis@#$disease@#$BERN:254550601
+coronary plaque instability@#$disease@#$BERN:254552301
+Human Rhinovirus Infection@#$disease@#$BERN:254571001
+ventricular arrhythmia@#$disease@#$BERN:254574001
+Coronavirus-associated epizootic catarrhal enteritis@#$disease@#$BERN:254577401
+Canis lupus@#$disease@#$BERN:254579901
+herpes@#$disease@#$BERN:254586801
+acute otitis@#$disease@#$BERN:254607901
+cardiorespiratory failure@#$disease@#$BERN:254610201
+epithelial cell necrosis@#$disease@#$BERN:254611801
+bacterial lower respiratory infection disease@#$disease@#$BERN:254615901
+asthmatic bronchitis@#$disease@#$BERN:254626801
+bacterial (co-)infections@#$disease@#$BERN:254636501
+hemorrhagic gastroenteritis@#$disease@#$BERN:254642401
+SARS coronavirus related abnormal hematopoiesis@#$disease@#$BERN:254649201
+Canine parvovirus-2@#$disease@#$BERN:254682101
+consolidation@#$disease@#$BERN:254684001
+public health@#$disease@#$BERN:254684201
+diarrheic neonatal@#$disease@#$BERN:254684701
+pediatric leukemia@#$disease@#$BERN:254685001
+Lymphocytic inflammation@#$disease@#$BERN:254692401
+Exercise impairment@#$disease@#$BERN:254701801
+hypothermic@#$disease@#$BERN:254722601
+nasal epithelium infection@#$disease@#$BERN:254740601
+Influenza B virus@#$disease@#$BERN:254747501
+zonal necrosis@#$disease@#$BERN:254753901
+pneumopathy@#$disease@#$BERN:254766701
+congenital heart disease@#$disease@#$BERN:254768701
+swinepox@#$disease@#$BERN:254769901
+Malaria@#$disease@#$BERN:254771901
+Psychological stress@#$disease@#$BERN:254779301
+Acute nonbacterial gastroenteritis@#$disease@#$BERN:254790701
+respiratory dysfunction@#$disease@#$BERN:254794001
+Small Intestine and Brain Lesions@#$disease@#$BERN:254800201
+neuronophagia@#$disease@#$BERN:254811601
+peritoneal effusion@#$disease@#$BERN:254811701
+portal and lobular hepatitis@#$disease@#$BERN:254824201
+bovine norovirus infection@#$disease@#$BERN:254829901
+skin graft@#$disease@#$BERN:254833701
+Anterior segment inflammation@#$disease@#$BERN:254835001
+Encephalitis Virus@#$disease@#$BERN:254838301
+Porcine@#$disease@#$BERN:254843601
+placental infarction@#$disease@#$BERN:254855001
+coronary artery dilatation@#$disease@#$BERN:254862801
+pale-bird syndrome@#$disease@#$BERN:254864301
+telomere dysfunctional@#$disease@#$BERN:254865501
+inflammation of small airways and alveoli@#$disease@#$BERN:254866001
+acute inflammation@#$disease@#$BERN:254871501
+atrophy of the thymus@#$disease@#$BERN:254884701
+pleura thickening@#$disease@#$BERN:254889101
+acute nonviral liver inflammation hepatitis@#$disease@#$BERN:254896901
+pullorum disease@#$disease@#$BERN:254903001
+Equine arteritis@#$disease@#$BERN:254908101
+cirrhosis@#$disease@#$BERN:254909501
+meningeal hyperemia@#$disease@#$BERN:254910201
+Hypoglycemia@#$disease@#$BERN:254912601
+villitis@#$disease@#$BERN:254914201
+human herpes@#$disease@#$BERN:254921801
+areflexia@#$disease@#$BERN:254921901
+Infectious Peritonitis@#$disease@#$BERN:254931001
+omphalitis@#$disease@#$BERN:254944501
+respiratory, renal and urogenital involvements@#$disease@#$BERN:254946601
+necrotising bronchiolitis@#$disease@#$BERN:254951301
+Fatty degeneration@#$disease@#$BERN:254952201
+Non-specific interstitial pneumonia@#$disease@#$BERN:254957001
+adult diarrhoea rotavirus@#$disease@#$BERN:254959001
+cytoplasmic necrosis@#$disease@#$BERN:254963501
+Alveolar epithelial hyperplasia@#$disease@#$BERN:254971601
+chronic asthma@#$disease@#$BERN:254976501
+bronchiolar necrosis@#$disease@#$BERN:254980801
+Growth retardation@#$disease@#$BERN:255000401
+kidney hypertrophy@#$disease@#$BERN:255004101
+Middle@#$disease@#$BERN:255007701
+AVIAN INFECTIOUS BRONCHITIS VACCINE@#$disease@#$BERN:255011501
+fetal pneumonia@#$disease@#$BERN:255017901
+inflammatory conditions of the central nervous system@#$disease@#$BERN:255040501
+atrophy of the mucosal lymphoid tissue@#$disease@#$BERN:255043501
+hepatic function impairment@#$disease@#$BERN:255046501
+Acute Bronchiolitis@#$disease@#$BERN:255047001
+pulmonary pathologies@#$disease@#$BERN:255047501
+PH@#$disease@#$BERN:255054401
+cytolysis@#$disease@#$BERN:255077601
+mycotic rumenitis@#$disease@#$BERN:255089001
+multifocal splenic haemorrhage@#$disease@#$BERN:255090001
+renal involvement@#$disease@#$BERN:255090901
+GOLD 2-4@#$disease@#$BERN:255108701
+acute bronchopneumonia@#$disease@#$BERN:255121501
+chronic liver disease@#$disease@#$BERN:255128901
+pregnancy@#$disease@#$BERN:255137901
+airway compromise@#$disease@#$BERN:255142101
+G-responsive polyneuropathy@#$disease@#$BERN:255146901
+canarypox lesions@#$disease@#$BERN:255154101
+eosinophilic immunopathology@#$disease@#$BERN:255167501
+congenital CMV infection@#$disease@#$BERN:255175701
+tophus@#$disease@#$BERN:255177501
+varizella zoster@#$disease@#$BERN:255180701
+DN T@#$disease@#$BERN:255182001
+Infectious laryngotracheitis virus@#$disease@#$BERN:255182601
+thyroid dysfunction@#$disease@#$BERN:255183301
+MOUSE@#$disease@#$BERN:255190201
+upper respiratory@#$disease@#$BERN:255196301
+tropical and other diseases@#$disease@#$BERN:255204101
+necrotizing rhinitis@#$disease@#$BERN:255206301
+gastrointestinal illness@#$disease@#$BERN:255222801
+Breast dieases@#$disease@#$BERN:255257501
+Airway obstruction due to enlargement of tonsils and adenoids@#$disease@#$BERN:255261201
+bursal disease@#$disease@#$BERN:255263801
+A-PR8 influenza virus@#$disease@#$BERN:255274801
+CNS FIP@#$disease@#$BERN:255280801
+chronic granulomatous hepatitis@#$disease@#$BERN:255289401
+tachypnoea@#$disease@#$BERN:255295701
+emphysematous@#$disease@#$BERN:255297401
+congestion@#$disease@#$BERN:255298101
+diffuse granulomatous inflammation@#$disease@#$BERN:255298601
+oral psychosomatic diseases@#$disease@#$BERN:255316501
+ileal attaching effacing (AE) lesions@#$disease@#$BERN:255316601
+PEDV enteric disease@#$disease@#$BERN:255318101
+mammary gland fibroadenomas@#$disease@#$BERN:255319501
+diarrheal rotavirus@#$disease@#$BERN:255321801
+immunocompromised transplant@#$disease@#$BERN:255332501
+inflammatory demyelinating plaques@#$disease@#$BERN:255337801
+Hemorrhagic Edema of Infancy@#$disease@#$BERN:255340501
+rat mammary adenocarcinoma@#$disease@#$BERN:255342101
+abomasitis@#$disease@#$BERN:255356901
+Airsacculitis@#$disease@#$BERN:255357201
+Granulomatous meningoencephalomyelitis@#$disease@#$BERN:255360101
+HBD@#$disease@#$BERN:255362301
+chorionic hemangioma@#$disease@#$BERN:255364601
+mental distress@#$disease@#$BERN:255371301
+Respiratory chronic diseases@#$disease@#$BERN:255375601
+biliary disease@#$disease@#$BERN:255377301
+respiratory stress@#$disease@#$BERN:255396601
+joint lesions@#$disease@#$BERN:255396701
+Acute myocarditis@#$disease@#$BERN:255405801
+fibrous lesions@#$disease@#$BERN:255411001
+helminth@#$disease@#$BERN:255412801
+CCV enteritis@#$disease@#$BERN:255419801
+Vacuolar encephalomyelopathy@#$disease@#$BERN:255420301
+myeloid leukosis@#$disease@#$BERN:255444301
+obstetrical@#$disease@#$BERN:255445901
+COPD exacerbations@#$disease@#$BERN:255456301
+Cerebral pyogranuloma@#$disease@#$BERN:255466401
+Intermandibular swelling@#$disease@#$BERN:255466701
+infectious bursitis@#$disease@#$BERN:255467601
+lung cavitation@#$disease@#$BERN:255469301
+tracheal ciliostasis@#$disease@#$BERN:255469801
+Porcine Diarrhoea Syndrome@#$disease@#$BERN:255475301
+Helminthic eosinophilic meningitis@#$disease@#$BERN:255480001
+pneumo-enteritis@#$disease@#$BERN:255482301
+oncology@#$disease@#$BERN:255486001
+MERS-CoV complications@#$disease@#$BERN:255492601
+RSV pneumonia@#$disease@#$BERN:255493101
+Brucella@#$disease@#$BERN:255501301
+myocardial dysfunction@#$disease@#$BERN:255508501
+COVID-19 respiratory infection@#$disease@#$BERN:255521801
+Calf@#$disease@#$BERN:255524601
+Dirofilaria immitis@#$disease@#$BERN:255529001
+impaired cardiac function@#$disease@#$BERN:255529301
+CMV pneumonia@#$disease@#$BERN:255540801
+Myocardial Fibrosis@#$disease@#$BERN:255549101
+Viral upper respiratory tract infection@#$disease@#$BERN:255558301
+Squamous metaplasia@#$disease@#$BERN:255580301
+atrophy of the testis@#$disease@#$BERN:255603101
+hyponatraemia@#$disease@#$BERN:255606301
+papules@#$disease@#$BERN:255609301
+immune mediated demyelination@#$disease@#$BERN:255629601
+vacuolar myelopathy@#$disease@#$BERN:255632501
+fibrinoid necrosis@#$disease@#$BERN:255638301
+meningeal hemorrhage@#$disease@#$BERN:255653701
+exudative, necrotizing lobar pneumonia@#$disease@#$BERN:255655901
+necrotizing and haemorrhagic pneumonia@#$disease@#$BERN:255655901|BERN:259857901
+Murine coronavirus@#$disease@#$BERN:255660801
+granulomatous necrotizing vasculitis@#$disease@#$BERN:255683701
+intellectually retarded@#$disease@#$BERN:255691701
+coronary bypass surgery@#$disease@#$BERN:255692301
+Chronic Immune Dysschwannian/Dysneuronal Polyneuropathy@#$disease@#$BERN:255706801
+extrapulmonary organ dysfunction@#$disease@#$BERN:255720001
+subpleural involvement@#$disease@#$BERN:255720401
+Critical illness myopathy@#$disease@#$BERN:255749801
+Semliki Forest virus@#$disease@#$BERN:255766401
+hydropic degeneration in the liver@#$disease@#$BERN:255770701
+tonsillar hypertrophy@#$disease@#$BERN:255774701
+Intestinal lesions@#$disease@#$BERN:255776101
+elevated lactate dehydrogenase@#$disease@#$BERN:255789601
+uncontrolled hypertension@#$disease@#$BERN:255792701
+ACD@#$disease@#$BERN:255797801
+Epizootic coronaviral typhlocolitis@#$disease@#$BERN:255803501
+immaturity of immune function@#$disease@#$BERN:255824501
+Tyzzer's disease@#$disease@#$BERN:255826601
+X-linked agammaglobulinemia@#$disease@#$BERN:255829701
+varicella-zoster virus@#$disease@#$BERN:255834001
+fibrin deposition@#$disease@#$BERN:255838001
+Spinal cord demyelination@#$disease@#$BERN:255853301
+pharynx dryness@#$disease@#$BERN:255861601
+hair loss@#$disease@#$BERN:255863301
+nonfatal systemic infection@#$disease@#$BERN:255865701
+pregnancy loss@#$disease@#$BERN:255867501
+Hepatitis C Virus@#$disease@#$BERN:255869601
+oral infection@#$disease@#$BERN:255875301
+Hemorrhagic enterocolitis@#$disease@#$BERN:255878901
+subacute@#$disease@#$BERN:255880301
+Respiratory Viral Coinfections@#$disease@#$BERN:255883601
+chlamydiosis@#$disease@#$BERN:255896201
+acute rejection of xeno- or allograft transplantation@#$disease@#$BERN:255899101
+Diarrhoea Syndrome@#$disease@#$BERN:255903501
+acute respiratory distress@#$disease@#$BERN:255906701
+Feline gingivostomatitis@#$disease@#$BERN:255918401
+Infectious coryza@#$disease@#$BERN:255921701
+encephalopathies@#$disease@#$BERN:255930601
+enterohaemorrhagic Escherichia coli O157:H7 infection@#$disease@#$BERN:255933001
+angina@#$disease@#$BERN:255953001
+hypertrophic tonsils@#$disease@#$BERN:255978101
+Bovine Viral Diarrhoea virus@#$disease@#$BERN:255983001
+childhood@#$disease@#$BERN:255987801
+premature newborns@#$disease@#$BERN:255997801
+ED@#$disease@#$BERN:256000901
+Chronic respiratory disease@#$disease@#$BERN:256001701
+gastrointestinal dysfunction@#$disease@#$BERN:256014001
+OM@#$disease@#$BERN:256018601
+serous, fibrinous and haemorrhagic inflammation@#$disease@#$BERN:256020401
+fibrinous peritonitis@#$disease@#$BERN:256039701
+RVF@#$disease@#$BERN:256045301
+pediatric cancer@#$disease@#$BERN:256048001
+partial hepatectomy@#$disease@#$BERN:256053101
+Human Coronavirus-Associated Influenza-Like Illness@#$disease@#$BERN:256054101
+Strongyloides papillosus@#$disease@#$BERN:256054501
+HIV, HBV, CMV@#$disease@#$BERN:256064001
+chronic diffuse enteritis@#$disease@#$BERN:256079001
+Systemic amyloidosis@#$disease@#$BERN:256092801
+Hepatozoon felis infection@#$disease@#$BERN:256098601
+graft rejection@#$disease@#$BERN:256100401
+watery eyes@#$disease@#$BERN:256101401
+PED associated disease@#$disease@#$BERN:256104201
+Uterine infection@#$disease@#$BERN:256114201
+L. infantum infection@#$disease@#$BERN:256118901
+Severe@#$disease@#$BERN:256125901
+porcine pleuropneumonia@#$disease@#$BERN:256126201
+neurological complications@#$disease@#$BERN:256131801
+neonatal tetanus@#$disease@#$BERN:256158301
+Degeneration@#$disease@#$BERN:256168501
+lesions of retinal detachment@#$disease@#$BERN:256169101
+lethargic@#$disease@#$BERN:256171901
+neurodegenerative bladder dysfunction@#$disease@#$BERN:256173201
+bronchial adenocarcinoma@#$disease@#$BERN:256182401
+Multisystemic granulomatous lesions@#$disease@#$BERN:256196801
+Congo hemorrhagic fever@#$disease@#$BERN:256204101
+tumour associated inflammation@#$disease@#$BERN:256212301
+Neoplasia@#$disease@#$BERN:256225101
+adenoids@#$disease@#$BERN:256263101
+Comorbid diabetes@#$disease@#$BERN:256263201
+herpetic skin lesions@#$disease@#$BERN:256264801
+tubular@#$disease@#$BERN:256278501
+Central nervous system (CNS) inflammation@#$disease@#$BERN:256284801
+vocal folds@#$disease@#$BERN:256292401
+Ebola/Lassa fever virus@#$disease@#$BERN:256293501
+diffuse gliosis@#$disease@#$BERN:256309801
+Duck viral enteritis@#$disease@#$BERN:256331101
+dilatation of the oviduct@#$disease@#$BERN:256331501
+lupus@#$disease@#$BERN:256340901
+lymphoid hyperplasia@#$disease@#$BERN:256343701
+active demyelinating plaques@#$disease@#$BERN:256347501
+cardiovascular and renal (patho)physiology@#$disease@#$BERN:256349601
+Acute viral encephalitis@#$disease@#$BERN:256358601
+helminths@#$disease@#$BERN:256364101
+laboratory abnormalities of grade 3 or higher@#$disease@#$BERN:256364301
+SARS-related respiratory distress complications@#$disease@#$BERN:256366401
+SARS-CoV E@#$disease@#$BERN:256368001
+multiple sclerosis brain coronavirus@#$disease@#$BERN:256368401
+Helicobacter and gastric neoplasia@#$disease@#$BERN:256376501
+graft complications@#$disease@#$BERN:256400401
+Acute rabbit coronavirus infection@#$disease@#$BERN:256406501
+atypia@#$disease@#$BERN:256410401
+acute leukemia@#$disease@#$BERN:256418201
+Bordetella (para)pertussis@#$disease@#$BERN:256432501
+cystic degeneration of the lymphoid follicles@#$disease@#$BERN:256455801
+advanced NSCLC@#$disease@#$BERN:256457101
+chronic pulmonary complications@#$disease@#$BERN:256457801
+abnormal eruption of permanent teeth@#$disease@#$BERN:256460601
+Chronic Immune Dysschwannian/Dysneuronal Polyneuropathy-like neuropathy@#$disease@#$BERN:256468401
+congenital malformations@#$disease@#$BERN:256478801
+brain damage@#$disease@#$BERN:256486201
+retinal vascular leakage@#$disease@#$BERN:256494601
+Hyalomma@#$disease@#$BERN:256498701
+skeletal muscle fiber necrosis@#$disease@#$BERN:256507901
+Acute Respiratory Illnesses@#$disease@#$BERN:256508201
+pulmonary disorder@#$disease@#$BERN:256510001
+Acute renal impairment@#$disease@#$BERN:256511901
+Infectious Respiratory Disease Complex@#$disease@#$BERN:256515601
+human lymphocyte (CEM) tumor@#$disease@#$BERN:256515701
+amyloid fibrillation@#$disease@#$BERN:256521101
+disorders of the biliary tree@#$disease@#$BERN:256539601
+supraventricular arrhythmias@#$disease@#$BERN:256540101
+meadow voles@#$disease@#$BERN:256542401
+chronic neurologic diseases@#$disease@#$BERN:256567601
+irritability@#$disease@#$BERN:256569401
+necrogranulomatous lymphadenitis@#$disease@#$BERN:256570501
+central hypocortisolism@#$disease@#$BERN:256571301
+alveolitis@#$disease@#$BERN:256576901
+chronic respiratory failure@#$disease@#$BERN:256584001
+cystic bronchiectasis@#$disease@#$BERN:256584101
+Respirator Syndrome Corona Virus@#$disease@#$BERN:256587101
+canine parvovirus infection@#$disease@#$BERN:256597801
+avian viral@#$disease@#$BERN:256600801
+structural@#$disease@#$BERN:256620301
+Hysterectomy@#$disease@#$BERN:256632201
+runny nose@#$disease@#$BERN:256632401
+lipid deposition@#$disease@#$BERN:256635401
+chronic encephalitis@#$disease@#$BERN:256646201
+focal necrosis@#$disease@#$BERN:256650801
+graft vasculopathy@#$disease@#$BERN:256666901
+cutaneous basophil hypersensitivity@#$disease@#$BERN:256695701
+eustachian tube dysfunction@#$disease@#$BERN:256705501
+Autographa californica nuclear polyhedrosis baculovirus@#$disease@#$BERN:256706101
+Chest HRCT@#$disease@#$BERN:256716801
+Infectious and parasitic diseases@#$disease@#$BERN:256716901
+splenic and hepatic congestion@#$disease@#$BERN:256719801
+Degeneration and necrosis of hepatocytes@#$disease@#$BERN:256725401
+Toxoplasma@#$disease@#$BERN:256734201
+Respiratory tract viral infection@#$disease@#$BERN:256735901
+ansa spiralis coli@#$disease@#$BERN:256736301
+coxsackie B3 virus-induced@#$disease@#$BERN:256738501
+MERS coronavirus DNA@#$disease@#$BERN:256747301
+congestion of the meningeal and parenchymal vessels@#$disease@#$BERN:256747901
+psychological distress@#$disease@#$BERN:256762201
+epiphyseal and diaphyseal lesions@#$disease@#$BERN:256762301
+Auricular chondritis@#$disease@#$BERN:256765601
+spastic paralysis@#$disease@#$BERN:256768301
+postweaning multisystemic wasting syndrome@#$disease@#$BERN:256770301
+chronic diarrhea@#$disease@#$BERN:256770801
+obstruction of the osteomeatal complex@#$disease@#$BERN:256773601
+laminitis@#$disease@#$BERN:256777401
+Chronic Lung Allograft Dysfunction@#$disease@#$BERN:256779601
+myelin destruction@#$disease@#$BERN:256780101
+Coronavirus mouse hepatitis virus@#$disease@#$BERN:256795501
+bronchial asthma attack@#$disease@#$BERN:256797401
+eosinophilic airway inflammation@#$disease@#$BERN:256808201
+Hypomagnesaemia@#$disease@#$BERN:256812501
+Pacheco's parrot disease virus@#$disease@#$BERN:256814701
+Acute Physiology and Chronic Health Evaluation II@#$disease@#$BERN:256817101
+parasitic infection@#$disease@#$BERN:256834001
+primary hypothyroidism@#$disease@#$BERN:256842201
+perivascular inflammation@#$disease@#$BERN:256844701
+anxiety@#$disease@#$BERN:256846301
+Acute Respiratory Infections@#$disease@#$BERN:256854701
+Casitas B-lineage lymphoma@#$disease@#$BERN:256857401
+delayed brain tumor@#$disease@#$BERN:256859601
+Acute otitis media@#$disease@#$BERN:256876101
+URI@#$disease@#$BERN:256885501
+H1N1 2009 influenza infection@#$disease@#$BERN:256885701
+Myocytolysis@#$disease@#$BERN:256887601
+intestinal malabsorption@#$disease@#$BERN:256895601
+Regenerative@#$disease@#$BERN:256896301
+uric acid deposits@#$disease@#$BERN:256897701
+infectious and inflammatory conditions@#$disease@#$BERN:256898501
+turkey coronaviral enteritis@#$disease@#$BERN:256906101
+chronic tonsillar hypertrophy@#$disease@#$BERN:256909001
+infantile gastroenteritis@#$disease@#$BERN:256920101
+positional nystagmus@#$disease@#$BERN:256939801
+Acute Respiratory Infection@#$disease@#$BERN:256948801
+Calf coronavirus neonatal diarrhea@#$disease@#$BERN:256972901
+central hypothyroidism@#$disease@#$BERN:256973501
+Epidemic Diarrhea Viral@#$disease@#$BERN:256995801
+Acute infectious gastroenteritis@#$disease@#$BERN:257000501
+paralytic disease@#$disease@#$BERN:257001901
+satellitosis@#$disease@#$BERN:257003601
+parasitic infestations@#$disease@#$BERN:257014601
+LE@#$disease@#$BERN:257027201
+Egg Drop Syndrome@#$disease@#$BERN:257028701
+purulent bronchitis@#$disease@#$BERN:257034201
+paediatric gastro-enteritis@#$disease@#$BERN:257052601
+mumps virus@#$disease@#$BERN:257071401
+C. perfringens type A@#$disease@#$BERN:257074801
+myelomalacia@#$disease@#$BERN:257083401
+Leishmania@#$disease@#$BERN:257108601
+erosive lesions@#$disease@#$BERN:257115201
+Ehrlichia@#$disease@#$BERN:257124101
+intensive@#$disease@#$BERN:257124801
+nerve palsy@#$disease@#$BERN:257129801
+diastolic impairment@#$disease@#$BERN:257134001
+Gastroenteritis Virus@#$disease@#$BERN:257135301
+pediatric@#$disease@#$BERN:257137701
+MHV-3 related liver necrosis@#$disease@#$BERN:257149901
+interstitial and replacement fibrosis@#$disease@#$BERN:257152501
+Immune-mediated pulmonary damage@#$disease@#$BERN:257155901
+granulocytosis@#$disease@#$BERN:257185101
+upper airway congestion@#$disease@#$BERN:257188101
+splenic enlargement@#$disease@#$BERN:257216901
+pharyngeal hyperemia@#$disease@#$BERN:257218501
+acute conjunctivitis@#$disease@#$BERN:257219201
+pneumonic illness@#$disease@#$BERN:257220801
+acute cellular rejection@#$disease@#$BERN:257221701
+Anderson Cancer@#$disease@#$BERN:257222701
+fatal peritonitis@#$disease@#$BERN:257233401
+pyogranulomatous enteritis@#$disease@#$BERN:257247101
+Acute upper and lower respiratory infections@#$disease@#$BERN:257257101
+Macacine herpesvirus 1@#$disease@#$BERN:257278901
+hind limb paralysis@#$disease@#$BERN:257288301
+NOD class I presentation abnormality@#$disease@#$BERN:257289201
+EPEC infection@#$disease@#$BERN:257315301
+Fulminant Viral Hepatitis@#$disease@#$BERN:257321101
+Camelpox Virus@#$disease@#$BERN:257338201
+organizing pneumonia@#$disease@#$BERN:257352001
+ketamine/xylazine anesthesia@#$disease@#$BERN:257360201
+Australian@#$disease@#$BERN:257375001
+subcutaneous granuloma@#$disease@#$BERN:257389401
+anemic@#$disease@#$BERN:257390601
+submandibular salivary gland enlargement@#$disease@#$BERN:257397401
+CSF@#$disease@#$BERN:257397801
+hepatic inflammatory disorders@#$disease@#$BERN:257405701
+Liver damage@#$disease@#$BERN:257406101
+ileal perforation@#$disease@#$BERN:257409601
+acute coronary syndrome@#$disease@#$BERN:257414601
+lipomatous@#$disease@#$BERN:257432301
+enlarged abdomen@#$disease@#$BERN:257446001
+Canine viral enteritis@#$disease@#$BERN:257452001
+dermal ulceration@#$disease@#$BERN:257461601
+airway@#$disease@#$BERN:257464401
+Streptococcus pneumonia@#$disease@#$BERN:257473101
+infantile viral gastroenteritis@#$disease@#$BERN:257477701
+polyserositis@#$disease@#$BERN:257481601
+metritis@#$disease@#$BERN:257485001
+pulmonary infiltrates@#$disease@#$BERN:257487701
+HiP@#$disease@#$BERN:257506101
+asthma exacerbation@#$disease@#$BERN:257507801
+ferret systemic coronavirus@#$disease@#$BERN:257537101
+229E@#$disease@#$BERN:257542301
+neuronal death@#$disease@#$BERN:257550001
+respiratory dysfunction syndrome@#$disease@#$BERN:257555601
+retention@#$disease@#$BERN:257600201
+Dialysis@#$disease@#$BERN:257610501
+haemorrhagic lesions@#$disease@#$BERN:257621801
+hepatic lesion@#$disease@#$BERN:257629801
+traction bronchiectasis@#$disease@#$BERN:257633301
+human papilloma virus@#$disease@#$BERN:257662401
+Sindbis virus-like viruses@#$disease@#$BERN:257665001
+nasal congestion@#$disease@#$BERN:257680501
+Granulomatous lesions@#$disease@#$BERN:257680701
+Hymenolepsis nana@#$disease@#$BERN:257688701
+inclusion body hepatitis@#$disease@#$BERN:257690201
+depletion@#$disease@#$BERN:257690301
+cervical swelling@#$disease@#$BERN:257707101
+porcine astrovirus@#$disease@#$BERN:257709601
+multiple cerebral emboli@#$disease@#$BERN:257711401
+atypical@#$disease@#$BERN:257730401
+Parainfluenza Virus type 3@#$disease@#$BERN:257732101
+COPD GOLD stage II@#$disease@#$BERN:257748401
+myocardial damage@#$disease@#$BERN:257757401
+acute asthma@#$disease@#$BERN:257758401
+pulmonary congestion@#$disease@#$BERN:257758901
+infective syndrome@#$disease@#$BERN:257780401
+Hyperammonemia@#$disease@#$BERN:257782301
+viral mimicry@#$disease@#$BERN:257782801
+Mouse hepatitis virus (MHV) infection@#$disease@#$BERN:257798401
+Attenuated IB@#$disease@#$BERN:257801701
+GAD@#$disease@#$BERN:257801901
+immune-mediated disease of domestic and exotic felides@#$disease@#$BERN:257804501
+pneumococcal and flu@#$disease@#$BERN:257813001
+macrocytosis@#$disease@#$BERN:257815701
+Fowl typhoid@#$disease@#$BERN:257827701
+diffuse leptomeningitis@#$disease@#$BERN:257846701
+acute viral encephalomyelitis@#$disease@#$BERN:257849401
+winter dysentery-like disease@#$disease@#$BERN:257849801
+H1N1 swine influenza@#$disease@#$BERN:257855101
+infectious cardiomyopathy@#$disease@#$BERN:257858701
+invasive MV@#$disease@#$BERN:257864501
+cortical hemorrhage@#$disease@#$BERN:257877001
+congestion of the lungs and liver@#$disease@#$BERN:257883101
+metabolic disorder@#$disease@#$BERN:257892001
+osteoporosis@#$disease@#$BERN:257900501
+kidney infection@#$disease@#$BERN:257906501
+neonatal infection@#$disease@#$BERN:257907201
+inflammation of the ciliary body@#$disease@#$BERN:257918401
+myocardial necrosis@#$disease@#$BERN:257964301
+Immune complex glomerulonephritis@#$disease@#$BERN:257975101
+avian encephalomyelitis@#$disease@#$BERN:257985901
+Neoplastic lesions@#$disease@#$BERN:258004301
+DM@#$disease@#$BERN:258006601
+Syphacia obvelata@#$disease@#$BERN:258010501
+distress syndrome@#$disease@#$BERN:258012501
+canine gastroenteritis@#$disease@#$BERN:258022801
+demyelinating process@#$disease@#$BERN:258050201
+neuronal disorder@#$disease@#$BERN:258054101
+nasal turbinates@#$disease@#$BERN:258060701
+Acute Diarrhea@#$disease@#$BERN:258063801
+acute and chronic diarrhoea@#$disease@#$BERN:258063801|BERN:256770801
+Intestinal infection@#$disease@#$BERN:258075501
+adenoviral tracheobronchitis@#$disease@#$BERN:258082501
+polioencephalomyelitis@#$disease@#$BERN:258105501
+neurotropic coronavirus replication@#$disease@#$BERN:258106201
+T- and B-cell immunodeficiencies@#$disease@#$BERN:258108801
+granulomatous pneumonia@#$disease@#$BERN:258116101
+acute and chronic respiratory illnesses@#$disease@#$BERN:258125701
+Glomerulonephritis@#$disease@#$BERN:258127801
+allergic encephalitis@#$disease@#$BERN:258144201
+Mannheimia haemolytica@#$disease@#$BERN:258150001
+BCV diarrhoea@#$disease@#$BERN:258154301
+giant cell peritonitis@#$disease@#$BERN:258156601
+NIV failure@#$disease@#$BERN:258160501
+crypt abscess@#$disease@#$BERN:258173901
+eosinopenia@#$disease@#$BERN:258177701
+dental illness@#$disease@#$BERN:258179601
+multifocal lymphocytic hepatitis@#$disease@#$BERN:258192401
+brain lesions@#$disease@#$BERN:258202401
+CHB@#$disease@#$BERN:258204301
+dengue, Tacaribe, Sindbis and Ross River viruses@#$disease@#$BERN:258209301
+interlobular thickening@#$disease@#$BERN:258212301
+viral tracheitis@#$disease@#$BERN:258234601
+B cell deficiency@#$disease@#$BERN:258235001
+disability@#$disease@#$BERN:258236401
+Marburg fever@#$disease@#$BERN:258236601
+Vesicular Lesions@#$disease@#$BERN:258242401
+SARS uncertain@#$disease@#$BERN:258244601
+infectious bronchitis viral@#$disease@#$BERN:258256001
+Hemorrhagic diarrhea@#$disease@#$BERN:258263801
+acute exacerbation of COPD@#$disease@#$BERN:258271801
+endemic diseases@#$disease@#$BERN:258276901
+CNS lesions@#$disease@#$BERN:258278201
+orthopoxvirus infections@#$disease@#$BERN:258288601
+catarrhal tracheitis@#$disease@#$BERN:258298901
+FIP-associated meningoencephalomyelitis@#$disease@#$BERN:258300601
+endotoxin shock@#$disease@#$BERN:258324701
+nasolacrimal duct obstruction@#$disease@#$BERN:258333701
+potassium cardiotoxicosis@#$disease@#$BERN:258343001
+chronic viral hepatitis@#$disease@#$BERN:258353801
+deficient in recombination activation gene 1@#$disease@#$BERN:258353901
+bilateral pneumonia@#$disease@#$BERN:258357801
+Gumboro disease@#$disease@#$BERN:258363901
+neural@#$disease@#$BERN:258368201
+histiocytic myositis@#$disease@#$BERN:258374201
+ventricular tachycardia@#$disease@#$BERN:258380301
+hypoglobulinemia@#$disease@#$BERN:258381101
+neutrophilia@#$disease@#$BERN:258395701
+pulmonary haemorrhage@#$disease@#$BERN:258396601
+SDA@#$disease@#$BERN:258397301
+adult@#$disease@#$BERN:258405601
+biphasic disease@#$disease@#$BERN:258410901
+degeneration of myelin@#$disease@#$BERN:258412001
+acute nephritis@#$disease@#$BERN:258427201
+infectious enteritis@#$disease@#$BERN:258431601
+Head swelling@#$disease@#$BERN:258442501
+bilateral thickening of the pinnae@#$disease@#$BERN:258444601
+stable@#$disease@#$BERN:258449901
+cerebral lesions@#$disease@#$BERN:258452101
+ferret systemic coronavirus (FSCV) associated disease@#$disease@#$BERN:258476201
+infectious spongiform degeneration in the brain@#$disease@#$BERN:258489601
+Ependymitis@#$disease@#$BERN:258495801
+Attenuated Salmonella vaccine@#$disease@#$BERN:258497101
+simian hemorrhagic@#$disease@#$BERN:258501401
+Healthcare@#$disease@#$BERN:258502201
+Lower airway inflammation@#$disease@#$BERN:258502401
+decrease of immune function@#$disease@#$BERN:258511201
+Cesarean delivery@#$disease@#$BERN:258513101
+lymphocytic-plasmacytic inflammation@#$disease@#$BERN:258523301
+avian infectious coronavirus@#$disease@#$BERN:258528801
+neuronal loss@#$disease@#$BERN:258530501
+hyperproteinaemia@#$disease@#$BERN:258541601
+nasal polyposis@#$disease@#$BERN:258542001
+cardiac surgery@#$disease@#$BERN:258544501
+MERS-CoV NP@#$disease@#$BERN:258546401
+obstructive pneumonia@#$disease@#$BERN:258547201
+Haemorrhagic enteritis@#$disease@#$BERN:258548501
+pediatric solid organ transplant@#$disease@#$BERN:258551201
+disseminated disease@#$disease@#$BERN:258557301
+non@#$disease@#$BERN:258557501
+epididymal stones in the rooster epididymis@#$disease@#$BERN:258558101
+Acute lower respiratory infection@#$disease@#$BERN:258561501
+hypothyroid@#$disease@#$BERN:258568201
+hyperchloremia@#$disease@#$BERN:258579501
+MG infection@#$disease@#$BERN:258586401
+TNF receptor associated factor 3 (TRAF3) deficient@#$disease@#$BERN:258591801
+malignant mesothelioma@#$disease@#$BERN:258593301
+Atypical pneumonia@#$disease@#$BERN:258597901
+disorder of amino acid homeostasis@#$disease@#$BERN:258627001
+end stage lung disease@#$disease@#$BERN:258632101
+adenoviral pneumonia@#$disease@#$BERN:258646701
+ocular surface disease@#$disease@#$BERN:258647201
+Feline Leukemia Virus@#$disease@#$BERN:258652501
+Neonatal bursectomy@#$disease@#$BERN:258657901
+epithelial necrosis in the gastric pits and small intestine@#$disease@#$BERN:258663701
+cardiorenal disease@#$disease@#$BERN:258665301
+rotavirus@#$disease@#$BERN:258674801
+Chronic inflammation of gingiva and periodontium@#$disease@#$BERN:258687901
+squamous metaplasia of the nasal cavity@#$disease@#$BERN:258688201
+secretory colibacillary diarrhoea@#$disease@#$BERN:258688601
+gastrointestinal complications@#$disease@#$BERN:258689101
+hypophysitis@#$disease@#$BERN:258710801
+Hemolysis@#$disease@#$BERN:258719501
+swelling of the face and eyes@#$disease@#$BERN:258729701
+purpuric plaques@#$disease@#$BERN:258730901
+Dengue virus 2@#$disease@#$BERN:258740301
+Corona- and rotavirus enteritis@#$disease@#$BERN:258751101
+immune-mediated inflammatory disease@#$disease@#$BERN:258761101
+steroid myopathy@#$disease@#$BERN:258761901
+acute hepatitis C@#$disease@#$BERN:258764301
+Haemorrhagic necrosis@#$disease@#$BERN:258767701
+Neglected dorsolateral dislocation of the first metatarsophalangeal joint@#$disease@#$BERN:258770101
+Turkey rhinotracheitis@#$disease@#$BERN:258772601
+tumour of the abdominal wall@#$disease@#$BERN:258781801
+Infected Pneumonia@#$disease@#$BERN:258784101
+optic neuritis-inflammation@#$disease@#$BERN:258784901
+Lower respiratory viral infections@#$disease@#$BERN:258803601
+perennial ryegrass toxicosis@#$disease@#$BERN:258810101
+vascular thrombosis@#$disease@#$BERN:258849001
+Herpes simplex type 1@#$disease@#$BERN:258855101
+combined immune deficiency@#$disease@#$BERN:258873901
+lung diffusion abnormality@#$disease@#$BERN:258878501
+Chronic enterocyte infection with coronavirus@#$disease@#$BERN:258880301
+2009 H1N1 influenza A@#$disease@#$BERN:258887401
+Infectious salmon anaemia virus@#$disease@#$BERN:258895201
+viral myocarditis@#$disease@#$BERN:258899701
+liver transplant@#$disease@#$BERN:258901801
+picornavirus equine rhinovirus serotype 2@#$disease@#$BERN:258901901
+Reactive hepatitis@#$disease@#$BERN:258914601
+Transmissible gastro-enteritis@#$disease@#$BERN:258942101
+duodenal lesions@#$disease@#$BERN:258945601
+Degeneration of some neurons@#$disease@#$BERN:258947901
+corpus callosum demyelination@#$disease@#$BERN:258948801
+Equine influenza@#$disease@#$BERN:258950901
+canine herpesvirus pneumonia@#$disease@#$BERN:258954901
+cilia loss@#$disease@#$BERN:258957701
+fetal loss@#$disease@#$BERN:258959201
+chronic heart failure@#$disease@#$BERN:258980801
+ventricular dilatation@#$disease@#$BERN:258983101
+pneumatosis@#$disease@#$BERN:258984301
+flulike@#$disease@#$BERN:258985501
+quail bronchitis virus@#$disease@#$BERN:258989401
+neonatal respiratory failure@#$disease@#$BERN:258990101
+microbial disease@#$disease@#$BERN:259000601
+Chronic medical conditions@#$disease@#$BERN:259009101
+Bilateral lung involvement@#$disease@#$BERN:259015101
+leptomeningeal and encephalitic lesions@#$disease@#$BERN:259057701
+platelet dysfunction@#$disease@#$BERN:259062401
+desquamation of ciliated and glandular epithelia@#$disease@#$BERN:259063401
+glomerular diseases@#$disease@#$BERN:259071001
+hyaline membrane formation@#$disease@#$BERN:259075701
+laryngo-tracheitis@#$disease@#$BERN:259098501
+placenta abruption@#$disease@#$BERN:259098901
+adenoid hypertrophy@#$disease@#$BERN:259109801
+perianal fistulas@#$disease@#$BERN:259126001
+acute viral diseases@#$disease@#$BERN:259129101
+Metaphyseal osteopathy@#$disease@#$BERN:259135301
+AIDS stage IV@#$disease@#$BERN:259138001
+cerebral artery occlusion@#$disease@#$BERN:259149401
+Haemophagocytosis@#$disease@#$BERN:259163701
+avascular osteonecrosis@#$disease@#$BERN:259167901
+systolic and diastolic dysfunction@#$disease@#$BERN:259174401|BERN:258703101
+alveolar exudative inflammation@#$disease@#$BERN:259183801
+thymus involution@#$disease@#$BERN:259197101
+petechial rash@#$disease@#$BERN:259213501
+Acute respiratory viruses@#$disease@#$BERN:259215001
+head and neck surgery@#$disease@#$BERN:259216801
+uremic@#$disease@#$BERN:259229901
+chronic active interstitial nephritis@#$disease@#$BERN:259239101
+gastrointestinal complaints@#$disease@#$BERN:259248301
+GI infections@#$disease@#$BERN:259251501
+Necrotizing Enteritis@#$disease@#$BERN:259252501
+BP@#$disease@#$BERN:259253901
+hematologic stem cell transplant recipients@#$disease@#$BERN:259257201
+Acute hemorrhagic edema of infancy@#$disease@#$BERN:259270801
+pulmonary interstitial fibrosiswere@#$disease@#$BERN:259274201
+lung large cell carcinoma@#$disease@#$BERN:259277601
+subclinical infection@#$disease@#$BERN:259286901
+acute chronic (AOC) hepatitis B@#$disease@#$BERN:259288101
+multiple organ disorders@#$disease@#$BERN:259290901
+necrotic and/or hemorrhagic enteritis@#$disease@#$BERN:259312301
+malaria parasite@#$disease@#$BERN:259316701
+PEARS@#$disease@#$BERN:259318701
+Hepatitis B Virus@#$disease@#$BERN:259319601
+fibrinous and/or necrotizing bronchopneumonia@#$disease@#$BERN:259327801
+Abdominal lymphadenopathy@#$disease@#$BERN:259336101
+pneumococcal@#$disease@#$BERN:259357801
+Coxsackie B3 virus@#$disease@#$BERN:259360201
+digestive problems@#$disease@#$BERN:259365601
+carbohydrate malabsorption@#$disease@#$BERN:259371001
+rectal adenocarcinoma@#$disease@#$BERN:259381601
+Attenuated viral@#$disease@#$BERN:259392601
+superficial antral gastritis@#$disease@#$BERN:259395401
+Chicken anaemia@#$disease@#$BERN:259431901
+congenitally immunodeficient@#$disease@#$BERN:259444401
+hepatozoonosis@#$disease@#$BERN:259452501
+suppurative pancreatitis@#$disease@#$BERN:259453901
+MHV) neurotropism@#$disease@#$BERN:259477501
+TAD@#$disease@#$BERN:259479401
+feline coronavirus (FCoV) type I@#$disease@#$BERN:259482401
+Haemorrhagic inflammation@#$disease@#$BERN:259483601
+Giardia infection@#$disease@#$BERN:259488301
+stage IIIA breast cancer@#$disease@#$BERN:259492501
+infectious problems@#$disease@#$BERN:259498801
+necrosis of pancreas@#$disease@#$BERN:259499001
+cerebrospinal meningitis@#$disease@#$BERN:259508001
+abdominal infection@#$disease@#$BERN:259516601
+Chylous abdominal effusion@#$disease@#$BERN:259532801
+pyogranulomatous dermatitis@#$disease@#$BERN:259543701
+diseases of the upper airways@#$disease@#$BERN:259548801
+Acute Bovine Respiratory Disease@#$disease@#$BERN:259549001
+acute and chronic respiratory disease@#$disease@#$BERN:259549001|BERN:256001701
+Lymphoid necrosis@#$disease@#$BERN:259558701
+rhythm disturbances@#$disease@#$BERN:259561901
+swelling of mesenteric lymph nodes@#$disease@#$BERN:259568001
+idiopathic anterior uveitis@#$disease@#$BERN:259582001
+Tracheostomy@#$disease@#$BERN:259589101
+Hypocortisolism@#$disease@#$BERN:259605001
+multiple myelogenic disease@#$disease@#$BERN:259614401
+effusion@#$disease@#$BERN:259617501
+reticulitis@#$disease@#$BERN:259622001
+porcine high fever disease@#$disease@#$BERN:259622201
+JHMV related disease@#$disease@#$BERN:259630101
+subcutaneous fibrosis@#$disease@#$BERN:259635001
+B-cell immunodeficiency@#$disease@#$BERN:259636001
+lip fissure and/or strawberry tongue@#$disease@#$BERN:259651101
+multifocal renal tubular necrosis@#$disease@#$BERN:259652101
+cytauxzoonosis@#$disease@#$BERN:259658901
+Habitat deterioration@#$disease@#$BERN:259669201
+sweating@#$disease@#$BERN:259674001
+chronic lung@#$disease@#$BERN:259679301
+bronchus-associated lymphoid tissue infection@#$disease@#$BERN:259682001
+hepatic and glioblastoma@#$disease@#$BERN:259688001
+colorectal adenocarcinoma@#$disease@#$BERN:259692101
+abnormal breath sounds@#$disease@#$BERN:259701701
+Granulomatous peritonitis@#$disease@#$BERN:259718201
+AMs@#$disease@#$BERN:259718701
+OPC@#$disease@#$BERN:259720001
+Panmyelophthisis@#$disease@#$BERN:259722201
+Heart Failure@#$disease@#$BERN:259728501
+Diarrheal@#$disease@#$BERN:259730001
+acute mouse viral hepatitis@#$disease@#$BERN:259731701
+acute and chronic viral hepatitis@#$disease@#$BERN:259731701|BERN:258353801
+colon adenocarcinoma@#$disease@#$BERN:259735001
+renal infarctions@#$disease@#$BERN:259740201
+gammopathy@#$disease@#$BERN:259752901
+nystagmus@#$disease@#$BERN:259753801
+AB@#$disease@#$BERN:259760301
+MERS-CoV patient@#$disease@#$BERN:259770101
+lower-lobe pneumonia@#$disease@#$BERN:259775901
+Friend leukemia@#$disease@#$BERN:259787101
+Systemic Coronaviral Disease@#$disease@#$BERN:259788101
+live donor renal transplant@#$disease@#$BERN:259792901
+non-bacterial gastroenteritis@#$disease@#$BERN:259799401
+hearing loss@#$disease@#$BERN:259810201
+axonal loss@#$disease@#$BERN:259814101
+Equine coronavirus@#$disease@#$BERN:259831001
+enteric and respiratory problems@#$disease@#$BERN:259837501
+hyperpyrexia@#$disease@#$BERN:259838001
+Nile virus@#$disease@#$BERN:259839101
+Infectious tracheobronchitis@#$disease@#$BERN:259848001
+fibrinonecrotic or hemorrhagic bronchopneumonia@#$disease@#$BERN:259848201
+haemorrhagic pneumonia@#$disease@#$BERN:259857901
+Pulmonary epithelial cell necrosis@#$disease@#$BERN:259860601
+gastric polyp@#$disease@#$BERN:259861701
+Ancylostoma@#$disease@#$BERN:259862601
+subacute granulomatous serositis@#$disease@#$BERN:259882001
+PHEV aggression@#$disease@#$BERN:259895501
+Subgingival resorptive lesions@#$disease@#$BERN:259900701
+lung A549 xenografted tumor@#$disease@#$BERN:259932501
+abdominal and/or thoracic effusion@#$disease@#$BERN:259940401
+liver inflammation@#$disease@#$BERN:259946101
+CNS demyelinating disease@#$disease@#$BERN:259966601
+CAP@#$disease@#$BERN:259968501
+streptococcal toxic shock syndrome@#$disease@#$BERN:259979101
+glomerular lesions@#$disease@#$BERN:259982801
+Epidemic@#$disease@#$BERN:259983701
+Ischemic necrosis of the mucosal side of the cecal wall@#$disease@#$BERN:259994201
+enzyme deficiency@#$disease@#$BERN:260006101
+hyperplasia of the surface epithelium@#$disease@#$BERN:260008301
+atrophy of the white pulp of the spleen@#$disease@#$BERN:260028601
+Cryptosporidium parvum infection@#$disease@#$BERN:260035501
+Ad5 lung infection@#$disease@#$BERN:260045201
+cytomegaly@#$disease@#$BERN:260053901
+coliform enteritis@#$disease@#$BERN:260054601
+dry FIP@#$disease@#$BERN:260056501
+degeneration and necrosis of the parenchyma cells in the lung, liver, kidney, heart, and adrenal gland@#$disease@#$BERN:260070101
+lesions of the nasal cavity@#$disease@#$BERN:260075201
+Isospora suis@#$disease@#$BERN:260097101
+Vascular lesions@#$disease@#$BERN:260103301
+splenic nodules atrophy@#$disease@#$BERN:260107501
+functional impairment@#$disease@#$BERN:260116001
+thymic cortical atrophy@#$disease@#$BERN:260141101
+filovirus@#$disease@#$BERN:260174101
+acute community-acquired sinusitis@#$disease@#$BERN:260183201
+dihydrofolate reductase-deficient CHO@#$disease@#$BERN:260187801
+nonsuppurative tracheitis@#$disease@#$BERN:260204901
+laryngeal obstruction@#$disease@#$BERN:260206101
+malignant pheochromocytomas@#$disease@#$BERN:260206201
+chronic active inflammation@#$disease@#$BERN:260208201
+autoimmunity@#$disease@#$BERN:260226401
+kidney hemorrhages@#$disease@#$BERN:260228901
+Mycoplasma@#$disease@#$BERN:260231301
+TGE virus-related respiratory coronavirus@#$disease@#$BERN:260247801
+infantile diarrhea@#$disease@#$BERN:260265801
+ascending cholangiohepatitis@#$disease@#$BERN:260275501
+Impairment of the kidney@#$disease@#$BERN:260291001
+MERS-CoV N protein@#$disease@#$BERN:260297301
+unifocal lesions@#$disease@#$BERN:260297501
+electrolyte disturbances@#$disease@#$BERN:260330701
+hematopoietic cell transplant@#$disease@#$BERN:260339501
+Structural plasticity disorders@#$disease@#$BERN:260342001
+Gamma interferon-deficient@#$disease@#$BERN:260344301
+transudate ascites@#$disease@#$BERN:260347501
+non-regenerative anaemia@#$disease@#$BERN:260351801
+anterior pituitary gland neoplasms@#$disease@#$BERN:260361101
+disseminated granulomatous disease@#$disease@#$BERN:260373501
+acute decompensated heart failure@#$disease@#$BERN:260380601
+acute adult LRTI@#$disease@#$BERN:260386301
+Upper respiratory infection@#$disease@#$BERN:260407001
+Pigmentation of the spleen@#$disease@#$BERN:260409701
+Bipolar disorder@#$disease@#$BERN:260418101
+Epidemic Diarrhea@#$disease@#$BERN:260432901
+periungual desquamation@#$disease@#$BERN:260441001
+multi-organ damage@#$disease@#$BERN:260446101
+endogenous@#$disease@#$BERN:260450601
+thrombotic occlusion@#$disease@#$BERN:260451801
+brain and spinal cord lesions@#$disease@#$BERN:260457101
+interstitial inflammation@#$disease@#$BERN:260457601
+lymphocyte disorder@#$disease@#$BERN:260458301
+Visceral gout@#$disease@#$BERN:260459401
+obstruction@#$disease@#$BERN:260465501
+Massive cerebral cortical necrosis@#$disease@#$BERN:260472601
+Mycoplasma synoviae arthritis@#$disease@#$BERN:260496001
+hepatitis virus Type 2 (MHV-2) infection@#$disease@#$BERN:260497201
+crippling, unbalancing, discomforting or painful disorder@#$disease@#$BERN:260506701
+Winter dysentery@#$disease@#$BERN:260508201
+deficiencies in the innate immune response@#$disease@#$BERN:260534101
+Lung transplant@#$disease@#$BERN:260540801
+exocrine pancreas hypoplasia@#$disease@#$BERN:260542501
+parrot@#$disease@#$BERN:260545401
+Acute lower respiratory illnesses@#$disease@#$BERN:260551001
+cognitive decline@#$disease@#$BERN:260552101
+hypokalaemia@#$disease@#$BERN:260557601
+Glioblastoma@#$disease@#$BERN:260568201
+Epithelial lesions in colon@#$disease@#$BERN:260571701
+central positional nystagmus@#$disease@#$BERN:260574601
+liver derangement@#$disease@#$BERN:260585301
+respiratory lesions@#$disease@#$BERN:260586201
+mink@#$disease@#$BERN:260595801
+Neonatal Porcine Diarrhoea Syndrome@#$disease@#$BERN:260600801
+epiglottis@#$disease@#$BERN:260603601
+degeneration and necrosis of the parenchyma cells in lungs, liver, kidneys, heart and adrenals@#$disease@#$BERN:260614001
+renal function impairment@#$disease@#$BERN:260618001
+air sacs@#$disease@#$BERN:260618801
+NPC@#$disease@#$BERN:260623801
+haemorrhagic colitis@#$disease@#$BERN:260633001
+Glioma tumor@#$disease@#$BERN:260652101
+Venezuelan hemorrhagic fever@#$disease@#$BERN:260654101
+Brisbane respiratory virus@#$disease@#$BERN:260657901
+acute lung failure@#$disease@#$BERN:260660501
+influenzal infection@#$disease@#$BERN:260662701
+mucous disease@#$disease@#$BERN:260666401
+Bordetella bronchiseptica@#$disease@#$BERN:260666701
+Haemophilus influenzae@#$disease@#$BERN:260668001
+left ventricle (LV) systolic dysfunction@#$disease@#$BERN:260669401
+C. difficile infection@#$disease@#$BERN:260679001
+necrosis of infected livers@#$disease@#$BERN:260682001
+neorickettsiosis@#$disease@#$BERN:260689401
+influenza C and bovine coronavirus@#$disease@#$BERN:260721601
+SARS crisis@#$disease@#$BERN:260733501
+dolphin rhabdovirus@#$disease@#$BERN:260760801
+multifocal@#$disease@#$BERN:260761601
+micronutrient selenium deficiency@#$disease@#$BERN:260790401
+Bacterial Sepsis@#$disease@#$BERN:260791201
+unilateral left--necrosis@#$disease@#$BERN:260794901
+Acute and subacute demyelination@#$disease@#$BERN:260797901
+Pseudomonas aeruginosa infection@#$disease@#$BERN:260823501
+pulmonary and renal failure@#$disease@#$BERN:260835201
+abortion@#$disease@#$BERN:260847101
+ruminal bloat@#$disease@#$BERN:260847201
+methicillin-resistant Staphylococcus aureus (MRSA) infection@#$disease@#$BERN:260848601
+lymphocytic fundic gastritis@#$disease@#$BERN:260861501
+infantile enteritis@#$disease@#$BERN:260866401
+flavivirus encephalitis@#$disease@#$BERN:260867801
+Acute Gastroenteritis@#$disease@#$BERN:260870201
+Focal@#$disease@#$BERN:260893501
+cardiovascular health@#$disease@#$BERN:260906401
+Bacterial respiratory infections@#$disease@#$BERN:260908601
+parapneumonic effusions@#$disease@#$BERN:260910901
+nasal discharge@#$disease@#$BERN:260912401
+Large artery ischemic stroke@#$disease@#$BERN:260914201
+porcine intestinal coronavirus@#$disease@#$BERN:260916901
+infectious anemia@#$disease@#$BERN:260917301
+Neonatal enterocolitis@#$disease@#$BERN:260926401
+mediastinal lymphadenopathy@#$disease@#$BERN:260933001
+Monocytosis@#$disease@#$BERN:260936401
+nervous system lesions@#$disease@#$BERN:260940401
+AFP@#$disease@#$BERN:260951601
+chronic alcoholism@#$disease@#$BERN:260952401
+atopy@#$disease@#$BERN:260956001
+nervous dysfunction@#$disease@#$BERN:260956701
+interferon (IFN)-deficient@#$disease@#$BERN:260985401
+class II FLA-DRB@#$disease@#$BERN:260991901
+nephromegaly@#$disease@#$BERN:260996801
+Living donor renal transplantation@#$disease@#$BERN:261007701
+X DDD@#$disease@#$BERN:261020401
+Chlamydia@#$disease@#$BERN:261031801
+PCD 3 and 4@#$disease@#$BERN:261047001
+Lower respiratory tract disease@#$disease@#$BERN:261073901
+Baylisascariasis@#$disease@#$BERN:261075301
+Alkhurma hemorrhagic fever@#$disease@#$BERN:261076001
+Spinal cryptococcoma@#$disease@#$BERN:261078501
+paralytic poliomyelitis@#$disease@#$BERN:261078701
+autoimmune disease of the central nervous system (CNS@#$disease@#$BERN:261096501
+Ear, Nose, and Throat@#$disease@#$BERN:261099301
+medical conditions@#$disease@#$BERN:261099701
+Rabbit cardiomyopathy@#$disease@#$BERN:261099801
+respiratory, reproductive and urogenital tract disease@#$disease@#$BERN:261100501
+C6 glioma@#$disease@#$BERN:261104001
+cartilage nodules@#$disease@#$BERN:261104101
+brain glioma@#$disease@#$BERN:261104601
+LL@#$disease@#$BERN:261108101
+Spotted hyenas@#$disease@#$BERN:261127301
+Acute asthmatics@#$disease@#$BERN:261129101
+T cell deficient@#$disease@#$BERN:261129501
+EC@#$disease@#$BERN:261146201
+Canine infectious respiratory disease@#$disease@#$BERN:261156901
+enteric tract infectious disease@#$disease@#$BERN:261173601
+CMV enteric involvement@#$disease@#$BERN:261181601
+foreign body granulomatous myositis@#$disease@#$BERN:261229301
+neurotoxicity@#$disease@#$BERN:261232301
+demyelination of adult CNS@#$disease@#$BERN:261241301
+central nervous system (CNS) lesions@#$disease@#$BERN:261244901
+abnormal glucose metabolism@#$disease@#$BERN:261248901
+uterine stromal polyps@#$disease@#$BERN:261250101
+lung parenchymal, airway, pleural, hilar and mediastinal abnormalities@#$disease@#$BERN:261293901
+neoplasms of the large intestine@#$disease@#$BERN:261316301
+SHM@#$disease@#$BERN:261338401
+toxic polyneuropathy@#$disease@#$BERN:261358301
+lymphocytic depletion of the bursa and/or thymus@#$disease@#$BERN:261379801
+intravenous immunoglobulin-G-responsive neuropathy@#$disease@#$BERN:261382501
+carcinoma in situ neoplasia@#$disease@#$BERN:261383101
+acute myocardial infarction@#$disease@#$BERN:261395401
+acute upper respiratory tract illness@#$disease@#$BERN:261398501
+upper and lower respiratory tract disease@#$disease@#$BERN:261398501|BERN:261073901
+Abnormalities of cardiac enzymes@#$disease@#$BERN:267256201
+coronavirus-induced fatal disease@#$disease@#$BERN:267257001
+Neurologic Disease@#$disease@#$BERN:267257601
+isolated thrombocytopenia@#$disease@#$BERN:267261201
+systemic disorders@#$disease@#$BERN:267263601
+multifactorial disease@#$disease@#$BERN:267264001
+Obese@#$disease@#$BERN:267266501
+Damage of the mucosa@#$disease@#$BERN:267266901
+demyelinated areas@#$disease@#$BERN:267267501
+Viral nephropathy@#$disease@#$BERN:267273501
+microvesicular steatosis@#$disease@#$BERN:267281801
+single-lung involvement@#$disease@#$BERN:267282001
+Severe haemolysis@#$disease@#$BERN:267286701
+AIH@#$disease@#$BERN:267288201
+axonopathy@#$disease@#$BERN:267288601
+APC function@#$disease@#$BERN:267296201
+breast, prostate, and head-and-neck cancer@#$disease@#$BERN:267299501
+IVF@#$disease@#$BERN:267303001
+ear swelling@#$disease@#$BERN:267314601
+inflammatory demyelinating lesions@#$disease@#$BERN:267315801
+retinal detachment@#$disease@#$BERN:267317401
+Guinea pig cytomegalovirus@#$disease@#$BERN:267317701
+central nervous symptoms@#$disease@#$BERN:267318001
+absence of complement@#$disease@#$BERN:267323801
+hindlimb weakness@#$disease@#$BERN:267337001
+conduction defects@#$disease@#$BERN:267341701
+HM@#$disease@#$BERN:267341901
+Clinical abnormality@#$disease@#$BERN:267343901
+motor deficits@#$disease@#$BERN:267346201
+ADAR1 deficient@#$disease@#$BERN:267348401
+respiratory and extrarespiratory manifestations@#$disease@#$BERN:267350101
+mucosal lesion@#$disease@#$BERN:267352301
+abnormalities of intestinal structure and function@#$disease@#$BERN:267358101
+FIP-associated ocular lesions@#$disease@#$BERN:267364401
+malignant tumors@#$disease@#$BERN:267364801
+A(H7N9) virus@#$disease@#$BERN:267365201
+neurological and non-neurological diseases@#$disease@#$BERN:267365401
+demyelination in the CNS@#$disease@#$BERN:267366801
+muscular soreness@#$disease@#$BERN:267369001
+malarial@#$disease@#$BERN:267377901
+Myopathic@#$disease@#$BERN:267378201
+deficient in C3@#$disease@#$BERN:267378801
+parainfluenza viruses types 1 and 2@#$disease@#$BERN:267379501
+atherosclerosis@#$disease@#$BERN:267388201
+Complement-deficient@#$disease@#$BERN:267394401
+immune deficiencies@#$disease@#$BERN:267396301
+neurological dysfunction@#$disease@#$BERN:267398401
+Neuronal degeneration@#$disease@#$BERN:267401301
+depression@#$disease@#$BERN:267406001
+demyelination of white matter@#$disease@#$BERN:267407901
+CT@#$disease@#$BERN:267409601
+maternal disomy 15@#$disease@#$BERN:267411601
+influenza 1 and 2@#$disease@#$BERN:267416601
+EBV-positive Hodgkin's Lymphoma@#$disease@#$BERN:3930701
+epizootic diarrhea@#$disease@#$BERN:6366001
+2019@#$disease@#$CUI-less-2019
+2019-@#$disease@#$CUI-less-2019-
+2019-nCoV@#$disease@#$CUI-less-2019-nCoV
+A@#$disease@#$CUI-less-A
+A H1N1@#$disease@#$CUI-less-A H1N1
+A(H1N1) pandemic@#$disease@#$CUI-less-A(H1N1) pandemic
+A/H1N1@#$disease@#$CUI-less-A/H1N1
+A59@#$disease@#$CUI-less-A59
+AAC@#$disease@#$CUI-less-AAC
+AAF@#$disease@#$CUI-less-AAF
+ABHS@#$disease@#$CUI-less-ABHS
+ACAS@#$disease@#$CUI-less-ACAS
+ACR@#$disease@#$CUI-less-ACR
+ACoV@#$disease@#$CUI-less-ACoV
+ADCML@#$disease@#$CUI-less-ADCML
+ADG@#$disease@#$CUI-less-ADG
+ADHF@#$disease@#$CUI-less-ADHF
+ADV@#$disease@#$CUI-less-ADV
+AE-ACOPD@#$disease@#$CUI-less-AE-ACOPD
+AE-COPD@#$disease@#$CUI-less-AE-COPD
+AECOPD@#$disease@#$CUI-less-AECOPD
+AFRS@#$disease@#$CUI-less-AFRS
+AGP@#$disease@#$CUI-less-AGP
+AHCC@#$disease@#$CUI-less-AHCC
+AHEI@#$disease@#$CUI-less-AHEI
+AHFC@#$disease@#$CUI-less-AHFC
+AHHF@#$disease@#$CUI-less-AHHF
+AI pandemic@#$disease@#$CUI-less-AI pandemic
+AI-H9N2@#$disease@#$CUI-less-AI-H9N2
+AIBV@#$disease@#$CUI-less-AIBV
+AIM@#$disease@#$CUI-less-AIM
+AIMS@#$disease@#$CUI-less-AIMS
+AIV@#$disease@#$CUI-less-AIV
+AIV H9@#$disease@#$CUI-less-AIV H9
+AIV H9N2@#$disease@#$CUI-less-AIV H9N2
+AKI@#$disease@#$CUI-less-AKI
+ALI@#$disease@#$CUI-less-ALI
+ALRI@#$disease@#$CUI-less-ALRI
+ALRIs@#$disease@#$CUI-less-ALRIs
+ALRTI@#$disease@#$CUI-less-ALRTI
+ALRTIs@#$disease@#$CUI-less-ALRTIs
+ALTE@#$disease@#$CUI-less-ALTE
+AMON@#$disease@#$CUI-less-AMON
+AMR-RTI@#$disease@#$CUI-less-AMR-RTI
+AMR-RTIs@#$disease@#$CUI-less-AMR-RTIs
+AOM@#$disease@#$CUI-less-AOM
+AOMwiP@#$disease@#$CUI-less-AOMwiP
+APF@#$disease@#$CUI-less-APF
+APN@#$disease@#$CUI-less-APN
+APN-null@#$disease@#$CUI-less-APN-null
+APP@#$disease@#$CUI-less-APP
+APR@#$disease@#$CUI-less-APR
+APT@#$disease@#$CUI-less-APT
+APV@#$disease@#$CUI-less-APV
+ARIs@#$disease@#$CUI-less-ARIs
+ARTI@#$disease@#$CUI-less-ARTI
+ARTIs@#$disease@#$CUI-less-ARTIs
+ARVI@#$disease@#$CUI-less-ARVI
+ASF@#$disease@#$CUI-less-ASF
+ATEC@#$disease@#$CUI-less-ATEC
+ATLQAIAS@#$disease@#$CUI-less-ATLQAIAS
+AVN@#$disease@#$CUI-less-AVN
+AVRI@#$disease@#$CUI-less-AVRI
+Ab-deficient@#$disease@#$CUI-less-Ab-deficient
+AdVs@#$disease@#$CUI-less-AdVs
+Alphacoronavirus@#$disease@#$CUI-less-Alphacoronavirus
+Anaplasma@#$disease@#$CUI-less-Anaplasma
+Anaplasma phagocytophila@#$disease@#$CUI-less-Anaplasma phagocytophila
+Ancylostomidae@#$disease@#$CUI-less-Ancylostomidae
+Apodemus ilex@#$disease@#$CUI-less-Apodemus ilex
+Ark IBV@#$disease@#$CUI-less-Ark IBV
+ArkDPI@#$disease@#$CUI-less-ArkDPI
+Arteriviridae@#$disease@#$CUI-less-Arteriviridae
+Arteriviruses@#$disease@#$CUI-less-Arteriviruses
+AvCoV-IBV@#$disease@#$CUI-less-AvCoV-IBV
+Avastrovirus@#$disease@#$CUI-less-Avastrovirus
+Avastroviruses@#$disease@#$CUI-less-Avastroviruses
+BA@#$disease@#$CUI-less-BA
+BBTB@#$disease@#$CUI-less-BBTB
+BCS@#$disease@#$CUI-less-BCS
+BCV@#$disease@#$CUI-less-BCV
+BCV-associated@#$disease@#$CUI-less-BCV-associated
+BCVs@#$disease@#$CUI-less-BCVs
+BCoV@#$disease@#$CUI-less-BCoV
+BEC@#$disease@#$CUI-less-BEC
+BECV@#$disease@#$CUI-less-BECV
+BEF@#$disease@#$CUI-less-BEF
+BEFV@#$disease@#$CUI-less-BEFV
+BFS@#$disease@#$CUI-less-BFS
+BJ@#$disease@#$CUI-less-BJ
+BNB@#$disease@#$CUI-less-BNB
+BR@#$disease@#$CUI-less-BR
+BRCV@#$disease@#$CUI-less-BRCV
+BRD@#$disease@#$CUI-less-BRD
+BRDC@#$disease@#$CUI-less-BRDC
+BRSV@#$disease@#$CUI-less-BRSV
+BRSV)@#$disease@#$CUI-less-BRSV)
+BRSVs@#$disease@#$CUI-less-BRSVs
+BRTV@#$disease@#$CUI-less-BRTV
+BTLA-deficient@#$disease@#$CUI-less-BTLA-deficient
+BTM@#$disease@#$CUI-less-BTM
+BToV@#$disease@#$CUI-less-BToV
+BVD@#$disease@#$CUI-less-BVD
+BVD-@#$disease@#$CUI-less-BVD-
+BVDV@#$disease@#$CUI-less-BVDV
+Beaudette@#$disease@#$CUI-less-Beaudette
+Betacoronavirus subgroup A coronaviruses@#$disease@#$CUI-less-Betacoronavirus subgroup A coronaviruses
+BoCV@#$disease@#$CUI-less-BoCV
+BoTV@#$disease@#$CUI-less-BoTV
+Bocaparvovirus@#$disease@#$CUI-less-Bocaparvovirus
+Bocavirus@#$disease@#$CUI-less-Bocavirus
+Breda@#$disease@#$CUI-less-Breda
+Bredavirus@#$disease@#$CUI-less-Bredavirus
+CA-RVI@#$disease@#$CUI-less-CA-RVI
+CAHFS@#$disease@#$CUI-less-CAHFS
+CAI@#$disease@#$CUI-less-CAI
+CALT@#$disease@#$CUI-less-CALT
+CAM@#$disease@#$CUI-less-CAM
+CARS@#$disease@#$CUI-less-CARS
+CARV-infection@#$disease@#$CUI-less-CARV-infection
+CAV@#$disease@#$CUI-less-CAV
+CAV-2@#$disease@#$CUI-less-CAV-2
+CBH@#$disease@#$CUI-less-CBH
+CBetacoronavirus@#$disease@#$CUI-less-CBetacoronavirus
+CCHFV@#$disease@#$CUI-less-CCHFV
+CCV@#$disease@#$CUI-less-CCV
+CCoV@#$disease@#$CUI-less-CCoV
+CCoV-II@#$disease@#$CUI-less-CCoV-II
+CD4-deficient@#$disease@#$CUI-less-CD4-deficient
+CDCD@#$disease@#$CUI-less-CDCD
+CDV@#$disease@#$CUI-less-CDV
+CECoV@#$disease@#$CUI-less-CECoV
+CFLI@#$disease@#$CUI-less-CFLI
+CFLIs@#$disease@#$CUI-less-CFLIs
+CHIKV@#$disease@#$CUI-less-CHIKV
+CHIKV and@#$disease@#$CUI-less-CHIKV and
+CHQ@#$disease@#$CUI-less-CHQ
+CHV@#$disease@#$CUI-less-CHV
+CHV-@#$disease@#$CUI-less-CHV-
+CHV-1@#$disease@#$CUI-less-CHV-1
+CIE@#$disease@#$CUI-less-CIE
+CIRD@#$disease@#$CUI-less-CIRD
+CIRDC@#$disease@#$CUI-less-CIRDC
+CLAD@#$disease@#$CUI-less-CLAD
+CLI@#$disease@#$CUI-less-CLI
+COV@#$disease@#$CUI-less-COV
+COVID@#$disease@#$CUI-less-COVID
+COVID-19@#$disease@#$CUI-less-COVID-19
+COVID-19 outbreak@#$disease@#$CUI-less-COVID-19 outbreak
+COVID-19 pandemic@#$disease@#$CUI-less-COVID-19 pandemic
+CP-COPD@#$disease@#$CUI-less-CP-COPD
+CPA@#$disease@#$CUI-less-CPA
+CPE@#$disease@#$CUI-less-CPE
+CPV@#$disease@#$CUI-less-CPV
+CPV-2@#$disease@#$CUI-less-CPV-2
+CPV-2-associated ECA@#$disease@#$CUI-less-CPV-2-associated ECA
+CQDs@#$disease@#$CUI-less-CQDs
+CRCoV@#$disease@#$CUI-less-CRCoV
+CRV@#$disease@#$CUI-less-CRV
+CSFV@#$disease@#$CUI-less-CSFV
+CTD@#$disease@#$CUI-less-CTD
+CVB4@#$disease@#$CUI-less-CVB4
+CVLP@#$disease@#$CUI-less-CVLP
+CVOID@#$disease@#$CUI-less-CVOID
+CVRDs@#$disease@#$CUI-less-CVRDs
+CWD@#$disease@#$CUI-less-CWD
+CXCL10-deficient@#$disease@#$CUI-less-CXCL10-deficient
+CaKV@#$disease@#$CUI-less-CaKV
+Caesarean section@#$disease@#$CUI-less-Caesarean section
+Casd1-deficient@#$disease@#$CUI-less-Casd1-deficient
+Chandipura@#$disease@#$CUI-less-Chandipura
+Cheetah@#$disease@#$CUI-less-Cheetah
+Citrus tristeza@#$disease@#$CUI-less-Citrus tristeza
+CoV@#$disease@#$CUI-less-CoV
+CoV OC43@#$disease@#$CUI-less-CoV OC43
+CoV and LP IAV@#$disease@#$CUI-less-CoV and LP IAV
+CoV-@#$disease@#$CUI-less-CoV-
+CoV-induced@#$disease@#$CUI-less-CoV-induced
+Coccidia@#$disease@#$CUI-less-Coccidia
+Corona outbreak@#$disease@#$CUI-less-Corona outbreak
+Coronavirus-@#$disease@#$CUI-less-Coronavirus-
+Coronavirus-induced@#$disease@#$CUI-less-Coronavirus-induced
+Coronaviruses@#$disease@#$CUI-less-Coronaviruses
+DAD@#$disease@#$CUI-less-DAD
+DCC@#$disease@#$CUI-less-DCC
+DENV@#$disease@#$CUI-less-DENV
+DENV-2@#$disease@#$CUI-less-DENV-2
+DENV-infected@#$disease@#$CUI-less-DENV-infected
+DEV@#$disease@#$CUI-less-DEV
+DFS@#$disease@#$CUI-less-DFS
+DL@#$disease@#$CUI-less-DL
+DLNs@#$disease@#$CUI-less-DLNs
+DMV@#$disease@#$CUI-less-DMV
+DMVs@#$disease@#$CUI-less-DMVs
+DN@#$disease@#$CUI-less-DN
+DP@#$disease@#$CUI-less-DP
+DPC@#$disease@#$CUI-less-DPC
+DPE@#$disease@#$CUI-less-DPE
+DRM@#$disease@#$CUI-less-DRM
+DTH@#$disease@#$CUI-less-DTH
+DTMUV@#$disease@#$CUI-less-DTMUV
+DV@#$disease@#$CUI-less-DV
+DVE@#$disease@#$CUI-less-DVE
+DVIM@#$disease@#$CUI-less-DVIM
+Delmas@#$disease@#$CUI-less-Delmas
+Diarrheic@#$disease@#$CUI-less-Diarrheic
+Dromedary@#$disease@#$CUI-less-Dromedary
+EAA@#$disease@#$CUI-less-EAA
+EAV@#$disease@#$CUI-less-EAV
+EBCV@#$disease@#$CUI-less-EBCV
+EBN@#$disease@#$CUI-less-EBN
+EBOV@#$disease@#$CUI-less-EBOV
+EBR@#$disease@#$CUI-less-EBR
+ECA@#$disease@#$CUI-less-ECA
+ECC@#$disease@#$CUI-less-ECC
+ECE@#$disease@#$CUI-less-ECE
+ECLS@#$disease@#$CUI-less-ECLS
+ECOR@#$disease@#$CUI-less-ECOR
+ECV@#$disease@#$CUI-less-ECV
+ECoV@#$disease@#$CUI-less-ECoV
+EDP@#$disease@#$CUI-less-EDP
+EGYPT@#$disease@#$CUI-less-EGYPT
+EIC@#$disease@#$CUI-less-EIC
+EID@#$disease@#$CUI-less-EID
+EIDs@#$disease@#$CUI-less-EIDs
+EMCV@#$disease@#$CUI-less-EMCV
+ENIVD@#$disease@#$CUI-less-ENIVD
+EPC@#$disease@#$CUI-less-EPC
+ETBF@#$disease@#$CUI-less-ETBF
+EU@#$disease@#$CUI-less-EU
+EUE@#$disease@#$CUI-less-EUE
+EV-G@#$disease@#$CUI-less-EV-G
+EVD@#$disease@#$CUI-less-EVD
+EVG@#$disease@#$CUI-less-EVG
+EVW@#$disease@#$CUI-less-EVW
+EVW wheeze@#$disease@#$CUI-less-EVW wheeze
+Ebola, MERS-CoV, and Zika@#$disease@#$CUI-less-Ebola, MERS-CoV, and Zika
+Ebolavirus@#$disease@#$CUI-less-Ebolavirus
+EndoU-deficient@#$disease@#$CUI-less-EndoU-deficient
+EoM@#$disease@#$CUI-less-EoM
+Euphorbia neriifolia@#$disease@#$CUI-less-Euphorbia neriifolia
+FCoV@#$disease@#$CUI-less-FCoV
+FECV@#$disease@#$CUI-less-FECV
+FHMNV@#$disease@#$CUI-less-FHMNV
+FHV@#$disease@#$CUI-less-FHV
+FIP@#$disease@#$CUI-less-FIP
+FIP)@#$disease@#$CUI-less-FIP)
+FIP-diseased@#$disease@#$CUI-less-FIP-diseased
+FIP-diseased cats@#$disease@#$CUI-less-FIP-diseased cats
+FIPV@#$disease@#$CUI-less-FIPV
+FIPV-infection@#$disease@#$CUI-less-FIPV-infection
+FIPVs@#$disease@#$CUI-less-FIPVs
+FIV@#$disease@#$CUI-less-FIV
+FIV-infection@#$disease@#$CUI-less-FIV-infection
+FLUAV@#$disease@#$CUI-less-FLUAV
+FLUTD@#$disease@#$CUI-less-FLUTD
+FMIA@#$disease@#$CUI-less-FMIA
+FN@#$disease@#$CUI-less-FN
+FORL@#$disease@#$CUI-less-FORL
+FP@#$disease@#$CUI-less-FP
+FPLV@#$disease@#$CUI-less-FPLV
+FPV@#$disease@#$CUI-less-FPV
+FRI@#$disease@#$CUI-less-FRI
+FRRI@#$disease@#$CUI-less-FRRI
+FRRIs@#$disease@#$CUI-less-FRRIs
+FRSCV@#$disease@#$CUI-less-FRSCV
+FSCD@#$disease@#$CUI-less-FSCD
+FSCV@#$disease@#$CUI-less-FSCV
+FT@#$disease@#$CUI-less-FT
+FTPI@#$disease@#$CUI-less-FTPI
+FVH@#$disease@#$CUI-less-FVH
+FVW@#$disease@#$CUI-less-FVW
+Fathead minnow nidovirus@#$disease@#$CUI-less-Fathead minnow nidovirus
+FeLV@#$disease@#$CUI-less-FeLV
+FeLV antigenemia@#$disease@#$CUI-less-FeLV antigenemia
+FmoPV@#$disease@#$CUI-less-FmoPV
+GCC@#$disease@#$CUI-less-GCC
+GI-diseased@#$disease@#$CUI-less-GI-diseased
+GME@#$disease@#$CUI-less-GME
+GOF@#$disease@#$CUI-less-GOF
+GVN@#$disease@#$CUI-less-GVN
+Geoffroy's cats@#$disease@#$CUI-less-Geoffroy's cats
+Gill-associated nidovirus@#$disease@#$CUI-less-Gill-associated nidovirus
+H-52 IBV@#$disease@#$CUI-less-H-52 IBV
+H-RVI@#$disease@#$CUI-less-H-RVI
+H1N1 pandemic@#$disease@#$CUI-less-H1N1 pandemic
+H1N1 pandemics@#$disease@#$CUI-less-H1N1 pandemics
+H1N1pdm@#$disease@#$CUI-less-H1N1pdm
+H4 neuroglioma@#$disease@#$CUI-less-H4 neuroglioma
+H5N1-mediated ALI@#$disease@#$CUI-less-H5N1-mediated ALI
+HA@#$disease@#$CUI-less-HA
+HA-MERS@#$disease@#$CUI-less-HA-MERS
+HAI@#$disease@#$CUI-less-HAI
+HAIs@#$disease@#$CUI-less-HAIs
+HAV@#$disease@#$CUI-less-HAV
+HB-BD@#$disease@#$CUI-less-HB-BD
+HBV-ACLF@#$disease@#$CUI-less-HBV-ACLF
+HBoV@#$disease@#$CUI-less-HBoV
+HBoV RVI@#$disease@#$CUI-less-HBoV RVI
+HBoV-infection@#$disease@#$CUI-less-HBoV-infection
+HBoVs@#$disease@#$CUI-less-HBoVs
+HCAP@#$disease@#$CUI-less-HCAP
+HCB@#$disease@#$CUI-less-HCB
+HCMV@#$disease@#$CUI-less-HCMV
+HCT@#$disease@#$CUI-less-HCT
+HCT/@#$disease@#$CUI-less-HCT/
+HCV@#$disease@#$CUI-less-HCV
+HCVS@#$disease@#$CUI-less-HCVS
+HCW@#$disease@#$CUI-less-HCW
+HCWS@#$disease@#$CUI-less-HCWS
+HCoV@#$disease@#$CUI-less-HCoV
+HCoV LRTD@#$disease@#$CUI-less-HCoV LRTD
+HCoV-@#$disease@#$CUI-less-HCoV-
+HCoV-229E@#$disease@#$CUI-less-HCoV-229E
+HCoV-EMC@#$disease@#$CUI-less-HCoV-EMC
+HCoV-HKU1@#$disease@#$CUI-less-HCoV-HKU1
+HCoV-NH@#$disease@#$CUI-less-HCoV-NH
+HCoV-NL@#$disease@#$CUI-less-HCoV-NL
+HCoV-NL63@#$disease@#$CUI-less-HCoV-NL63
+HCoV-OC43@#$disease@#$CUI-less-HCoV-OC43
+HCoV-related NVRI@#$disease@#$CUI-less-HCoV-related NVRI
+HCoVs@#$disease@#$CUI-less-HCoVs
+HE@#$disease@#$CUI-less-HE
+HEV@#$disease@#$CUI-less-HEV
+HINI@#$disease@#$CUI-less-HINI
+HIV-1-negative@#$disease@#$CUI-less-HIV-1-negative
+HIV-1/AIDS@#$disease@#$CUI-less-HIV-1/AIDS
+HIV-AIDS@#$disease@#$CUI-less-HIV-AIDS
+HIV/AIDS@#$disease@#$CUI-less-HIV/AIDS
+HKU1@#$disease@#$CUI-less-HKU1
+HMPV@#$disease@#$CUI-less-HMPV
+HPAI@#$disease@#$CUI-less-HPAI
+HPF@#$disease@#$CUI-less-HPF
+HPIV@#$disease@#$CUI-less-HPIV
+HPV@#$disease@#$CUI-less-HPV
+HPeV@#$disease@#$CUI-less-HPeV
+HRSV@#$disease@#$CUI-less-HRSV
+HRT@#$disease@#$CUI-less-HRT
+HRV@#$disease@#$CUI-less-HRV
+HSCT@#$disease@#$CUI-less-HSCT
+HSV-1@#$disease@#$CUI-less-HSV-1
+HSV-2@#$disease@#$CUI-less-HSV-2
+Haugh@#$disease@#$CUI-less-Haugh
+HeV@#$disease@#$CUI-less-HeV
+Hendra@#$disease@#$CUI-less-Hendra
+Herpes- and corona-virus@#$disease@#$CUI-less-Herpes- and corona-virus
+Heterophilia@#$disease@#$CUI-less-Heterophilia
+Hipposideridae@#$disease@#$CUI-less-Hipposideridae
+Hipposideros@#$disease@#$CUI-less-Hipposideros
+Hydropotes@#$disease@#$CUI-less-Hydropotes
+Hydropotes inermis@#$disease@#$CUI-less-Hydropotes inermis
+Hyperimmune@#$disease@#$CUI-less-Hyperimmune
+Hypothymis@#$disease@#$CUI-less-Hypothymis
+IAV@#$disease@#$CUI-less-IAV
+IB-ND@#$disease@#$CUI-less-IB-ND
+IB-ND)@#$disease@#$CUI-less-IB-ND)
+IBDV@#$disease@#$CUI-less-IBDV
+IBV@#$disease@#$CUI-less-IBV
+IBV BJ@#$disease@#$CUI-less-IBV BJ
+IBV Beaudette@#$disease@#$CUI-less-IBV Beaudette
+IBV H4@#$disease@#$CUI-less-IBV H4
+IBV-Beaudette@#$disease@#$CUI-less-IBV-Beaudette
+IBV-CS@#$disease@#$CUI-less-IBV-CS
+IBV-T@#$disease@#$CUI-less-IBV-T
+IBV-T-@#$disease@#$CUI-less-IBV-T-
+IBVs@#$disease@#$CUI-less-IBVs
+ICC@#$disease@#$CUI-less-ICC
+ICU@#$disease@#$CUI-less-ICU
+IDD@#$disease@#$CUI-less-IDD
+IDH@#$disease@#$CUI-less-IDH
+IDV@#$disease@#$CUI-less-IDV
+IFN receptor-deficient@#$disease@#$CUI-less-IFN receptor-deficient
+IFN-I receptor-deficient@#$disease@#$CUI-less-IFN-I receptor-deficient
+IFN-gamma receptor-deficient@#$disease@#$CUI-less-IFN-gamma receptor-deficient
+IFN-gamma-deficient@#$disease@#$CUI-less-IFN-gamma-deficient
+IFV@#$disease@#$CUI-less-IFV
+IL-12-deficient@#$disease@#$CUI-less-IL-12-deficient
+ILI@#$disease@#$CUI-less-ILI
+ILIs@#$disease@#$CUI-less-ILIs
+ILT@#$disease@#$CUI-less-ILT
+ILTV@#$disease@#$CUI-less-ILTV
+ILV@#$disease@#$CUI-less-ILV
+IMHA@#$disease@#$CUI-less-IMHA
+INF-A@#$disease@#$CUI-less-INF-A
+IP-10-deficient@#$disease@#$CUI-less-IP-10-deficient
+IPC@#$disease@#$CUI-less-IPC
+IPD@#$disease@#$CUI-less-IPD
+IPI-FX@#$disease@#$CUI-less-IPI-FX
+IRF-1-deficient@#$disease@#$CUI-less-IRF-1-deficient
+ISAV@#$disease@#$CUI-less-ISAV
+ITB@#$disease@#$CUI-less-ITB
+Ig-deficient@#$disease@#$CUI-less-Ig-deficient
+Ig-deficient neonates@#$disease@#$CUI-less-Ig-deficient neonates
+Immunocompromised@#$disease@#$CUI-less-Immunocompromised
+Immunodeficient MHV@#$disease@#$CUI-less-Immunodeficient MHV
+Infect Dis@#$disease@#$CUI-less-Infect Dis
+Infectious-Bronchitis-Virus@#$disease@#$CUI-less-Infectious-Bronchitis-Virus
+Isatis indigotica@#$disease@#$CUI-less-Isatis indigotica
+JEV@#$disease@#$CUI-less-JEV
+JHM@#$disease@#$CUI-less-JHM
+JHM-virus@#$disease@#$CUI-less-JHM-virus
+JHMV@#$disease@#$CUI-less-JHMV
+JMD@#$disease@#$CUI-less-JMD
+Journal of Virology@#$disease@#$CUI-less-Journal of Virology
+K-virus@#$disease@#$CUI-less-K-virus
+KH@#$disease@#$CUI-less-KH
+KM@#$disease@#$CUI-less-KM
+KSA@#$disease@#$CUI-less-KSA
+LAB@#$disease@#$CUI-less-LAB
+LAS@#$disease@#$CUI-less-LAS
+LB@#$disease@#$CUI-less-LB
+LBC@#$disease@#$CUI-less-LBC
+LBP@#$disease@#$CUI-less-LBP
+LCH@#$disease@#$CUI-less-LCH
+LCMV@#$disease@#$CUI-less-LCMV
+LDI@#$disease@#$CUI-less-LDI
+LDV@#$disease@#$CUI-less-LDV
+LDV-C@#$disease@#$CUI-less-LDV-C
+LGD@#$disease@#$CUI-less-LGD
+LMR@#$disease@#$CUI-less-LMR
+LP IAV@#$disease@#$CUI-less-LP IAV
+LPAI-H9N2@#$disease@#$CUI-less-LPAI-H9N2
+LRI@#$disease@#$CUI-less-LRI
+LRIs@#$disease@#$CUI-less-LRIs
+LRT@#$disease@#$CUI-less-LRT
+LRTD@#$disease@#$CUI-less-LRTD
+LRTI@#$disease@#$CUI-less-LRTI
+LRTIs@#$disease@#$CUI-less-LRTIs
+LSEC@#$disease@#$CUI-less-LSEC
+LT-ARI@#$disease@#$CUI-less-LT-ARI
+LTA@#$disease@#$CUI-less-LTA
+LTCF@#$disease@#$CUI-less-LTCF
+LTR@#$disease@#$CUI-less-LTR
+LTS@#$disease@#$CUI-less-LTS
+LTV@#$disease@#$CUI-less-LTV
+LTx@#$disease@#$CUI-less-LTx
+LVAC@#$disease@#$CUI-less-LVAC
+LZC@#$disease@#$CUI-less-LZC
+Leschenault@#$disease@#$CUI-less-Leschenault
+Leschenault'@#$disease@#$CUI-less-Leschenault'
+Lymphopaenia@#$disease@#$CUI-less-Lymphopaenia
+Lyssavirus@#$disease@#$CUI-less-Lyssavirus
+MARV or EBOV@#$disease@#$CUI-less-MARV or EBOV
+MDA@#$disease@#$CUI-less-MDA
+MDR/XDR-TB@#$disease@#$CUI-less-MDR/XDR-TB
+MDRO@#$disease@#$CUI-less-MDRO
+MDV@#$disease@#$CUI-less-MDV
+ME@#$disease@#$CUI-less-ME
+MEE@#$disease@#$CUI-less-MEE
+MER-CoV@#$disease@#$CUI-less-MER-CoV
+MEROPS Clan CN@#$disease@#$CUI-less-MEROPS Clan CN
+MERS)@#$disease@#$CUI-less-MERS)
+MERS-@#$disease@#$CUI-less-MERS-
+MERS- CoV@#$disease@#$CUI-less-MERS- CoV
+MERS- and SARS-coronavirus@#$disease@#$CUI-less-MERS- and SARS-coronavirus
+MERS-COV@#$disease@#$CUI-less-MERS-COV
+MERS-CoV@#$disease@#$CUI-less-MERS-CoV
+MERS-CoV (@#$disease@#$CUI-less-MERS-CoV (
+MERS-CoV BLP@#$disease@#$CUI-less-MERS-CoV BLP
+MERS-CoV DMV@#$disease@#$CUI-less-MERS-CoV DMV
+MERS-CoV ICU@#$disease@#$CUI-less-MERS-CoV ICU
+MERS-CoV RBD@#$disease@#$CUI-less-MERS-CoV RBD
+MERS-CoV S1@#$disease@#$CUI-less-MERS-CoV S1
+MERS-CoV and@#$disease@#$CUI-less-MERS-CoV and
+MERS-CoV challenging@#$disease@#$CUI-less-MERS-CoV challenging
+MERS-CoV enigma@#$disease@#$CUI-less-MERS-CoV enigma
+MERS-CoV pandemic@#$disease@#$CUI-less-MERS-CoV pandemic
+MERS-CoV pseudovirion@#$disease@#$CUI-less-MERS-CoV pseudovirion
+MERS-CoV vaccine@#$disease@#$CUI-less-MERS-CoV vaccine
+MERS-CoV vaccines@#$disease@#$CUI-less-MERS-CoV vaccines
+MERS-CoV)@#$disease@#$CUI-less-MERS-CoV)
+MERS-CoV-@#$disease@#$CUI-less-MERS-CoV-
+MERS-CoV-MA@#$disease@#$CUI-less-MERS-CoV-MA
+MERS-CoV-induced@#$disease@#$CUI-less-MERS-CoV-induced
+MERS-CoV-infected@#$disease@#$CUI-less-MERS-CoV-infected
+MERS-CoV-infection@#$disease@#$CUI-less-MERS-CoV-infection
+MERS-CoV-positive@#$disease@#$CUI-less-MERS-CoV-positive
+MERS-CoV-positive EQC@#$disease@#$CUI-less-MERS-CoV-positive EQC
+MERS-CoV-positive HCWs@#$disease@#$CUI-less-MERS-CoV-positive HCWs
+MERS-CoV-positive dromedary camels@#$disease@#$CUI-less-MERS-CoV-positive dromedary camels
+MERS-CoVs@#$disease@#$CUI-less-MERS-CoVs
+MERS-Coronavirus@#$disease@#$CUI-less-MERS-Coronavirus
+MERS-HCP@#$disease@#$CUI-less-MERS-HCP
+MERS-N@#$disease@#$CUI-less-MERS-N
+MERS-RBD@#$disease@#$CUI-less-MERS-RBD
+MERS-coronarivus@#$disease@#$CUI-less-MERS-coronarivus
+MERS-coronavirus@#$disease@#$CUI-less-MERS-coronavirus
+MERS-coronavirus (MERS-CoV)@#$disease@#$CUI-less-MERS-coronavirus (MERS-CoV)
+MERS-coronavirus-infected@#$disease@#$CUI-less-MERS-coronavirus-infected
+MERS-like-CoVs@#$disease@#$CUI-less-MERS-like-CoVs
+MERS-non-HCP@#$disease@#$CUI-less-MERS-non-HCP
+MERS-related CoV@#$disease@#$CUI-less-MERS-related CoV
+MERSCoV@#$disease@#$CUI-less-MERSCoV
+MEV@#$disease@#$CUI-less-MEV
+MH@#$disease@#$CUI-less-MH
+MHV@#$disease@#$CUI-less-MHV
+MHV JHM@#$disease@#$CUI-less-MHV JHM
+MHV)@#$disease@#$CUI-less-MHV)
+MHV) JHM@#$disease@#$CUI-less-MHV) JHM
+MHV-@#$disease@#$CUI-less-MHV-
+MHV-1@#$disease@#$CUI-less-MHV-1
+MHV-1 and CVB3@#$disease@#$CUI-less-MHV-1 and CVB3
+MHV-2@#$disease@#$CUI-less-MHV-2
+MHV-2-CC-infection@#$disease@#$CUI-less-MHV-2-CC-infection
+MHV-2L@#$disease@#$CUI-less-MHV-2L
+MHV-3@#$disease@#$CUI-less-MHV-3
+MHV-3)@#$disease@#$CUI-less-MHV-3)
+MHV-3-hepatitis@#$disease@#$CUI-less-MHV-3-hepatitis
+MHV-4@#$disease@#$CUI-less-MHV-4
+MHV-A59@#$disease@#$CUI-less-MHV-A59
+MHV-A59-infection@#$disease@#$CUI-less-MHV-A59-infection
+MHV-H@#$disease@#$CUI-less-MHV-H
+MHV-H2@#$disease@#$CUI-less-MHV-H2
+MHV-JHM@#$disease@#$CUI-less-MHV-JHM
+MHV-S@#$disease@#$CUI-less-MHV-S
+MHV-TY@#$disease@#$CUI-less-MHV-TY
+MHV-Y@#$disease@#$CUI-less-MHV-Y
+MHV-induced@#$disease@#$CUI-less-MHV-induced
+MHV3@#$disease@#$CUI-less-MHV3
+MOSF@#$disease@#$CUI-less-MOSF
+MP@#$disease@#$CUI-less-MP
+MS-H@#$disease@#$CUI-less-MS-H
+MSC@#$disease@#$CUI-less-MSC
+MV@#$disease@#$CUI-less-MV
+MWPyV@#$disease@#$CUI-less-MWPyV
+Macropinocytosis@#$disease@#$CUI-less-Macropinocytosis
+Magellanic Penguins@#$disease@#$CUI-less-Magellanic Penguins
+Malaise@#$disease@#$CUI-less-Malaise
+Mamastrovirus@#$disease@#$CUI-less-Mamastrovirus
+Mdemy@#$disease@#$CUI-less-Mdemy
+Metapneumovirus@#$disease@#$CUI-less-Metapneumovirus
+Minimal-disease@#$disease@#$CUI-less-Minimal-disease
+Morbidities@#$disease@#$CUI-less-Morbidities
+Msr1-deficient@#$disease@#$CUI-less-Msr1-deficient
+Myotis@#$disease@#$CUI-less-Myotis
+Myotis myotis@#$disease@#$CUI-less-Myotis myotis
+NAL@#$disease@#$CUI-less-NAL
+NCD@#$disease@#$CUI-less-NCD
+NCDBCoV@#$disease@#$CUI-less-NCDBCoV
+NCDCV@#$disease@#$CUI-less-NCDCV
+NCGS@#$disease@#$CUI-less-NCGS
+NCIP@#$disease@#$CUI-less-NCIP
+NCOVID-19@#$disease@#$CUI-less-NCOVID-19
+NCP@#$disease@#$CUI-less-NCP
+NCP)@#$disease@#$CUI-less-NCP)
+ND-IB@#$disease@#$CUI-less-ND-IB
+NDC@#$disease@#$CUI-less-NDC
+NDV@#$disease@#$CUI-less-NDV
+NDV) and@#$disease@#$CUI-less-NDV) and
+NEC@#$disease@#$CUI-less-NEC
+NGS@#$disease@#$CUI-less-NGS
+NHBE@#$disease@#$CUI-less-NHBE
+NHC@#$disease@#$CUI-less-NHC
+NI@#$disease@#$CUI-less-NI
+NIB@#$disease@#$CUI-less-NIB
+NIBV@#$disease@#$CUI-less-NIBV
+NIP@#$disease@#$CUI-less-NIP
+NIRVI@#$disease@#$CUI-less-NIRVI
+NMCU@#$disease@#$CUI-less-NMCU
+NMD@#$disease@#$CUI-less-NMD
+NME@#$disease@#$CUI-less-NME
+NNPDS@#$disease@#$CUI-less-NNPDS
+NOD-SCID@#$disease@#$CUI-less-NOD-SCID
+NOVIGE@#$disease@#$CUI-less-NOVIGE
+NPCs@#$disease@#$CUI-less-NPCs
+NPDs@#$disease@#$CUI-less-NPDs
+NPLRTI@#$disease@#$CUI-less-NPLRTI
+NPS@#$disease@#$CUI-less-NPS
+NR@#$disease@#$CUI-less-NR
+NRC@#$disease@#$CUI-less-NRC
+NRVI@#$disease@#$CUI-less-NRVI
+NV@#$disease@#$CUI-less-NV
+NVNC@#$disease@#$CUI-less-NVNC
+NVRI@#$disease@#$CUI-less-NVRI
+Nairovirus@#$disease@#$CUI-less-Nairovirus
+Nasoencephalopathy@#$disease@#$CUI-less-Nasoencephalopathy
+Nebraska@#$disease@#$CUI-less-Nebraska
+Neoromicia@#$disease@#$CUI-less-Neoromicia
+Nidovirus@#$disease@#$CUI-less-Nidovirus
+Nidoviruses@#$disease@#$CUI-less-Nidoviruses
+Non-SARS-pneumonia@#$disease@#$CUI-less-Non-SARS-pneumonia
+Novel@#$disease@#$CUI-less-Novel
+Nyctinomops@#$disease@#$CUI-less-Nyctinomops
+OC@#$disease@#$CUI-less-OC
+OP@#$disease@#$CUI-less-OP
+OPS@#$disease@#$CUI-less-OPS
+Olig1-deficient@#$disease@#$CUI-less-Olig1-deficient
+Oligodendroglia@#$disease@#$CUI-less-Oligodendroglia
+Onchocercavolvulus@#$disease@#$CUI-less-Onchocercavolvulus
+P-SARS@#$disease@#$CUI-less-P-SARS
+PBL@#$disease@#$CUI-less-PBL
+PBV@#$disease@#$CUI-less-PBV
+PBVs@#$disease@#$CUI-less-PBVs
+PBoV@#$disease@#$CUI-less-PBoV
+PCD@#$disease@#$CUI-less-PCD
+PCLS@#$disease@#$CUI-less-PCLS
+PCV@#$disease@#$CUI-less-PCV
+PD-1-deficient@#$disease@#$CUI-less-PD-1-deficient
+PDCoV@#$disease@#$CUI-less-PDCoV
+PEC@#$disease@#$CUI-less-PEC
+PEC/SMS@#$disease@#$CUI-less-PEC/SMS
+PEDV@#$disease@#$CUI-less-PEDV
+PEDV S-INDEL@#$disease@#$CUI-less-PEDV S-INDEL
+PEDV WV@#$disease@#$CUI-less-PEDV WV
+PEDV-@#$disease@#$CUI-less-PEDV-
+PEDV-PT@#$disease@#$CUI-less-PEDV-PT
+PEDV-infection@#$disease@#$CUI-less-PEDV-infection
+PEDVs@#$disease@#$CUI-less-PEDVs
+PEDv@#$disease@#$CUI-less-PEDv
+PEMS@#$disease@#$CUI-less-PEMS
+PF@#$disease@#$CUI-less-PF
+PFTS@#$disease@#$CUI-less-PFTS
+PHE@#$disease@#$CUI-less-PHE
+PHE-CoV@#$disease@#$CUI-less-PHE-CoV
+PHEV@#$disease@#$CUI-less-PHEV
+PHEV-induced@#$disease@#$CUI-less-PHEV-induced
+PHS@#$disease@#$CUI-less-PHS
+PI@#$disease@#$CUI-less-PI
+PI-3@#$disease@#$CUI-less-PI-3
+PICU@#$disease@#$CUI-less-PICU
+PIV LRTD@#$disease@#$CUI-less-PIV LRTD
+PIV-3@#$disease@#$CUI-less-PIV-3
+PKV@#$disease@#$CUI-less-PKV
+PM@#$disease@#$CUI-less-PM
+PMF@#$disease@#$CUI-less-PMF
+PMWS@#$disease@#$CUI-less-PMWS
+PPF@#$disease@#$CUI-less-PPF
+PPV@#$disease@#$CUI-less-PPV
+PRC-associated CPE@#$disease@#$CUI-less-PRC-associated CPE
+PRCV@#$disease@#$CUI-less-PRCV
+PRCV-infection@#$disease@#$CUI-less-PRCV-infection
+PRCV-infections@#$disease@#$CUI-less-PRCV-infections
+PRDC@#$disease@#$CUI-less-PRDC
+PRF@#$disease@#$CUI-less-PRF
+PRP@#$disease@#$CUI-less-PRP
+PRRSV@#$disease@#$CUI-less-PRRSV
+PRRSV-PRCV@#$disease@#$CUI-less-PRRSV-PRCV
+PSCNV@#$disease@#$CUI-less-PSCNV
+PSV@#$disease@#$CUI-less-PSV
+PSVs@#$disease@#$CUI-less-PSVs
+PSaV@#$disease@#$CUI-less-PSaV
+PTE@#$disease@#$CUI-less-PTE
+PTX3-deficient@#$disease@#$CUI-less-PTX3-deficient
+PUI@#$disease@#$CUI-less-PUI
+PVM@#$disease@#$CUI-less-PVM
+PWMS@#$disease@#$CUI-less-PWMS
+Pandemic A/H1N1@#$disease@#$CUI-less-Pandemic A/H1N1
+Pandemic H1N1@#$disease@#$CUI-less-Pandemic H1N1
+Pandemics@#$disease@#$CUI-less-Pandemics
+Panspermia@#$disease@#$CUI-less-Panspermia
+Papillomaviridae@#$disease@#$CUI-less-Papillomaviridae
+Paramyxoviruses@#$disease@#$CUI-less-Paramyxoviruses
+Parechovirus@#$disease@#$CUI-less-Parechovirus
+PdCV@#$disease@#$CUI-less-PdCV
+Perforin-deficient@#$disease@#$CUI-less-Perforin-deficient
+Pharyngalgia@#$disease@#$CUI-less-Pharyngalgia
+Pleuropneumoma@#$disease@#$CUI-less-Pleuropneumoma
+Polypnea@#$disease@#$CUI-less-Polypnea
+Poxviruses@#$disease@#$CUI-less-Poxviruses
+Proteinase dysbalance@#$disease@#$CUI-less-Proteinase dysbalance
+Protostrongylidae@#$disease@#$CUI-less-Protostrongylidae
+Proventriculitis@#$disease@#$CUI-less-Proventriculitis
+Puma@#$disease@#$CUI-less-Puma
+Pyeongtaek@#$disease@#$CUI-less-Pyeongtaek
+QCMD@#$disease@#$CUI-less-QCMD
+QX@#$disease@#$CUI-less-QX
+QX-like@#$disease@#$CUI-less-QX-like
+QX-like IBVs@#$disease@#$CUI-less-QX-like IBVs
+RBCV@#$disease@#$CUI-less-RBCV
+RBD@#$disease@#$CUI-less-RBD
+RCV@#$disease@#$CUI-less-RCV
+RCVs@#$disease@#$CUI-less-RCVs
+RD@#$disease@#$CUI-less-RD
+RI@#$disease@#$CUI-less-RI
+RJHM@#$disease@#$CUI-less-RJHM
+RNAaemia@#$disease@#$CUI-less-RNAaemia
+RS-virus-@#$disease@#$CUI-less-RS-virus-
+RSS@#$disease@#$CUI-less-RSS
+RSVA@#$disease@#$CUI-less-RSVA
+RSVB@#$disease@#$CUI-less-RSVB
+RTI@#$disease@#$CUI-less-RTI
+RTIs@#$disease@#$CUI-less-RTIs
+RV-C@#$disease@#$CUI-less-RV-C
+RVA@#$disease@#$CUI-less-RVA
+RVC@#$disease@#$CUI-less-RVC
+RVD@#$disease@#$CUI-less-RVD
+RVI@#$disease@#$CUI-less-RVI
+RVI-negative@#$disease@#$CUI-less-RVI-negative
+RVIs@#$disease@#$CUI-less-RVIs
+RVN@#$disease@#$CUI-less-RVN
+RVV@#$disease@#$CUI-less-RVV
+Remyelination@#$disease@#$CUI-less-Remyelination
+Rhinolophidae@#$disease@#$CUI-less-Rhinolophidae
+Rhizoma Atractylodis@#$disease@#$CUI-less-Rhizoma Atractylodis
+Rousettus leschenaulti@#$disease@#$CUI-less-Rousettus leschenaulti
+S-DEL@#$disease@#$CUI-less-S-DEL
+SADS@#$disease@#$CUI-less-SADS
+SADS-CoV@#$disease@#$CUI-less-SADS-CoV
+SALRTI@#$disease@#$CUI-less-SALRTI
+SAPS@#$disease@#$CUI-less-SAPS
+SARI@#$disease@#$CUI-less-SARI
+SARIs@#$disease@#$CUI-less-SARIs
+SARS) outbreak@#$disease@#$CUI-less-SARS) outbreak
+SARS)-CoV@#$disease@#$CUI-less-SARS)-CoV
+SARS, H1N1@#$disease@#$CUI-less-SARS, H1N1
+SARS, MERS, pH1N1@#$disease@#$CUI-less-SARS, MERS, pH1N1
+SARS- and MERS-CoV@#$disease@#$CUI-less-SARS- and MERS-CoV
+SARS- and MERS-coronavirus@#$disease@#$CUI-less-SARS- and MERS-coronavirus
+SARS-CoV)@#$disease@#$CUI-less-SARS-CoV)
+SARS-CoV-@#$disease@#$CUI-less-SARS-CoV-
+SARS-CoV-1@#$disease@#$CUI-less-SARS-CoV-1
+SARS-CoV-2@#$disease@#$CUI-less-SARS-CoV-2
+SARS-CoV-2 outbreak@#$disease@#$CUI-less-SARS-CoV-2 outbreak
+SARS-CoV-2 pandemic@#$disease@#$CUI-less-SARS-CoV-2 pandemic
+SARS-CoV-2-induced@#$disease@#$CUI-less-SARS-CoV-2-induced
+SARS-CoV-2-related@#$disease@#$CUI-less-SARS-CoV-2-related
+SARS-CoV-N@#$disease@#$CUI-less-SARS-CoV-N
+SARS-CoV-associated ALI@#$disease@#$CUI-less-SARS-CoV-associated ALI
+SARS-CoV-induced@#$disease@#$CUI-less-SARS-CoV-induced
+SARS-CoV-negative@#$disease@#$CUI-less-SARS-CoV-negative
+SARS-CoV-positive@#$disease@#$CUI-less-SARS-CoV-positive
+SARS-CoVs@#$disease@#$CUI-less-SARS-CoVs
+SARS-Coronavirus@#$disease@#$CUI-less-SARS-Coronavirus
+SARS-Coronavirus-2@#$disease@#$CUI-less-SARS-Coronavirus-2
+SARS-HCP@#$disease@#$CUI-less-SARS-HCP
+SARS-HCoV@#$disease@#$CUI-less-SARS-HCoV
+SARS-N@#$disease@#$CUI-less-SARS-N
+SARS-S@#$disease@#$CUI-less-SARS-S
+SARS-coronavirus@#$disease@#$CUI-less-SARS-coronavirus
+SARS-coronaviruses@#$disease@#$CUI-less-SARS-coronaviruses
+SARS-infected@#$disease@#$CUI-less-SARS-infected
+SARS-like CoV@#$disease@#$CUI-less-SARS-like CoV
+SARS-like coronaviruses@#$disease@#$CUI-less-SARS-like coronaviruses
+SARS-non-HCP@#$disease@#$CUI-less-SARS-non-HCP
+SARS-related CoV@#$disease@#$CUI-less-SARS-related CoV
+SARS-related coronaviruses@#$disease@#$CUI-less-SARS-related coronaviruses
+SARS-related stigma@#$disease@#$CUI-less-SARS-related stigma
+SARS-virus@#$disease@#$CUI-less-SARS-virus
+SARS/MERS CoV@#$disease@#$CUI-less-SARS/MERS CoV
+SARS_CoV@#$disease@#$CUI-less-SARS_CoV
+SARSr-CoV@#$disease@#$CUI-less-SARSr-CoV
+SASD@#$disease@#$CUI-less-SASD
+SASR@#$disease@#$CUI-less-SASR
+SCI@#$disease@#$CUI-less-SCI
+SCMC@#$disease@#$CUI-less-SCMC
+SCV@#$disease@#$CUI-less-SCV
+SCoV@#$disease@#$CUI-less-SCoV
+SDAV@#$disease@#$CUI-less-SDAV
+SDE@#$disease@#$CUI-less-SDE
+SECD@#$disease@#$CUI-less-SECD
+SES@#$disease@#$CUI-less-SES
+SF@#$disease@#$CUI-less-SF
+SFP@#$disease@#$CUI-less-SFP
+SFTS@#$disease@#$CUI-less-SFTS
+SFTSV@#$disease@#$CUI-less-SFTSV
+SFV@#$disease@#$CUI-less-SFV
+SHF@#$disease@#$CUI-less-SHF
+SHFV@#$disease@#$CUI-less-SHFV
+SHS@#$disease@#$CUI-less-SHS
+SIV@#$disease@#$CUI-less-SIV
+SJL@#$disease@#$CUI-less-SJL
+SK-LD@#$disease@#$CUI-less-SK-LD
+SL-CoV@#$disease@#$CUI-less-SL-CoV
+SMT@#$disease@#$CUI-less-SMT
+SOM@#$disease@#$CUI-less-SOM
+SOT@#$disease@#$CUI-less-SOT
+SP@#$disease@#$CUI-less-SP
+SPF@#$disease@#$CUI-less-SPF
+SPV@#$disease@#$CUI-less-SPV
+SR@#$disease@#$CUI-less-SR
+SRI@#$disease@#$CUI-less-SRI
+SRV@#$disease@#$CUI-less-SRV
+SSCP@#$disease@#$CUI-less-SSCP
+SSL@#$disease@#$CUI-less-SSL
+STARI@#$disease@#$CUI-less-STARI
+STAT1-deficient@#$disease@#$CUI-less-STAT1-deficient
+SUD@#$disease@#$CUI-less-SUD
+SV@#$disease@#$CUI-less-SV
+SV-A@#$disease@#$CUI-less-SV-A
+SVDV@#$disease@#$CUI-less-SVDV
+Sarcocystis@#$disease@#$CUI-less-Sarcocystis
+Senecavirus A@#$disease@#$CUI-less-Senecavirus A
+Sialodacryoadenitis@#$disease@#$CUI-less-Sialodacryoadenitis
+T-2 mycotoxocosis@#$disease@#$CUI-less-T-2 mycotoxocosis
+TAV@#$disease@#$CUI-less-TAV
+TBil@#$disease@#$CUI-less-TBil
+TCE@#$disease@#$CUI-less-TCE
+TCV@#$disease@#$CUI-less-TCV
+TCoV@#$disease@#$CUI-less-TCoV
+TGE@#$disease@#$CUI-less-TGE
+TGEV@#$disease@#$CUI-less-TGEV
+TGEV AHHF@#$disease@#$CUI-less-TGEV AHHF
+TGEV corona@#$disease@#$CUI-less-TGEV corona
+THEV@#$disease@#$CUI-less-THEV
+TMD@#$disease@#$CUI-less-TMD
+TMDs@#$disease@#$CUI-less-TMDs
+TMPRSS2-deficient@#$disease@#$CUI-less-TMPRSS2-deficient
+TMV@#$disease@#$CUI-less-TMV
+TNFalpha-deficient@#$disease@#$CUI-less-TNFalpha-deficient
+TO@#$disease@#$CUI-less-TO
+TOPC@#$disease@#$CUI-less-TOPC
+TRS@#$disease@#$CUI-less-TRS
+TRT)@#$disease@#$CUI-less-TRT)
+TSG@#$disease@#$CUI-less-TSG
+TTI@#$disease@#$CUI-less-TTI
+TTV@#$disease@#$CUI-less-TTV
+TW@#$disease@#$CUI-less-TW
+TW IBV@#$disease@#$CUI-less-TW IBV
+TWD@#$disease@#$CUI-less-TWD
+Tackle@#$disease@#$CUI-less-Tackle
+Taupapillomavirus@#$disease@#$CUI-less-Taupapillomavirus
+Treponemas@#$disease@#$CUI-less-Treponemas
+Trichostrongylidae@#$disease@#$CUI-less-Trichostrongylidae
+Tritrichomonas@#$disease@#$CUI-less-Tritrichomonas
+Tritrichomonas foetus@#$disease@#$CUI-less-Tritrichomonas foetus
+Tritrichomonas foetus 'feline@#$disease@#$CUI-less-Tritrichomonas foetus 'feline
+UBRD@#$disease@#$CUI-less-UBRD
+UMRD@#$disease@#$CUI-less-UMRD
+UP@#$disease@#$CUI-less-UP
+URIs@#$disease@#$CUI-less-URIs
+URT@#$disease@#$CUI-less-URT
+URTIs@#$disease@#$CUI-less-URTIs
+UV-V@#$disease@#$CUI-less-UV-V
+VAAS@#$disease@#$CUI-less-VAAS
+VC@#$disease@#$CUI-less-VC
+VEEV@#$disease@#$CUI-less-VEEV
+VHFs@#$disease@#$CUI-less-VHFs
+VHS@#$disease@#$CUI-less-VHS
+VIDs@#$disease@#$CUI-less-VIDs
+VIGE@#$disease@#$CUI-less-VIGE
+VM@#$disease@#$CUI-less-VM
+VN@#$disease@#$CUI-less-VN
+VRC@#$disease@#$CUI-less-VRC
+VRI@#$disease@#$CUI-less-VRI
+VRIs@#$disease@#$CUI-less-VRIs
+VRP@#$disease@#$CUI-less-VRP
+VRP-N@#$disease@#$CUI-less-VRP-N
+VRS@#$disease@#$CUI-less-VRS
+VRTI@#$disease@#$CUI-less-VRTI
+VSV@#$disease@#$CUI-less-VSV
+VSV-S@#$disease@#$CUI-less-VSV-S
+VT@#$disease@#$CUI-less-VT
+VV@#$disease@#$CUI-less-VV
+VV ECLS@#$disease@#$CUI-less-VV ECLS
+VZV@#$disease@#$CUI-less-VZV
+Verrucomicrobia@#$disease@#$CUI-less-Verrucomicrobia
+VicS@#$disease@#$CUI-less-VicS
+Virusenteritis@#$disease@#$CUI-less-Virusenteritis
+WAPping@#$disease@#$CUI-less-WAPping
+WBV@#$disease@#$CUI-less-WBV
+WD-BCoV@#$disease@#$CUI-less-WD-BCoV
+WDBCoV@#$disease@#$CUI-less-WDBCoV
+WI-SARS@#$disease@#$CUI-less-WI-SARS
+WKV@#$disease@#$CUI-less-WKV
+WLH@#$disease@#$CUI-less-WLH
+WM@#$disease@#$CUI-less-WM
+WMD@#$disease@#$CUI-less-WMD
+WNV@#$disease@#$CUI-less-WNV
+West-Nile-fever@#$disease@#$CUI-less-West-Nile-fever
+Wolgemuth@#$disease@#$CUI-less-Wolgemuth
+XC@#$disease@#$CUI-less-XC
+XDN@#$disease@#$CUI-less-XDN
+YN IBV@#$disease@#$CUI-less-YN IBV
+ZVD@#$disease@#$CUI-less-ZVD
+Zaire Ebolavirus@#$disease@#$CUI-less-Zaire Ebolavirus
+Zika@#$disease@#$CUI-less-Zika
+Zika virus-3@#$disease@#$CUI-less-Zika virus-3
+aMPV@#$disease@#$CUI-less-aMPV
+acute-respiratory-syndrome@#$disease@#$CUI-less-acute-respiratory-syndrome
+adenoidectomy@#$disease@#$CUI-less-adenoidectomy
+adenotonsillectomy@#$disease@#$CUI-less-adenotonsillectomy
+adrenalectomized@#$disease@#$CUI-less-adrenalectomized
+aflatoxicosis@#$disease@#$CUI-less-aflatoxicosis
+airsaculitis@#$disease@#$CUI-less-airsaculitis
+alphacoronavirus@#$disease@#$CUI-less-alphacoronavirus
+amphibian chytridiomycosis@#$disease@#$CUI-less-amphibian chytridiomycosis
+anellovirus@#$disease@#$CUI-less-anellovirus
+anhelation@#$disease@#$CUI-less-anhelation
+ansomia@#$disease@#$CUI-less-ansomia
+anti-AIDS@#$disease@#$CUI-less-anti-AIDS
+anti-viral@#$disease@#$CUI-less-anti-viral
+antidiarrhea@#$disease@#$CUI-less-antidiarrhea
+antigenemia@#$disease@#$CUI-less-antigenemia
+antisepsis@#$disease@#$CUI-less-antisepsis
+arched waists@#$disease@#$CUI-less-arched waists
+arteriviruses@#$disease@#$CUI-less-arteriviruses
+ascitis@#$disease@#$CUI-less-ascitis
+astrogliosis@#$disease@#$CUI-less-astrogliosis
+astroviruses@#$disease@#$CUI-less-astroviruses
+attaching and effacing@#$disease@#$CUI-less-attaching and effacing
+avian- and swine-influenza@#$disease@#$CUI-less-avian- and swine-influenza
+bTB@#$disease@#$CUI-less-bTB
+bat@#$disease@#$CUI-less-bat
+bat lyssaviruses@#$disease@#$CUI-less-bat lyssaviruses
+breathlessness@#$disease@#$CUI-less-breathlessness
+broccoli@#$disease@#$CUI-less-broccoli
+bronchoconstriction@#$disease@#$CUI-less-bronchoconstriction
+burnout@#$disease@#$CUI-less-burnout
+bushy stunt@#$disease@#$CUI-less-bushy stunt
+caesarean section@#$disease@#$CUI-less-caesarean section
+campylobacters@#$disease@#$CUI-less-campylobacters
+cesarean section@#$disease@#$CUI-less-cesarean section
+cheetah@#$disease@#$CUI-less-cheetah
+cheetahs@#$disease@#$CUI-less-cheetahs
+choroidoependymitis@#$disease@#$CUI-less-choroidoependymitis
+ciliostasis@#$disease@#$CUI-less-ciliostasis
+clostridiosis@#$disease@#$CUI-less-clostridiosis
+co@#$disease@#$CUI-less-co
+coccidia@#$disease@#$CUI-less-coccidia
+colibacteriosis@#$disease@#$CUI-less-colibacteriosis
+colisepticaemia@#$disease@#$CUI-less-colisepticaemia
+colisepticemia@#$disease@#$CUI-less-colisepticemia
+consolidations@#$disease@#$CUI-less-consolidations
+cornavirus@#$disease@#$CUI-less-cornavirus
+corona@#$disease@#$CUI-less-corona
+corona virus-infected@#$disease@#$CUI-less-corona virus-infected
+corona-virus@#$disease@#$CUI-less-corona-virus
+corona-viruses@#$disease@#$CUI-less-corona-viruses
+coronavirus-@#$disease@#$CUI-less-coronavirus-
+coronavirus-NL@#$disease@#$CUI-less-coronavirus-NL
+coronavirus-defective@#$disease@#$CUI-less-coronavirus-defective
+coronavirus-induced@#$disease@#$CUI-less-coronavirus-induced
+coronavirus-mediated pandemic@#$disease@#$CUI-less-coronavirus-mediated pandemic
+coronaviruses@#$disease@#$CUI-less-coronaviruses
+coronovirus@#$disease@#$CUI-less-coronovirus
+creatininemia@#$disease@#$CUI-less-creatininemia
+crepitation@#$disease@#$CUI-less-crepitation
+cryptococcoma@#$disease@#$CUI-less-cryptococcoma
+cryptosporidia@#$disease@#$CUI-less-cryptosporidia
+dacryocystorhinostomy@#$disease@#$CUI-less-dacryocystorhinostomy
+debilitation@#$disease@#$CUI-less-debilitation
+deciliation@#$disease@#$CUI-less-deciliation
+definite-TB@#$disease@#$CUI-less-definite-TB
+deteriorating@#$disease@#$CUI-less-deteriorating
+diarrheagenic@#$disease@#$CUI-less-diarrheagenic
+diarrheic@#$disease@#$CUI-less-diarrheic
+diarrheics@#$disease@#$CUI-less-diarrheics
+diarrhoea-associated@#$disease@#$CUI-less-diarrhoea-associated
+diarrhoeic@#$disease@#$CUI-less-diarrhoeic
+disasters@#$disease@#$CUI-less-disasters
+distention with@#$disease@#$CUI-less-distention with
+dromedaries@#$disease@#$CUI-less-dromedaries
+dromedary@#$disease@#$CUI-less-dromedary
+dromedary camel@#$disease@#$CUI-less-dromedary camel
+dromedary camels@#$disease@#$CUI-less-dromedary camels
+drowsiness@#$disease@#$CUI-less-drowsiness
+drowsy@#$disease@#$CUI-less-drowsy
+dyspneic@#$disease@#$CUI-less-dyspneic
+ebolavirus@#$disease@#$CUI-less-ebolavirus
+ebolaviruses@#$disease@#$CUI-less-ebolaviruses
+enanthema@#$disease@#$CUI-less-enanthema
+encephalomyocarditis@#$disease@#$CUI-less-encephalomyocarditis
+encephalomyocarditis virus- or@#$disease@#$CUI-less-encephalomyocarditis virus- or
+enteritic corona@#$disease@#$CUI-less-enteritic corona
+enteritis-complex@#$disease@#$CUI-less-enteritis-complex
+enteroviruses@#$disease@#$CUI-less-enteroviruses
+epidemias@#$disease@#$CUI-less-epidemias
+epiornithics@#$disease@#$CUI-less-epiornithics
+erosive/necrotic proventriculitis@#$disease@#$CUI-less-erosive/necrotic proventriculitis
+established asthmatics@#$disease@#$CUI-less-established asthmatics
+expectoration@#$disease@#$CUI-less-expectoration
+fall@#$disease@#$CUI-less-fall
+fathead minnow nidovirus@#$disease@#$CUI-less-fathead minnow nidovirus
+feverishness@#$disease@#$CUI-less-feverishness
+filaria@#$disease@#$CUI-less-filaria
+flaviviruses@#$disease@#$CUI-less-flaviviruses
+floods@#$disease@#$CUI-less-floods
+gastro-enteritis@#$disease@#$CUI-less-gastro-enteritis
+gastrojejunostomy@#$disease@#$CUI-less-gastrojejunostomy
+genetico@#$disease@#$CUI-less-genetico
+gnotoxenic@#$disease@#$CUI-less-gnotoxenic
+ground-@#$disease@#$CUI-less-ground-
+hCoV@#$disease@#$CUI-less-hCoV
+hMPV@#$disease@#$CUI-less-hMPV
+hRSV@#$disease@#$CUI-less-hRSV
+hRSV and@#$disease@#$CUI-less-hRSV and
+haemodialysis@#$disease@#$CUI-less-haemodialysis
+haemoplasmas@#$disease@#$CUI-less-haemoplasmas
+haemoptysis@#$disease@#$CUI-less-haemoptysis
+hantaviruses@#$disease@#$CUI-less-hantaviruses
+helminthic EoM@#$disease@#$CUI-less-helminthic EoM
+hemagglutinating@#$disease@#$CUI-less-hemagglutinating
+hemoblastosis@#$disease@#$CUI-less-hemoblastosis
+hemoplasmosis@#$disease@#$CUI-less-hemoplasmosis
+hemorrhagic-enteritis- and marble-spleen-disease@#$disease@#$CUI-less-hemorrhagic-enteritis- and marble-spleen-disease
+hepacivirus@#$disease@#$CUI-less-hepacivirus
+hepatectomy@#$disease@#$CUI-less-hepatectomy
+hepatitis-virus@#$disease@#$CUI-less-hepatitis-virus
+hepatocytolysis@#$disease@#$CUI-less-hepatocytolysis
+hepatotropism@#$disease@#$CUI-less-hepatotropism
+herpersvirus@#$disease@#$CUI-less-herpersvirus
+herpesvirus-1@#$disease@#$CUI-less-herpesvirus-1
+herpesviruses@#$disease@#$CUI-less-herpesviruses
+hipposiderid@#$disease@#$CUI-less-hipposiderid
+histophilosis@#$disease@#$CUI-less-histophilosis
+horseshoe bat@#$disease@#$CUI-less-horseshoe bat
+hybridoma@#$disease@#$CUI-less-hybridoma
+hydromyelia@#$disease@#$CUI-less-hydromyelia
+hyodysenteriae@#$disease@#$CUI-less-hyodysenteriae
+hyorhinis@#$disease@#$CUI-less-hyorhinis
+hypercarbia@#$disease@#$CUI-less-hypercarbia
+hypercytokinemia@#$disease@#$CUI-less-hypercytokinemia
+hyperglobulinaemia@#$disease@#$CUI-less-hyperglobulinaemia
+hyperglobulinemia@#$disease@#$CUI-less-hyperglobulinemia
+hyperimmune@#$disease@#$CUI-less-hyperimmune
+hyperinflammatory@#$disease@#$CUI-less-hyperinflammatory
+hyperleucocytosis@#$disease@#$CUI-less-hyperleucocytosis
+hypoalbuminaemia@#$disease@#$CUI-less-hypoalbuminaemia
+hypobaria@#$disease@#$CUI-less-hypobaria
+hypocortisolic@#$disease@#$CUI-less-hypocortisolic
+hypoferremia@#$disease@#$CUI-less-hypoferremia
+hypogycemia@#$disease@#$CUI-less-hypogycemia
+hypoxaemia@#$disease@#$CUI-less-hypoxaemia
+hypoxemic@#$disease@#$CUI-less-hypoxemic
+icterohemorrhagiae@#$disease@#$CUI-less-icterohemorrhagiae
+imaging@#$disease@#$CUI-less-imaging
+immune-compromised@#$disease@#$CUI-less-immune-compromised
+immunocompromised@#$disease@#$CUI-less-immunocompromised
+immunodeficient athymic@#$disease@#$CUI-less-immunodeficient athymic
+immunodeficient chickens@#$disease@#$CUI-less-immunodeficient chickens
+immunodepression@#$disease@#$CUI-less-immunodepression
+immunosuppressed@#$disease@#$CUI-less-immunosuppressed
+immunosuppression@#$disease@#$CUI-less-immunosuppression
+inappetence@#$disease@#$CUI-less-inappetence
+influenza-A@#$disease@#$CUI-less-influenza-A
+influenza-associated mortalities@#$disease@#$CUI-less-influenza-associated mortalities
+influenzavirus@#$disease@#$CUI-less-influenzavirus
+insect-borne flaviviruses@#$disease@#$CUI-less-insect-borne flaviviruses
+interferon-gamma (IFN-gamma)-deficient@#$disease@#$CUI-less-interferon-gamma (IFN-gamma)-deficient
+interferon-gamma-deficient@#$disease@#$CUI-less-interferon-gamma-deficient
+kobuvirus@#$disease@#$CUI-less-kobuvirus
+lachrymation@#$disease@#$CUI-less-lachrymation
+leporid herpesviruses@#$disease@#$CUI-less-leporid herpesviruses
+lepromatoid@#$disease@#$CUI-less-lepromatoid
+leschenaulti@#$disease@#$CUI-less-leschenaulti
+leucopaenia@#$disease@#$CUI-less-leucopaenia
+leucopoenia@#$disease@#$CUI-less-leucopoenia
+leukopaenia@#$disease@#$CUI-less-leukopaenia
+listlessness@#$disease@#$CUI-less-listlessness
+live@#$disease@#$CUI-less-live
+lungworm@#$disease@#$CUI-less-lungworm
+lymphocytolysis@#$disease@#$CUI-less-lymphocytolysis
+lymphopaenia@#$disease@#$CUI-less-lymphopaenia
+lyssaviruses@#$disease@#$CUI-less-lyssaviruses
+macropinocytosis@#$disease@#$CUI-less-macropinocytosis
+malaise@#$disease@#$CUI-less-malaise
+malignomas@#$disease@#$CUI-less-malignomas
+marbling@#$disease@#$CUI-less-marbling
+maritimus@#$disease@#$CUI-less-maritimus
+mengovirus@#$disease@#$CUI-less-mengovirus
+metapneumonia@#$disease@#$CUI-less-metapneumonia
+metapneumovirus@#$disease@#$CUI-less-metapneumovirus
+metapneumoviruses@#$disease@#$CUI-less-metapneumoviruses
+microgliosis@#$disease@#$CUI-less-microgliosis
+microthrombosis@#$disease@#$CUI-less-microthrombosis
+monocytopenia@#$disease@#$CUI-less-monocytopenia
+muMT@#$disease@#$CUI-less-muMT
+mustelid coronaviruses@#$disease@#$CUI-less-mustelid coronaviruses
+myelodepression@#$disease@#$CUI-less-myelodepression
+myotis@#$disease@#$CUI-less-myotis
+nanoparticle@#$disease@#$CUI-less-nanoparticle
+nebovirus@#$disease@#$CUI-less-nebovirus
+necrogranulomas@#$disease@#$CUI-less-necrogranulomas
+necroinflammation@#$disease@#$CUI-less-necroinflammation
+necroptosis@#$disease@#$CUI-less-necroptosis
+nemesis@#$disease@#$CUI-less-nemesis
+nephropathogenic@#$disease@#$CUI-less-nephropathogenic
+nephropathogenicity@#$disease@#$CUI-less-nephropathogenicity
+nephropathological@#$disease@#$CUI-less-nephropathological
+nephrosis-nephritis@#$disease@#$CUI-less-nephrosis-nephritis
+neuroangiostrongyliasis@#$disease@#$CUI-less-neuroangiostrongyliasis
+neuroglioma@#$disease@#$CUI-less-neuroglioma
+neuroimmunopathology@#$disease@#$CUI-less-neuroimmunopathology
+neuroinflammation@#$disease@#$CUI-less-neuroinflammation
+neuroinflammatory insults@#$disease@#$CUI-less-neuroinflammatory insults
+nidovirus@#$disease@#$CUI-less-nidovirus
+nidoviruses@#$disease@#$CUI-less-nidoviruses
+no@#$disease@#$CUI-less-no
+non-SARS-pneumonia@#$disease@#$CUI-less-non-SARS-pneumonia
+non-pruritic@#$disease@#$CUI-less-non-pruritic
+nonasthma@#$disease@#$CUI-less-nonasthma
+nonasthmatic@#$disease@#$CUI-less-nonasthmatic
+nondemyelinating@#$disease@#$CUI-less-nondemyelinating
+noninfluenza@#$disease@#$CUI-less-noninfluenza
+noninfluenza EID@#$disease@#$CUI-less-noninfluenza EID
+nonproductive@#$disease@#$CUI-less-nonproductive
+nonsevere@#$disease@#$CUI-less-nonsevere
+nonuremic@#$disease@#$CUI-less-nonuremic
+norovirus@#$disease@#$CUI-less-norovirus
+notifiable@#$disease@#$CUI-less-notifiable
+novel@#$disease@#$CUI-less-novel
+oligodendroglia@#$disease@#$CUI-less-oligodendroglia
+oligodendrogliopathy@#$disease@#$CUI-less-oligodendrogliopathy
+oncornavirus@#$disease@#$CUI-less-oncornavirus
+orthomyxoviruses@#$disease@#$CUI-less-orthomyxoviruses
+orthopoxviruses@#$disease@#$CUI-less-orthopoxviruses
+ostrich@#$disease@#$CUI-less-ostrich
+ovariectomy@#$disease@#$CUI-less-ovariectomy
+pH1N1@#$disease@#$CUI-less-pH1N1
+pH1N1 pandemic@#$disease@#$CUI-less-pH1N1 pandemic
+paleness@#$disease@#$CUI-less-paleness
+palpitate@#$disease@#$CUI-less-palpitate
+pandemias@#$disease@#$CUI-less-pandemias
+pandemic@#$disease@#$CUI-less-pandemic
+pandemic (H1N1) 2009@#$disease@#$CUI-less-pandemic (H1N1) 2009
+pandemic H1N1@#$disease@#$CUI-less-pandemic H1N1
+pandemics@#$disease@#$CUI-less-pandemics
+papillomaviruses@#$disease@#$CUI-less-papillomaviruses
+para-carcinoma@#$disease@#$CUI-less-para-carcinoma
+paralysis-associated neuropathology@#$disease@#$CUI-less-paralysis-associated neuropathology
+paramyxoviruses@#$disease@#$CUI-less-paramyxoviruses
+parapox@#$disease@#$CUI-less-parapox
+parasitaemia@#$disease@#$CUI-less-parasitaemia
+parvoenteritis@#$disease@#$CUI-less-parvoenteritis
+parvovirosis@#$disease@#$CUI-less-parvovirosis
+peafowl@#$disease@#$CUI-less-peafowl
+penguin@#$disease@#$CUI-less-penguin
+perforin-deficient@#$disease@#$CUI-less-perforin-deficient
+peri-tumour@#$disease@#$CUI-less-peri-tumour
+perimyocarditis@#$disease@#$CUI-less-perimyocarditis
+pharyngalgia@#$disease@#$CUI-less-pharyngalgia
+pheasant@#$disease@#$CUI-less-pheasant
+pheasant coronaviruses@#$disease@#$CUI-less-pheasant coronaviruses
+picornaviruses@#$disease@#$CUI-less-picornaviruses
+pneumo-mediastinum/thoraces@#$disease@#$CUI-less-pneumo-mediastinum/thoraces
+pneumococci@#$disease@#$CUI-less-pneumococci
+pneumoviruses@#$disease@#$CUI-less-pneumoviruses
+poliovirus@#$disease@#$CUI-less-poliovirus
+polioviruses@#$disease@#$CUI-less-polioviruses
+pollakiuria@#$disease@#$CUI-less-pollakiuria
+polyoma@#$disease@#$CUI-less-polyoma
+polyomaviruses@#$disease@#$CUI-less-polyomaviruses
+polypnoea@#$disease@#$CUI-less-polypnoea
+pony@#$disease@#$CUI-less-pony
+poxviruses@#$disease@#$CUI-less-poxviruses
+proventriculitis@#$disease@#$CUI-less-proventriculitis
+puffinosis@#$disease@#$CUI-less-puffinosis
+pygmaeus@#$disease@#$CUI-less-pygmaeus
+pyodermatitis@#$disease@#$CUI-less-pyodermatitis
+pyroptosis@#$disease@#$CUI-less-pyroptosis
+rRBD@#$disease@#$CUI-less-rRBD
+rabies-related lyssaviruses@#$disease@#$CUI-less-rabies-related lyssaviruses
+remyelination@#$disease@#$CUI-less-remyelination
+renomegaly@#$disease@#$CUI-less-renomegaly
+respiratory, enteric, and@#$disease@#$CUI-less-respiratory, enteric, and
+respiratory-virus@#$disease@#$CUI-less-respiratory-virus
+reticuloendoteliosis@#$disease@#$CUI-less-reticuloendoteliosis
+retroviruses@#$disease@#$CUI-less-retroviruses
+rhabdoviruses@#$disease@#$CUI-less-rhabdoviruses
+rhinovirus-negative@#$disease@#$CUI-less-rhinovirus-negative
+rhinoviruses@#$disease@#$CUI-less-rhinoviruses
+rhombencephalitis@#$disease@#$CUI-less-rhombencephalitis
+ring-necked pheasants@#$disease@#$CUI-less-ring-necked pheasants
+rotavirus-coronavirus@#$disease@#$CUI-less-rotavirus-coronavirus
+rotaviruses@#$disease@#$CUI-less-rotaviruses
+rubulaviruses@#$disease@#$CUI-less-rubulaviruses
+serotype IBV@#$disease@#$CUI-less-serotype IBV
+sialodacryoadenitis@#$disease@#$CUI-less-sialodacryoadenitis
+sialodacryoadenitis (SDA)@#$disease@#$CUI-less-sialodacryoadenitis (SDA)
+spotbill@#$disease@#$CUI-less-spotbill
+sputum@#$disease@#$CUI-less-sputum
+staggering@#$disease@#$CUI-less-staggering
+stillbirth@#$disease@#$CUI-less-stillbirth
+swirl@#$disease@#$CUI-less-swirl
+synctia@#$disease@#$CUI-less-synctia
+syndrome-coronavirus@#$disease@#$CUI-less-syndrome-coronavirus
+taupapillomavirus@#$disease@#$CUI-less-taupapillomavirus
+taupapillomaviruses@#$disease@#$CUI-less-taupapillomaviruses
+thrombocytopaenia@#$disease@#$CUI-less-thrombocytopaenia
+thymectomy@#$disease@#$CUI-less-thymectomy
+tobamoviruses@#$disease@#$CUI-less-tobamoviruses
+tracheo-bronchoadenitis@#$disease@#$CUI-less-tracheo-bronchoadenitis
+tracheotomy@#$disease@#$CUI-less-tracheotomy
+transaminitis@#$disease@#$CUI-less-transaminitis
+transplant-mediated remyelination@#$disease@#$CUI-less-transplant-mediated remyelination
+trepidation@#$disease@#$CUI-less-trepidation
+treponematoses@#$disease@#$CUI-less-treponematoses
+tumoricidal@#$disease@#$CUI-less-tumoricidal
+tympanostomy@#$disease@#$CUI-less-tympanostomy
+vARIs@#$disease@#$CUI-less-vARIs
+vNDV)@#$disease@#$CUI-less-vNDV)
+vURI@#$disease@#$CUI-less-vURI
+viral-induced@#$disease@#$CUI-less-viral-induced
+viroplasm@#$disease@#$CUI-less-viroplasm
+wheezers@#$disease@#$CUI-less-wheezers
+wildlife@#$disease@#$CUI-less-wildlife
+B henselae infection@#$disease@#$MESH:C531629|BERN:107383501
+sudden unexpected deaths@#$disease@#$MESH:C531638|BERN:263258901
+oral discomfort@#$disease@#$MESH:C531760|BERN:262839401
+uveal tract inflammation@#$disease@#$MESH:C531766|BERN:262840701
+ABCD@#$disease@#$MESH:C535334|OMIM:600501|BERN:260948801
+ARI@#$disease@#$MESH:C535427|BERN:264156401
+dysplasia@#$disease@#$MESH:C535483|OMIM:193700|BERN:254408801
+cardiac valvular vegetations@#$disease@#$MESH:C535576|OMIM:314400|BERN:1512601
+Aicardi-Goutieres syndrome@#$disease@#$MESH:C535607|OMIM:225750|BERN:260951901
+AG@#$disease@#$MESH:C535608|OMIM:612952|BERN:265752101
+hantavirus@#$disease@#$MESH:C535630|BERN:262072701
+ST@#$disease@#$MESH:C535658|BERN:260851501
+DSH@#$disease@#$MESH:C535729|OMIM:127400|BERN:260970301
+AV@#$disease@#$MESH:C535758|BERN:254768101
+adenovirus type 1 and type 2@#$disease@#$MESH:C535819|OMIM:177170|BERN:121705401
+autoimmune encephalitis@#$disease@#$MESH:C535841|BERN:254889601
+Chikungunya@#$disease@#$MESH:C535923|BERN:107487801
+EAV N@#$disease@#$MESH:C536108|OMIM:310465|BERN:261095601
+fibrosing sequela@#$disease@#$MESH:C536136|BERN:260334901
+xylose malabsorption@#$disease@#$MESH:C536239|BERN:254883901
+swollen head syndrome@#$disease@#$MESH:C536241|BERN:264418901
+T cell immunodeficiency@#$disease@#$MESH:C536288|BERN:256322101
+human immunodeficiency,@#$disease@#$MESH:C536289|OMIM:300584|BERN:265257901
+NHs@#$disease@#$MESH:C536394|OMIM:231100|BERN:3502201
+neonatal diarrhoeic syndrome@#$disease@#$MESH:C536397|BERN:257511401
+coach class syndrome@#$disease@#$MESH:C536430|OMIM:216360|BERN:262835201
+CNS involvement@#$disease@#$MESH:C536668|BERN:263010001
+squamous metaplasia of the ducts of the salivary gland@#$disease@#$MESH:C536730|BERN:264209701
+respiratory, enteric and systemic infections@#$disease@#$MESH:C536777|BERN:256824001
+Systemic necrotizing lesions@#$disease@#$MESH:C536779|BERN:264081801
+thymic and extrathymic T-cell subpopulation disorders@#$disease@#$MESH:C536780|BERN:264071501
+tracheal and muscle lesions@#$disease@#$MESH:C536975|BERN:261987601
+LAC@#$disease@#$MESH:C537004|OMIM:220111|BERN:3265701
+Influenza viruses types A and B@#$disease@#$MESH:C537094|BERN:265921801
+MHV type 3@#$disease@#$MESH:C537098|BERN:259119901
+PSP@#$disease@#$MESH:C537240|OMIM:260540|BERN:262941501
+Kruppel cripples prostate cancer@#$disease@#$MESH:C537243|BERN:266672501
+HP@#$disease@#$MESH:C537262|OMIM:167800|BERN:808301
+Parainfluenza virus type 4@#$disease@#$MESH:C537287|BERN:266625201
+CMI@#$disease@#$MESH:C537347|BERN:258483701
+adenovirus type 5@#$disease@#$MESH:C537390|BERN:258342901
+immunodeficiency virus 1@#$disease@#$MESH:C537409|OMIM:300755|BERN:120599501
+BOS@#$disease@#$MESH:C537415|OMIM:166700|BERN:258478301
+ALV@#$disease@#$MESH:C537441|BERN:264832701
+CD4@#$disease@#$MESH:C537465|OMIM:300166|BERN:2486601
+LAP@#$disease@#$MESH:C537620|BERN:265752401
+signet-ring cell carcinoma of the stomach and rectum multiple transfer@#$disease@#$MESH:C537656|BERN:265727001
+hepatic and renal degeneration@#$disease@#$MESH:C537756|OMIM:267010|BERN:121063001
+Cutaneous lesions@#$disease@#$MESH:C537797|BERN:265209801
+choanal cleft@#$disease@#$MESH:C537875|BERN:263393701
+middle ear pressure abnormalities@#$disease@#$MESH:C537879|BERN:263394601
+RM@#$disease@#$MESH:C537883|OMIM:268210|BERN:262874701
+PSI grades IV and V@#$disease@#$MESH:C538154|OMIM:186100|BERN:264006001
+MERS-CoV fusion inhibitors@#$disease@#$MESH:C538196|BERN:262157601
+lung adenocarcinoma@#$disease@#$MESH:C538231|BERN:256012401
+parainfluenza type 1, 2, 3@#$disease@#$MESH:C538236|OMIM:201810|BERN:260948001
+atypical respiratory syndrome@#$disease@#$MESH:C538266|OMIM:235400|BERN:106933201
+autoimmune MS@#$disease@#$MESH:C538273|BERN:254665501
+pneumothorax@#$disease@#$MESH:C538279|BERN:255329001
+deficient immune function@#$disease@#$MESH:C538345|BERN:266009401
+NEMO@#$disease@#$MESH:C538399|BERN:265985401
+segmental glomerulosclerosis@#$disease@#$MESH:C538457|BERN:256896901
+Vaccine-associated immune-mediated hemolytic anemia@#$disease@#$MESH:C538618|BERN:254348301
+fatal diarrhea@#$disease@#$MESH:C562780|OMIM:304790|BERN:4293801
+PHC@#$disease@#$MESH:C562993|BERN:262956401
+MERS-COV S@#$disease@#$MESH:C563052|BERN:261037201
+epididymal calcium stones@#$disease@#$MESH:C563162|OMIM:118600|BERN:1105001
+EMC@#$disease@#$MESH:C563195|OMIM:612237|BERN:255239101
+MBL@#$disease@#$MESH:C563602|BERN:266693601
+cerebral anomaly@#$disease@#$MESH:C563612|BERN:266706001
+C@#$disease@#$MESH:C563843|OMIM:608874|BERN:266448201
+Villous atrophy@#$disease@#$MESH:C564019|BERN:263537601
+MERS-CoV 3 CL@#$disease@#$MESH:C564268|OMIM:608244|BERN:1178301
+acute tubulointerstitial nephritis@#$disease@#$MESH:C564356|BERN:262486201
+PK deficiency@#$disease@#$MESH:C564858|OMIM:266200|BERN:260566401
+pygmy@#$disease@#$MESH:C564861|BERN:266672001
+Lethal Disease@#$disease@#$MESH:C564888|OMIM:261740|BERN:263256801
+MERS-CoV inhibitors@#$disease@#$MESH:C564979|BERN:264738801
+MCM@#$disease@#$MESH:C565390|OMIM:251000|BERN:263938501
+leukemia, breast, and colon cancer@#$disease@#$MESH:C565441|BERN:261770801
+immune deficient@#$disease@#$MESH:C565469|BERN:261739301
+Diarrhea@#$disease@#$MESH:C565627|BERN:262553601
+central nerve damage@#$disease@#$MESH:C565949|BERN:265993701
+underlying@#$disease@#$MESH:C566142|BERN:265751301
+Influenza virus type A and B@#$disease@#$MESH:C566196|OMIM:113000|BERN:2470601
+AA@#$disease@#$MESH:C566236|OMIM:108985|BERN:1047201
+alpha(1)-antitrypsin deficiency@#$disease@#$MESH:C566273|BERN:3756301
+IIF@#$disease@#$MESH:C566319|BERN:2547901
+Light Turkey Syndrome@#$disease@#$MESH:C566367|BERN:263480901
+IC crises@#$disease@#$MESH:C566415|OMIM:603034|BERN:403101
+multiple sclerosis-like disease@#$disease@#$MESH:C566813|BERN:261510301
+occupational health@#$disease@#$MESH:C566973|BERN:262534301
+Dermacenter variabilis@#$disease@#$MESH:C567214|OMIM:612644|BERN:104101
+Non-celiac gluten sensitivity@#$disease@#$MESH:C567276|BERN:264898201
+Betacoronavirus subgroup 2c@#$disease@#$MESH:C567324|BERN:264550201
+urolithiasis type kidney damage@#$disease@#$MESH:C567449|OMIM:611955|BERN:4309101
+WU@#$disease@#$MESH:C567479|OMIM:300699|BERN:121719601
+atrophy of intestinal villous epithelial cells@#$disease@#$MESH:C567703|OMIM:613217|BERN:111066501
+inhalational anthrax@#$disease@#$MESH:C571912|BERN:257132301
+Transient diabetes mellitus@#$disease@#$MESH:C579872|BERN:263871701
+DCM@#$disease@#$MESH:C580047|MESH:D002311|OMIM:115200|BERN:107507101
+pulmonary dysfunction@#$disease@#$MESH:C580477|BERN:265712801
+shell deformities@#$disease@#$MESH:D000013|BERN:265696001
+miscarriage@#$disease@#$MESH:D000022|BERN:107384701
+abortions@#$disease@#$MESH:D000033|BERN:107286001
+veterinary medicine@#$disease@#$MESH:D000034|BERN:265661501
+PoR@#$disease@#$MESH:D000038|BERN:107430901
+Acidosis@#$disease@#$MESH:D000138|BERN:106988401
+lactic acidosis@#$disease@#$MESH:D000140|BERN:107388601
+AID@#$disease@#$MESH:D000163|BERN:106994901
+ACS@#$disease@#$MESH:D000168|OMIM:101200|BERN:107423601
+Acute@#$disease@#$MESH:D000208|BERN:259462001
+acute and chronic diseases@#$disease@#$MESH:D000208|MESH:D002908|BERN:259462001|BERN:259688201
+DTH) response@#$disease@#$MESH:D000210|BERN:257835101
+Adenomas@#$disease@#$MESH:D000230|BERN:106965901
+Adenovirus@#$disease@#$MESH:D000257|BERN:107412601
+adenovirus and coronavirus infections@#$disease@#$MESH:D000257|MESH:D018352|BERN:107412601|BERN:107493801
+chronic human infections@#$disease@#$MESH:D000258|BERN:107412501
+tissue abnormalities@#$disease@#$MESH:D000267|BERN:266372201
+pheochromocytomas of the adrenal gland@#$disease@#$MESH:D000308|BERN:107445801
+adrenal insufficiency@#$disease@#$MESH:D000309|BERN:106997201
+African swine fever@#$disease@#$MESH:D000357|BERN:2121401
+AGMs@#$disease@#$MESH:D000361|OMIM:613500|BERN:254670201
+agricultural disease@#$disease@#$MESH:D000382|BERN:258134401
+lymphadenopathy@#$disease@#$MESH:D000386|BERN:107281501
+airway obstruction@#$disease@#$MESH:D000402|BERN:106979201
+albuminuria@#$disease@#$MESH:D000419|BERN:260952301
+Aleutian disease@#$disease@#$MESH:D000453|BERN:259634001
+mountain lion@#$disease@#$MESH:D000532|BERN:107532501
+Hypersensitivity Pneumonitis@#$disease@#$MESH:D000542|BERN:107424401
+Alzheimer's@#$disease@#$MESH:D000544|OMIM:104300|BERN:106965801
+CCV type I@#$disease@#$MESH:D000567|BERN:107500301
+amyloid diseases@#$disease@#$MESH:D000686|BERN:106978601
+anaphylactic shock@#$disease@#$MESH:D000707|BERN:106998701
+anaplasia@#$disease@#$MESH:D000708|BERN:258125001
+hemobartonellosis@#$disease@#$MESH:D000711|BERN:107427401
+anaplasmosis@#$disease@#$MESH:D000712|BERN:254171701
+Anemia@#$disease@#$MESH:D000740|BERN:254431001
+aplastic anemia@#$disease@#$MESH:D000741|OMIM:609135|BERN:107428301
+haemolytic anaemia@#$disease@#$MESH:D000743|BERN:107364301
+hereditary non-spherocytic hemolytic anemia@#$disease@#$MESH:D000746|BERN:107257401
+aneurysm@#$disease@#$MESH:D000783|BERN:262372001
+fibrotic streaks@#$disease@#$MESH:D000793|BERN:107541601
+Animal disease@#$disease@#$MESH:D000820|BERN:260271301
+H@#$disease@#$MESH:D000848|OMIM:106600|BERN:107548901
+anosmia@#$disease@#$MESH:D000857|BERN:255131901
+Hypoxemia@#$disease@#$MESH:D000860|BERN:258656301
+Anthrax@#$disease@#$MESH:D000881|BERN:106907101
+Anxiety Disorder@#$disease@#$MESH:D001008|OMIM:607834|BERN:255805601
+AI@#$disease@#$MESH:D001022|BERN:107474401
+motor disabilities@#$disease@#$MESH:D001039|BERN:256630301
+Apnea@#$disease@#$MESH:D001049|BERN:256800901
+Arboviral Disease@#$disease@#$MESH:D001102|BERN:256629701
+sinus arrhythmia@#$disease@#$MESH:D001146|BERN:264841201
+Arteritis Virus@#$disease@#$MESH:D001167|BERN:106992801
+polyarthritis@#$disease@#$MESH:D001168|BERN:106971901
+Arthritis@#$disease@#$MESH:D001168|BERN:260274501
+viral arthritis@#$disease@#$MESH:D001170|BERN:107425301
+RA@#$disease@#$MESH:D001172|OMIM:180300|BERN:107539501
+nematode infection@#$disease@#$MESH:D001196|BERN:254216101
+Ascites@#$disease@#$MESH:D001201|BERN:265351501
+Aspergillosis@#$disease@#$MESH:D001228|BERN:106998601
+neonatal asphyxia@#$disease@#$MESH:D001238|BERN:107369401
+asthenia@#$disease@#$MESH:D001247|BERN:265249401
+rough eye@#$disease@#$MESH:D001248|BERN:259913301
+DBT astrocytoma@#$disease@#$MESH:D001254|BERN:106981101
+ataxia@#$disease@#$MESH:D001259|BERN:260955401
+ataxia-telangiectasia@#$disease@#$MESH:D001260|OMIM:208900|BERN:106991901
+atelectasis@#$disease@#$MESH:D001261|BERN:107533901
+AF@#$disease@#$MESH:D001281|BERN:258765001
+atrophic enteritis@#$disease@#$MESH:D001284|BERN:256804201
+hyperactivity@#$disease@#$MESH:D001289|OMIM:143465|BERN:260835901
+Autoimmune hepatitis-like disease@#$disease@#$MESH:D001327|OMIM:109100|BERN:259931301
+avian leukosis@#$disease@#$MESH:D001353|BERN:256745701
+Rous sarcoma@#$disease@#$MESH:D001357|BERN:255004501
+Avian coronavirus@#$disease@#$MESH:D001357|BERN:255119701
+ADAR1 deficiency@#$disease@#$MESH:D001361|BERN:107425401
+Babesia@#$disease@#$MESH:D001404|BERN:256983301
+back ache@#$disease@#$MESH:D001416|BERN:256205501
+Bacterial diseases@#$disease@#$MESH:D001424|BERN:256312401
+Balkan nephropathy@#$disease@#$MESH:D001449|BERN:107395401
+NIV-associated barotrauma@#$disease@#$MESH:D001469|BERN:266082301
+Bartonella@#$disease@#$MESH:D001474|BERN:107462301
+Mental Health@#$disease@#$MESH:D001523|BERN:254324401
+mental disorders@#$disease@#$MESH:D001523|BERN:254797301
+BD@#$disease@#$MESH:D001528|OMIM:109650|BERN:107504201
+tract disease@#$disease@#$MESH:D001660|BERN:255089301
+Avian@#$disease@#$MESH:D001715|BERN:257023901
+neurogenic bladder@#$disease@#$MESH:D001750|BERN:258821101
+blindness@#$disease@#$MESH:D001766|BERN:254925401
+coagulopathy@#$disease@#$MESH:D001778|BERN:259884001
+platelet disorders@#$disease@#$MESH:D001791|BERN:260644801
+bone abnormalities@#$disease@#$MESH:D001847|BERN:258463401
+osteopenia@#$disease@#$MESH:D001851|BERN:257156001
+border disease@#$disease@#$MESH:D001882|BERN:258035301
+BPD@#$disease@#$MESH:D001883|BERN:256203501
+Bordetella bronchiseptica infections@#$disease@#$MESH:D001885|BERN:107372801
+Borna disease@#$disease@#$MESH:D001890|BERN:258881301
+botulism@#$disease@#$MESH:D001906|BERN:261027601
+porcine epidemic diarrhea disease virus@#$disease@#$MESH:D001912|BERN:259374501
+bradycardia@#$disease@#$MESH:D001919|BERN:260959401
+Hepatic pathology@#$disease@#$MESH:D001927|BERN:254040801
+Brain disease@#$disease@#$MESH:D001927|BERN:257127201
+metabolic encephalopathy@#$disease@#$MESH:D001928|BERN:107284101
+brain edema@#$disease@#$MESH:D001929|BERN:106991601
+acute cardiac injury@#$disease@#$MESH:D001930|BERN:261739401
+brain tumor@#$disease@#$MESH:D001932|BERN:107484601
+breast diseases@#$disease@#$MESH:D001941|BERN:106921401
+bronchospasm@#$disease@#$MESH:D001986|BERN:107363701
+bronchiectasis@#$disease@#$MESH:D001987|BERN:106992301
+Bronchiolitis@#$disease@#$MESH:D001988|BERN:107000301
+bronchiolitis obliterans@#$disease@#$MESH:D001989|BERN:106906401
+Acute Bronchitis@#$disease@#$MESH:D001991|BERN:254440001
+bronchial mucosa@#$disease@#$MESH:D001994|BERN:106940501
+Fibrinous bronchopneumonia@#$disease@#$MESH:D001996|BERN:106944501
+bronchopulmonary dysplasia@#$disease@#$MESH:D001997|BERN:107002001
+Brucellosis@#$disease@#$MESH:D002006|BERN:106906001
+bruxism@#$disease@#$MESH:D002012|BERN:106915301
+burn@#$disease@#$MESH:D002056|BERN:263646901
+Campylobacter and Salmonella@#$disease@#$MESH:D002169|BERN:107492101
+thrush@#$disease@#$MESH:D002180|BERN:107377701
+CCl-4 poisoning@#$disease@#$MESH:D002252|BERN:264383501
+Cancer@#$disease@#$MESH:D002277|BERN:255268301
+Terminal bronchiolar and alveolar desquamation@#$disease@#$MESH:D002282|BERN:107407101
+BC@#$disease@#$MESH:D002283|BERN:107407201
+Ascites Tumor@#$disease@#$MESH:D002286|BERN:107402001
+NSCLC@#$disease@#$MESH:D002289|BERN:107402101
+squamous cell carcinoma@#$disease@#$MESH:D002294|BERN:107477401
+TCC@#$disease@#$MESH:D002295|BERN:107395801
+HCM@#$disease@#$MESH:D002312|BERN:107500701
+CV@#$disease@#$MESH:D002318|BERN:257597401
+Feline viral diseases@#$disease@#$MESH:D002371|BERN:260108901
+Lethal@#$disease@#$MESH:D002389|BERN:255037801
+Bovine@#$disease@#$MESH:D002418|BERN:260847501
+CD BCoV@#$disease@#$MESH:D002446|OMIM:212750|BERN:106997901
+phlegm@#$disease@#$MESH:D002481|BERN:255800801
+cellulitis@#$disease@#$MESH:D002481|BERN:256299401
+CNS@#$disease@#$MESH:D002493|BERN:260365101
+Acute CNS infection@#$disease@#$MESH:D002494|BERN:259576001
+hypermetria@#$disease@#$MESH:D002524|BERN:265327401
+CXR (chest X-ray) abnormalities@#$disease@#$MESH:D002526|BERN:107460801
+hypoxic@#$disease@#$MESH:D002534|BERN:107397901
+ICH@#$disease@#$MESH:D002543|BERN:255492801
+cerebral infarction@#$disease@#$MESH:D002544|OMIM:601367|BERN:106978701
+otorrhoea@#$disease@#$MESH:D002558|BERN:258064101
+Rhinorrhea@#$disease@#$MESH:D002559|BERN:257750701
+cerebrovascular disease@#$disease@#$MESH:D002561|BERN:106941601
+chest pain@#$disease@#$MESH:D002637|BERN:265734601
+varicella@#$disease@#$MESH:D002644|BERN:107492801
+autistic spectrum disorders@#$disease@#$MESH:D002659|BERN:258607701
+chlamydial infections@#$disease@#$MESH:D002690|BERN:106929601
+Epididymal stones@#$disease@#$MESH:D002769|BERN:257721001
+Cholera and Hanta virus@#$disease@#$MESH:D002771|BERN:106999601
+cholestasis@#$disease@#$MESH:D002779|BERN:106984201
+Chronic progressive paralysis@#$disease@#$MESH:D002819|OMIM:118700|BERN:254692901
+chorioamnionitis@#$disease@#$MESH:D002821|BERN:106910801
+chorioretinitis@#$disease@#$MESH:D002825|BERN:107482701
+ill health@#$disease@#$MESH:D002908|BERN:258173801
+ARI-related clinical illnesses@#$disease@#$MESH:D002908|BERN:259688201
+chyloperitoneum@#$disease@#$MESH:D002915|BERN:107491201
+Parenchymal scars@#$disease@#$MESH:D002921|BERN:266884301
+IC@#$disease@#$MESH:D002925|BERN:107451301
+ciliary loss@#$disease@#$MESH:D003027|BERN:106936001
+coccidiosis@#$disease@#$MESH:D003048|BERN:106949501
+Pulmonary lesions@#$disease@#$MESH:D003074|BERN:106951801
+colic@#$disease@#$MESH:D003085|BERN:262517201
+Coronavirus-Associated Colitis@#$disease@#$MESH:D003092|BERN:106969501
+colon cancer@#$disease@#$MESH:D003110|BERN:107458501
+colon and prostate tumor@#$disease@#$MESH:D003110|OMIM:176807|MESH:D011471|BERN:107458501|BERN:107535701
+atrophy of the colonic ridges@#$disease@#$MESH:D003112|BERN:107532901
+Colorado tick fever@#$disease@#$MESH:D003121|BERN:107357601
+adenoma@#$disease@#$MESH:D003123|BERN:107293601
+Acute rhinitis@#$disease@#$MESH:D003139|BERN:106936301
+Allergy and Infectious Diseases@#$disease@#$MESH:D003141|BERN:106995601
+community@#$disease@#$MESH:D003147|BERN:257611701
+confusion@#$disease@#$MESH:D003221|BERN:256147301
+bulbar conjunctivitis@#$disease@#$MESH:D003231|BERN:106997701
+Seasonal influenza@#$disease@#$MESH:D003233|BERN:107383201
+viral conjunctivitis@#$disease@#$MESH:D003236|BERN:107277001
+deteriorating consciousness@#$disease@#$MESH:D003244|BERN:256879601
+strictures@#$disease@#$MESH:D003251|BERN:258189401
+astasia@#$disease@#$MESH:D003291|BERN:255206901
+Febrile respiratory illnesses@#$disease@#$MESH:D003294|BERN:107383401
+febrile or afebrile seizures@#$disease@#$MESH:D003294|BERN:107383401|BERN:260951501
+-glass opacities@#$disease@#$MESH:D003318|BERN:106915601
+CADs@#$disease@#$MESH:D003324|BERN:106970901
+CHD@#$disease@#$MESH:D003327|OMIM:300464|BERN:107000501
+Coronary thrombosis@#$disease@#$MESH:D003328|BERN:107478301
+Cough@#$disease@#$MESH:D003371|BERN:263673301
+coxsackievirus@#$disease@#$MESH:D003384|BERN:107518801
+Cranial nerve palsies@#$disease@#$MESH:D003389|BERN:254325801
+loss of condition@#$disease@#$MESH:D003398|OMIM:123100|BERN:107549901
+CD@#$disease@#$MESH:D003424|BERN:106986001
+MERS-CoV hospital@#$disease@#$MESH:D003428|BERN:107467401
+Croup@#$disease@#$MESH:D003440|BERN:107468401
+Cryptosporidiosis@#$disease@#$MESH:D003457|BERN:257373401
+cyanosis@#$disease@#$MESH:D003490|BERN:263988501
+CMV@#$disease@#$MESH:D003586|BERN:106911901
+Dacryoadenitis@#$disease@#$MESH:D003607|BERN:107474801
+deaf@#$disease@#$MESH:D003638|BERN:255840901
+sudden death@#$disease@#$MESH:D003645|BERN:264444101
+BED@#$disease@#$MESH:D003668|BERN:106999301
+dysphagia@#$disease@#$MESH:D003680|BERN:107523201
+dehydration@#$disease@#$MESH:D003681|BERN:255941701
+delirium@#$disease@#$MESH:D003693|BERN:257143401
+Influenza D@#$disease@#$MESH:D003699|BERN:107486201
+Acute demyelination@#$disease@#$MESH:D003711|BERN:257045501
+CNS demyelination@#$disease@#$MESH:D003711|BERN:257473401
+Dengue@#$disease@#$MESH:D003715|BERN:106989401
+MDD@#$disease@#$MESH:D003865|OMIM:608516|BERN:255273301
+clinical respiratory illness@#$disease@#$MESH:D003866|BERN:254596801
+dermatitis@#$disease@#$MESH:D003872|BERN:106986101
+atopic dermatitis@#$disease@#$MESH:D003876|BERN:107504001
+allergen-induced hypersensitivity reactions@#$disease@#$MESH:D003877|BERN:107501401
+Familial canine dermatomyositis@#$disease@#$MESH:D003882|BERN:254667701
+DI@#$disease@#$MESH:D003919|BERN:106911001
+Type 1 and Type 2 diabetes@#$disease@#$MESH:D003924|OMIM:125853|BERN:106906101
+Diabetic neuropathy@#$disease@#$MESH:D003929|BERN:107002701
+Watery Diarrhea@#$disease@#$MESH:D003969|BERN:107511801
+digestive disorders@#$disease@#$MESH:D004066|BERN:257452201
+digestive systemic cancer@#$disease@#$MESH:D004067|BERN:254750101
+abdominal distension@#$disease@#$MESH:D004108|BERN:257093601
+Dipetalonema@#$disease@#$MESH:D004154|BERN:257453901
+heartworm@#$disease@#$MESH:D004184|BERN:257199801
+2019-coronavirus disease@#$disease@#$MESH:D004194|BERN:261243901
+APN-related diseases@#$disease@#$MESH:D004194|BERN:261410801
+disseminated intravascular coagulation@#$disease@#$MESH:D004211|BERN:107003001
+Canine distemper@#$disease@#$MESH:D004216|BERN:257069601
+dizziness@#$disease@#$MESH:D004244|BERN:262173101
+DNA virus infection@#$disease@#$MESH:D004266|BERN:254962501
+canine diseases@#$disease@#$MESH:D004283|BERN:254851701
+Drug hypersensitivity@#$disease@#$MESH:D004342|BERN:106928601
+CA IBV@#$disease@#$MESH:D004379|BERN:107512301
+Ulcerative duodenitis@#$disease@#$MESH:D004381|BERN:106924901
+Acute hemorrhagic enteritis@#$disease@#$MESH:D004382|BERN:107470401
+embryo dwarfism@#$disease@#$MESH:D004392|BERN:255651701
+Acute infectious diarrhea@#$disease@#$MESH:D004403|BERN:106937501
+Dyspnoea@#$disease@#$MESH:D004418|BERN:119160701
+Laboratory abnormalities@#$disease@#$MESH:D004420|BERN:106915001
+ear canal disease@#$disease@#$MESH:D004427|BERN:254406701
+earache@#$disease@#$MESH:D004433|BERN:262949101
+cystic hydatid disease@#$disease@#$MESH:D004443|BERN:255264101
+Infectious bronchitis virus (IBV) infections@#$disease@#$MESH:D004457|BERN:107445101
+Ectromelia virus@#$disease@#$MESH:D004480|BERN:107461201
+eczema@#$disease@#$MESH:D004485|BERN:107003401
+alveolar and interstitial edema@#$disease@#$MESH:D004487|BERN:257143701
+EDS@#$disease@#$MESH:D004535|OMIM:130050|BERN:106939101
+emaciation@#$disease@#$MESH:D004614|BERN:263389101
+Emergency cesarean section@#$disease@#$MESH:D004630|BERN:263367901
+emphysema@#$disease@#$MESH:D004646|BERN:256367301
+Bickerstaff's encephalitis@#$disease@#$MESH:D004660|BERN:260204201
+viral encephalitides@#$disease@#$MESH:D004670|BERN:107417501
+COVID-19 (SARS-CoV-2) epidemic@#$disease@#$MESH:D004671|BERN:107420401
+B encephalitis@#$disease@#$MESH:D004672|BERN:107440401
+Acute coronavirus encephalomyelitis@#$disease@#$MESH:D004673|BERN:107417801
+Louis encephalitis virus@#$disease@#$MESH:D004674|BERN:107440101
+TBE@#$disease@#$MESH:D004675|BERN:107349701
+CNS encephalomyelitis@#$disease@#$MESH:D004679|BERN:261314201
+EAE@#$disease@#$MESH:D004681|BERN:107417601
+Porcine hemagglutinating encephalomyelitis@#$disease@#$MESH:D004682|BERN:254559801
+Encephalomyelitis Virus@#$disease@#$MESH:D004683|BERN:107419001
+leukoencephalitis@#$disease@#$MESH:D004684|BERN:107418301
+VEE@#$disease@#$MESH:D004685|BERN:107441101
+Staphyloccocus aureus infective endocarditis@#$disease@#$MESH:D004696|BERN:106989801
+Cardiovascular, digestive and endocrine system diseases@#$disease@#$MESH:D004700|BERN:258269101
+endometritis@#$disease@#$MESH:D004716|BERN:255002701
+Transmissible enteritis@#$disease@#$MESH:D004753|BERN:260239001
+Calfhood coronavirus enterocolitis@#$disease@#$MESH:D004760|BERN:106999101
+pseudomembranous enteritis of the ileum@#$disease@#$MESH:D004761|BERN:107415701
+Enteroviral infection@#$disease@#$MESH:D004769|BERN:107491001
+entropion@#$disease@#$MESH:D004774|BERN:107462401
+lung eosinophilic immunopathology@#$disease@#$MESH:D004802|BERN:106979501
+eosinophilia@#$disease@#$MESH:D004802|BERN:254412001
+Bovine ephemeral fever virus@#$disease@#$MESH:D004810|BERN:260651301
+temporal epidermoid cyst@#$disease@#$MESH:D004814|BERN:120606801
+pig disease@#$disease@#$MESH:D004818|BERN:259358301
+tonic-clonic convulsion@#$disease@#$MESH:D004830|BERN:107437501
+nasal bleeding@#$disease@#$MESH:D004844|BERN:260748401
+infectious salmon anemia virus@#$disease@#$MESH:D004859|BERN:256327001
+erythema@#$disease@#$MESH:D004890|BERN:106990501
+EM@#$disease@#$MESH:D004892|BERN:107497001
+BCoV DI@#$disease@#$MESH:D004915|BERN:107283601
+Colibacillosis@#$disease@#$MESH:D004927|BERN:106941001
+perforation@#$disease@#$MESH:D004939|BERN:260490901
+exanthem@#$disease@#$MESH:D005076|BERN:260784601
+Ocular abnormalities@#$disease@#$MESH:D005128|BERN:255084001
+psychiatric manifestations@#$disease@#$MESH:D005132|BERN:266603501
+Facial palsy@#$disease@#$MESH:D005155|BERN:256004201
+failure to thrive@#$disease@#$MESH:D005183|BERN:266501901
+air-flow obstruction@#$disease@#$MESH:D005184|BERN:107381101
+renal dysfunction@#$disease@#$MESH:D005198|OMIM:134600|BERN:107497201
+fascioliasis@#$disease@#$MESH:D005211|BERN:257571601
+fatigue@#$disease@#$MESH:D005221|BERN:267005501
+fatty change of the liver@#$disease@#$MESH:D005234|BERN:106985501
+diarrheic fecal@#$disease@#$MESH:D005244|BERN:107543701
+Feline panleucopenia virus@#$disease@#$MESH:D005254|BERN:260767301
+avascular necrosis of femoral head@#$disease@#$MESH:D005271|OMIM:608805|BERN:254401201
+AVN of the femoral head@#$disease@#$MESH:D005271|OMIM:608805|BERN:256518701
+femoral head osteonecrosis@#$disease@#$MESH:D005271|OMIM:608805|BERN:257643701
+MERS-associated death@#$disease@#$MESH:D005313|BERN:256179801
+Fetal distress@#$disease@#$MESH:D005316|BERN:260173301
+intrauterine growth restriction@#$disease@#$MESH:D005317|BERN:258644601
+Chinese fever@#$disease@#$MESH:D005334|BERN:257799801
+fibroma@#$disease@#$MESH:D005350|BERN:254744501
+FMD@#$disease@#$MESH:D005352|BERN:106947301
+fibrosarcoma@#$disease@#$MESH:D005354|BERN:106914501
+hepatic fibrosis@#$disease@#$MESH:D005355|BERN:106987501
+Septal thickening@#$disease@#$MESH:D005355|BERN:2219101
+Fibrosis@#$disease@#$MESH:D005355|BERN:256366601
+ARS@#$disease@#$MESH:D005391|BERN:255659501
+PES@#$disease@#$MESH:D005413|BERN:261875301
+Food allergies@#$disease@#$MESH:D005512|BERN:107473901
+food poisoning@#$disease@#$MESH:D005517|BERN:262247001
+foot and mouth disease@#$disease@#$MESH:D005536|BERN:256251201
+gastrointestinal foreign bodies@#$disease@#$MESH:D005547|BERN:262239101
+Avian Influenza@#$disease@#$MESH:D005585|BERN:260697801
+avian and human influenza@#$disease@#$MESH:D005585|MESH:D007251|BERN:260697801|BERN:107501001
+Guinea Fowl Coronavirus@#$disease@#$MESH:D005586|BERN:258172001
+fowl pox@#$disease@#$MESH:D005586|BERN:260318001
+furuncles@#$disease@#$MESH:D005667|BERN:259642901
+necrobacillosis@#$disease@#$MESH:D005674|BERN:107394801
+necrotizing gangrene@#$disease@#$MESH:D005734|BERN:258794101
+GS@#$disease@#$MESH:D005736|BERN:107477201
+myonecrosis@#$disease@#$MESH:D005738|BERN:254742601
+mucosal erosion@#$disease@#$MESH:D005756|BERN:257407501
+mucosal hyperplasia@#$disease@#$MESH:D005758|BERN:107423301
+CCoV associated gastroenteritis@#$disease@#$MESH:D005759|BERN:106983301
+Alphacoronavirus transmissible gastroenteritis@#$disease@#$MESH:D005761|BERN:120762401
+GI@#$disease@#$MESH:D005767|BERN:255283201
+gastrointestinal and CNS disease@#$disease@#$MESH:D005767|MESH:D002493|BERN:255283201|BERN:260365101
+gastrointestinal cancer@#$disease@#$MESH:D005770|BERN:107456501
+GD@#$disease@#$MESH:D005776|OMIM:230800|BERN:106906301
+male fertility disease@#$disease@#$MESH:D005832|BERN:256905601
+Giardiasis@#$disease@#$MESH:D005873|BERN:106940201
+gliosis@#$disease@#$MESH:D005911|BERN:255062701
+astrocytosis@#$disease@#$MESH:D005911|BERN:257998801
+G6PD deficiency@#$disease@#$MESH:D005955|BERN:107432501
+meningeal nodular lesions@#$disease@#$MESH:D006044|BERN:107362701
+Neisseria meningiditis@#$disease@#$MESH:D006069|BERN:106933001
+Runting Stunting Syndrome@#$disease@#$MESH:D006086|BERN:254245401
+coronavirus granuloma@#$disease@#$MESH:D006099|BERN:260562701
+VH@#$disease@#$MESH:D006212|BERN:257707301
+CS@#$disease@#$MESH:D006223|OMIM:153480|BERN:107285801
+hand, foot and mouth disease@#$disease@#$MESH:D006232|BERN:106903701
+Hartnup disorder@#$disease@#$MESH:D006250|OMIM:234500|BERN:107367601
+hay fever@#$disease@#$MESH:D006255|BERN:107284401
+headache@#$disease@#$MESH:D006261|BERN:265859701
+myelin loss within the central nervous system@#$disease@#$MESH:D006313|BERN:256278801
+Cardiac arrest@#$disease@#$MESH:D006323|BERN:107518901
+Cardiac diseases@#$disease@#$MESH:D006331|BERN:257967001
+cardiac or pulmonary disorders@#$disease@#$MESH:D006331|MESH:D008171|BERN:257967001|BERN:258682501
+cardiomegaly@#$disease@#$MESH:D006332|BERN:259469701
+CHF@#$disease@#$MESH:D006333|BERN:106966101
+heart damage@#$disease@#$MESH:D006335|BERN:266267001
+valvular disease@#$disease@#$MESH:D006349|BERN:107499501
+HCD@#$disease@#$MESH:D006362|BERN:107377101
+Hematologic abnormalities@#$disease@#$MESH:D006402|BERN:258966801
+Hereditary hemochromatosis@#$disease@#$MESH:D006432|OMIM:235200|BERN:106925201
+SCS@#$disease@#$MESH:D006450|BERN:107365901
+HB@#$disease@#$MESH:D006453|BERN:258548801
+Hemoptysis@#$disease@#$MESH:D006469|BERN:266545401
+Hemorrhages@#$disease@#$MESH:D006470|BERN:266549801
+gastrointestinal bleeding@#$disease@#$MESH:D006471|BERN:255443001
+haemorrhagic@#$disease@#$MESH:D006474|BERN:254852801
+newborn diseases@#$disease@#$MESH:D006475|BERN:107505401
+CIRD virus infections@#$disease@#$MESH:D006479|BERN:107271301
+HFRS@#$disease@#$MESH:D006480|BERN:106947801
+Alkhumra hemorrhagic fever@#$disease@#$MESH:D006482|BERN:107449301
+hemosiderosis of the spleen@#$disease@#$MESH:D006486|BERN:107487701
+Budd-Chiari syndrome@#$disease@#$MESH:D006502|OMIM:600880|BERN:106947201
+Fulminant Hepatitis@#$disease@#$MESH:D006505|BERN:106966201
+HEPATITIS VIRUS@#$disease@#$MESH:D006506|BERN:106966301
+Acute Hepatitis@#$disease@#$MESH:D006521|BERN:107519601
+acute and chronic hepatitis@#$disease@#$MESH:D006521|MESH:D006521|BERN:107519601|BERN:107519601
+Canine hepatitis@#$disease@#$MESH:D006522|BERN:121030601
+C felis@#$disease@#$MESH:D006526|OMIM:609532|BERN:106970801
+WD@#$disease@#$MESH:D006527|OMIM:277900|BERN:107393701
+hepatomegaly@#$disease@#$MESH:D006529|BERN:267018401
+herniation@#$disease@#$MESH:D006547|BERN:259998701
+HSV infection@#$disease@#$MESH:D006561|BERN:106990801
+Varicella zoster@#$disease@#$MESH:D006562|BERN:106914001
+'s sarcoma-associated herpesvirus@#$disease@#$MESH:D006566|BERN:107363101
+harderian gland adenomas@#$disease@#$MESH:D006607|BERN:107399601
+Langerhans cell histiocytosis@#$disease@#$MESH:D006646|BERN:107398701
+histoplasmosis@#$disease@#$MESH:D006660|BERN:106949901
+MERS-CoV seropositivity@#$disease@#$MESH:D006679|BERN:106933701
+hoarse voice@#$disease@#$MESH:D006685|BERN:261457301
+Classical Swine Fever Virus@#$disease@#$MESH:D006691|BERN:254716801
+hookworm@#$disease@#$MESH:D006725|BERN:259555301
+Equine@#$disease@#$MESH:D006734|BERN:254582301
+HD@#$disease@#$MESH:D006816|OMIM:143100|BERN:106990601
+communicating hydrocephalus@#$disease@#$MESH:D006849|OMIM:236600|BERN:106979101
+Hydrocephalus@#$disease@#$MESH:D006849|OMIM:236600|BERN:258766501
+hyperbilirubinemia@#$disease@#$MESH:D006933|BERN:107435401
+hypercapnia@#$disease@#$MESH:D006935|BERN:260981301
+hyperemia@#$disease@#$MESH:D006940|BERN:107003701
+Hypergammaglobulinemia@#$disease@#$MESH:D006942|BERN:255700501
+hyperglycaemia@#$disease@#$MESH:D006943|BERN:256146201
+Hyperinsulinaemia@#$disease@#$MESH:D006946|BERN:106932601
+K@#$disease@#$MESH:D006947|BERN:106912801
+hyperglyceridemia@#$disease@#$MESH:D006953|OMIM:145750|BERN:107435601
+NA@#$disease@#$MESH:D006955|BERN:259945101
+Ductular Hyperplasia@#$disease@#$MESH:D006965|BERN:259845001
+allergic reactions@#$disease@#$MESH:D006967|BERN:258641601
+allergy@#$disease@#$MESH:D006967|BERN:258925401
+Allergic diseases@#$disease@#$MESH:D006967|BERN:260202601
+Type IV hypersensitivity@#$disease@#$MESH:D006968|BERN:107349801
+Hypertension@#$disease@#$MESH:D006973|BERN:106966601
+portal hypertension@#$disease@#$MESH:D006975|BERN:107350801
+pulmonary hypertension@#$disease@#$MESH:D006976|OMIM:178600|BERN:107471301
+hyperthyroidism@#$disease@#$MESH:D006980|BERN:259271101
+astrocyte hypertrophy@#$disease@#$MESH:D006984|BERN:257729201
+hyperventilation@#$disease@#$MESH:D006985|BERN:262597601
+hyphema@#$disease@#$MESH:D006988|BERN:255026401
+hypocalcemia@#$disease@#$MESH:D006996|BERN:260983301
+hypoglycemic@#$disease@#$MESH:D007003|BERN:106987901
+Hyponatremia@#$disease@#$MESH:D007010|BERN:263888601
+hypoproteinemia@#$disease@#$MESH:D007019|BERN:264200001
+Hypotension@#$disease@#$MESH:D007022|BERN:106985901
+alveolar infiltrates@#$disease@#$MESH:D007040|BERN:258542601
+ulcerative ileitis@#$disease@#$MESH:D007079|BERN:254499901
+immunodeficiency syndrome@#$disease@#$MESH:D007153|BERN:259680501
+compromised immunity@#$disease@#$MESH:D007154|BERN:257986201
+BBB dysfunction@#$disease@#$MESH:D007172|BERN:106980001
+neonatal calf disease@#$disease@#$MESH:D007232|BERN:260890301
+Cecal infarction@#$disease@#$MESH:D007238|BERN:2068001
+2019-nCoV infection@#$disease@#$MESH:D007239|BERN:264592201
+IBR@#$disease@#$MESH:D007241|BERN:259385901
+infectious mononucleosis@#$disease@#$MESH:D007244|BERN:106928701
+infertility@#$disease@#$MESH:D007246|BERN:106969101
+Bronchial inflammation@#$disease@#$MESH:D007249|BERN:257154601
+FLU@#$disease@#$MESH:D007251|BERN:107501001
+Insomnia@#$disease@#$MESH:D007319|BERN:260985301
+jejunal perforation@#$disease@#$MESH:D007409|BERN:107482401
+intestinal@#$disease@#$MESH:D007410|BERN:255857701
+coccidian parasite of the intestine@#$disease@#$MESH:D007414|BERN:107390901
+intestinal obstruction@#$disease@#$MESH:D007415|BERN:106997101
+ileo-cecal intussusception@#$disease@#$MESH:D007443|BERN:106902901
+V-1@#$disease@#$MESH:D007446|BERN:259706901
+Creutzfeldt-Jakob Disease@#$disease@#$MESH:D007562|OMIM:123400|BERN:107276101
+neonatal jaundice@#$disease@#$MESH:D007567|BERN:259873001
+herpes virus@#$disease@#$MESH:D007617|BERN:107369301
+Antheraea pernyi nuclear polyhedrosis virus@#$disease@#$MESH:D007647|BERN:258085001
+ketosis@#$disease@#$MESH:D007662|BERN:258804201
+stones@#$disease@#$MESH:D007669|BERN:254241401
+renal cortical infarcts@#$disease@#$MESH:D007673|BERN:107424001
+kidney@#$disease@#$MESH:D007674|BERN:106971401
+CKD@#$disease@#$MESH:D007676|BERN:107351201
+end-stage renal disease@#$disease@#$MESH:D007676|BERN:107368101
+embryonic renal tumors@#$disease@#$MESH:D007680|BERN:107529401
+Acute tubular necrosis@#$disease@#$MESH:D007683|BERN:107291601
+SARS coronavirus N protein@#$disease@#$MESH:D007732|BERN:107522701
+Forest@#$disease@#$MESH:D007733|BERN:107514601
+diarrheic dairy@#$disease@#$MESH:D007787|BERN:107474301
+Lameness@#$disease@#$MESH:D007794|BERN:266602201
+ground@#$disease@#$MESH:D007815|BERN:256437901
+laryngeal carcinoma@#$disease@#$MESH:D007822|BERN:107510101
+laryngeal croup@#$disease@#$MESH:D007826|BERN:107253501
+laryngitis@#$disease@#$MESH:D007827|BERN:107493301
+Lassa Fever@#$disease@#$MESH:D007835|BERN:107457301
+Lassa@#$disease@#$MESH:D007835|BERN:254798801
+Legionela pneumophila@#$disease@#$MESH:D007877|OMIM:608556|BERN:106937601
+leiomyomatous@#$disease@#$MESH:D007889|BERN:107003301
+canine leishmaniosis@#$disease@#$MESH:D007896|BERN:106978901
+Leukaemia@#$disease@#$MESH:D007938|BERN:106966401
+P388 leukemia@#$disease@#$MESH:D007941|BERN:107353301
+Hepatosplenic myelosis@#$disease@#$MESH:D007951|BERN:107373101
+Leukocytosis@#$disease@#$MESH:D007964|BERN:257244601
+pleocytosis@#$disease@#$MESH:D007964|BERN:258421501
+PML@#$disease@#$MESH:D007968|BERN:107431801
+pia matter@#$disease@#$MESH:D007969|BERN:107431701
+Leucopenia@#$disease@#$MESH:D007970|BERN:106992001
+Demyelinating lesions@#$disease@#$MESH:D007971|BERN:258747001
+Trichomonad infections of the oral cavity@#$disease@#$MESH:D007972|BERN:107400001
+Granular cell neoplasms of the brain@#$disease@#$MESH:D008067|BERN:106910201
+liposarcoma@#$disease@#$MESH:D008080|BERN:106912001
+Listeria infection@#$disease@#$MESH:D008088|BERN:106951601
+abscesses in the mediastinum, liver and brain@#$disease@#$MESH:D008100|BERN:106911301
+Hepatitis@#$disease@#$MESH:D008107|BERN:254566301
+Liver function injury@#$disease@#$MESH:D008107|BERN:258637201
+experimental@#$disease@#$MESH:D008114|BERN:107271101
+Louping ill@#$disease@#$MESH:D008146|BERN:256134401
+PR@#$disease@#$MESH:D008151|BERN:107272501
+coronavirus (CoV) lung disease@#$disease@#$MESH:D008169|BERN:107495301
+Lung diseases@#$disease@#$MESH:D008171|BERN:258682501
+obstructive pulmonary disease@#$disease@#$MESH:D008173|BERN:107358001
+food-borne parasitic infections@#$disease@#$MESH:D008174|BERN:260170701
+SLE@#$disease@#$MESH:D008180|OMIM:152700|BERN:107539401
+LD@#$disease@#$MESH:D008193|BERN:106902401
+lymphadenitis@#$disease@#$MESH:D008199|BERN:255502301
+lymphangitis@#$disease@#$MESH:D008205|BERN:258250201
+lymphadenopathy in the neck@#$disease@#$MESH:D008206|BERN:258587201
+LCM@#$disease@#$MESH:D008216|BERN:106951201
+Lymphocytosis@#$disease@#$MESH:D008218|BERN:106922801
+Feline gastrointestinal lymphomas@#$disease@#$MESH:D008223|BERN:106966001
+non-Hodgkin lymphoma@#$disease@#$MESH:D008228|OMIM:605027|BERN:107530201
+Lymphocytopenia@#$disease@#$MESH:D008231|BERN:254106801
+virus-induced hypercytokinemia@#$disease@#$MESH:D008232|OMIM:308240|BERN:106984501
+acute malaria@#$disease@#$MESH:D008288|OMIM:609148|BERN:106969401
+MHV-3 induced@#$disease@#$MESH:D008288|OMIM:609148|BERN:254644601
+avian respiratory coronavirus@#$disease@#$MESH:D008289|BERN:259495601
+Ebola and Marburg viruses@#$disease@#$MESH:D008379|BERN:264187601
+Marek's disease@#$disease@#$MESH:D008380|BERN:255996301
+Mastitis@#$disease@#$MESH:D008413|BERN:258399701
+crush injuries@#$disease@#$MESH:D008446|BERN:264229701
+Measles@#$disease@#$MESH:D008457|BERN:107001001
+measles and rubella@#$disease@#$MESH:D008457|MESH:D012409|BERN:107001001|BERN:106907501
+Occult pneumomediastinum@#$disease@#$MESH:D008478|BERN:260088701
+mediastinitis@#$disease@#$MESH:D008480|BERN:106902501
+acute diabetes@#$disease@#$MESH:D008532|BERN:107255601
+Melanoma@#$disease@#$MESH:D008545|BERN:106971601
+diarrheal feces@#$disease@#$MESH:D008551|BERN:259570601
+melioidosis@#$disease@#$MESH:D008554|BERN:106923101
+memory impairments@#$disease@#$MESH:D008569|BERN:259810801
+disorder of eggshell formation@#$disease@#$MESH:D008575|BERN:107482201
+accompanying meningitis@#$disease@#$MESH:D008581|BERN:106986201
+H. influenzae type b@#$disease@#$MESH:D008583|BERN:107428501
+acute meningitis@#$disease@#$MESH:D008585|BERN:107355301
+Neisseria meningitidis@#$disease@#$MESH:D008589|BERN:107481001
+acute meningoencephalitis@#$disease@#$MESH:D008590|BERN:106909701
+vascular occlusion@#$disease@#$MESH:D008641|BERN:107447401
+hepatobiliary malignant@#$disease@#$MESH:D008649|BERN:107358601
+metabolic and immunological diseases@#$disease@#$MESH:D008659|MESH:D007154|BERN:259103301|BERN:257986201
+inborn errors@#$disease@#$MESH:D008661|BERN:107279001
+metaplasia of the olfactory@#$disease@#$MESH:D008679|BERN:256064901
+microcephaly@#$disease@#$MESH:D008831|BERN:260992301
+MA15@#$disease@#$MESH:D008881|OMIM:157300|BERN:107376501
+MR@#$disease@#$MESH:D008944|BERN:107539201
+MCTD@#$disease@#$MESH:D008947|BERN:107492501
+air sac lesions@#$disease@#$MESH:D009041|BERN:260860901
+breathing abnormalities@#$disease@#$MESH:D009058|BERN:261974801
+oral diseases@#$disease@#$MESH:D009059|BERN:254205901
+KD@#$disease@#$MESH:D009080|BERN:107373601
+HIV-1 IIIB@#$disease@#$MESH:D009084|OMIM:252900|BERN:107385101
+MODS@#$disease@#$MESH:D009102|BERN:257936301
+MS@#$disease@#$MESH:D009103|OMIM:126200|BERN:106970401
+Mumps@#$disease@#$MESH:D009107|BERN:106924101
+mumps and rubella@#$disease@#$MESH:D009107|MESH:D012409|BERN:106924101|BERN:106907501
+atrophy of the deep pectoral muscle@#$disease@#$MESH:D009133|BERN:258033701
+deep pectoral myopathy@#$disease@#$MESH:D009135|BERN:257165801
+MD@#$disease@#$MESH:D009136|BERN:106989701
+MG@#$disease@#$MESH:D009157|BERN:106993701
+Avian mycoplasma infections@#$disease@#$MESH:D009175|BERN:107479701
+Mycoplasma and Chlamydia infections@#$disease@#$MESH:D009175|MESH:D002690|BERN:107479701|BERN:106929601
+bacterial, viral, and fungal infections@#$disease@#$MESH:D009181|BERN:260251801
+solid organ transplant@#$disease@#$MESH:D009182|BERN:106909301
+brain and spinal cord inflammation@#$disease@#$MESH:D009187|BERN:106907001
+idiopathic cardiomyopathy@#$disease@#$MESH:D009202|BERN:106970501
+Myocardial Infarction@#$disease@#$MESH:D009203|OMIM:608446|BERN:106971801
+Coronavirus fulminant myocarditis@#$disease@#$MESH:D009205|BERN:107000901
+Carditis@#$disease@#$MESH:D009205|BERN:255263701
+eyelid distortion@#$disease@#$MESH:D009207|BERN:258020201
+Myositis@#$disease@#$MESH:D009220|BERN:106992701
+myxoma virus@#$disease@#$MESH:D009232|BERN:106924701
+myxomatosis@#$disease@#$MESH:D009234|BERN:255329501
+nasal polyps@#$disease@#$MESH:D009298|BERN:262702501
+nasopharyngeal carcinoma@#$disease@#$MESH:D009303|BERN:107359001
+nasopharyngitis@#$disease@#$MESH:D009304|BERN:106931201
+nausea@#$disease@#$MESH:D009325|BERN:263161801
+nausea and vomiting@#$disease@#$MESH:D009325|MESH:D014839|BERN:263161801|BERN:260970901
+haemorrhage and necrosis@#$disease@#$MESH:D009336|BERN:254381201|BERN:258759701
+Necrosis@#$disease@#$MESH:D009336|BERN:258759701
+metastatic colorectal cancer@#$disease@#$MESH:D009362|BERN:4300301
+malignant tumor@#$disease@#$MESH:D009369|BERN:254106601
+benign tumor@#$disease@#$MESH:D009369|BERN:257007701
+necrosis of the epithelial and glandular cells@#$disease@#$MESH:D009375|BERN:107406401
+Balkan nephritis@#$disease@#$MESH:D009393|BERN:106990701
+T@#$disease@#$MESH:D009395|BERN:107444001
+nephroblastomas@#$disease@#$MESH:D009396|OMIM:194070|BERN:106993401
+acute nephrosis@#$disease@#$MESH:D009401|BERN:107475701
+degenerative neurons@#$disease@#$MESH:D009410|BERN:255931001
+cerebellar herniation through the foramen magnum@#$disease@#$MESH:D009421|BERN:256459901
+Chronic/remitting neurological disease@#$disease@#$MESH:D009422|BERN:254923401
+systemic or neurological disease@#$disease@#$MESH:D009422|BERN:259788101|BERN:254923401
+Schwannoma@#$disease@#$MESH:D009442|BERN:107472201
+diarrhoeic foals@#$disease@#$MESH:D009459|BERN:119966901
+neurologic deficits@#$disease@#$MESH:D009461|BERN:263470801
+Neuromuscular disorders@#$disease@#$MESH:D009468|BERN:254620601
+neuromyelitis optica@#$disease@#$MESH:D009471|BERN:106993801
+depressive@#$disease@#$MESH:D009497|BERN:256739001
+Neutropenia@#$disease@#$MESH:D009503|BERN:260236401
+New Castle Disease@#$disease@#$MESH:D009521|BERN:259462801
+NP@#$disease@#$MESH:D009542|BERN:106951501
+nasal@#$disease@#$MESH:D009668|BERN:258092601
+Nutritional diseases@#$disease@#$MESH:D009748|BERN:257162701
+coronavirus-associated severe@#$disease@#$MESH:D009767|BERN:256962201
+Respiratory Illnesses@#$disease@#$MESH:D009784|BERN:260362401
+oligodendroglioma@#$disease@#$MESH:D009837|BERN:106904501
+Onchocerca volvulus@#$disease@#$MESH:D009855|BERN:256454701
+opportunistic infections@#$disease@#$MESH:D009894|BERN:259651301
+inflammatory demyelinating optic nerve disease@#$disease@#$MESH:D009901|BERN:260779101
+Optic Neuritis@#$disease@#$MESH:D009902|BERN:106997001
+Orchitis@#$disease@#$MESH:D009920|BERN:107495801
+DS@#$disease@#$MESH:D009958|BERN:107503301
+orthomyxovirus@#$disease@#$MESH:D009976|BERN:107287801
+Avascular necrosis of bone@#$disease@#$MESH:D010020|BERN:255821001
+otitis@#$disease@#$MESH:D010031|BERN:106979401
+otitis media complication@#$disease@#$MESH:D010033|OMIM:166760|BERN:106982401
+Middle ear effusion@#$disease@#$MESH:D010034|BERN:106917001
+Pyo-inflammatory diseases of ENT organs@#$disease@#$MESH:D010038|BERN:254612901
+ovarian tumor@#$disease@#$MESH:D010051|OMIM:167000|BERN:106952101
+body aches@#$disease@#$MESH:D010146|BERN:262326101
+pallor of the myocardium and epicardium@#$disease@#$MESH:D010167|BERN:262318901
+pancreatic disease@#$disease@#$MESH:D010182|BERN:258904601
+Pancreatitis@#$disease@#$MESH:D010195|BERN:259268901
+Pyogranulomatous panophthalmitis@#$disease@#$MESH:D010202|BERN:107518701
+papilledema@#$disease@#$MESH:D010211|BERN:106919201
+papilloma@#$disease@#$MESH:D010212|BERN:256291301
+Acute flaccid paralysis@#$disease@#$MESH:D010243|BERN:262720301
+Th1-type inflammatory diseases@#$disease@#$MESH:D010249|BERN:106930701
+paramyxovirus@#$disease@#$MESH:D010253|BERN:107254901
+lower airway neutrophilia@#$disease@#$MESH:D010264|BERN:255541501
+Viral, parasitic and prion diseases@#$disease@#$MESH:D010272|BERN:255900901
+parasitic and infectious diseases@#$disease@#$MESH:D010272|MESH:D003141|BERN:255900901|BERN:106995601
+foreign animal disease@#$disease@#$MESH:D010273|BERN:255169801
+RSV A and B@#$disease@#$MESH:D010284|BERN:107524101
+hind limb paresis@#$disease@#$MESH:D010291|BERN:258129401
+Parkinson's@#$disease@#$MESH:D010300|BERN:106971001
+Arthritogenic and Encephalitic Alphaviruses@#$disease@#$MESH:D010301|BERN:107436901
+Parvovirus@#$disease@#$MESH:D010322|BERN:107437401
+parvovirus and coronavirus infections@#$disease@#$MESH:D010322|MESH:D018352|BERN:107437401|BERN:107493801
+bovine shipping fever pneumonia@#$disease@#$MESH:D010326|BERN:107387401
+pathological abnormalities@#$disease@#$MESH:D010335|BERN:257376601
+peptic ulcer disease@#$disease@#$MESH:D010437|BERN:107001401
+FIP effusions@#$disease@#$MESH:D010490|BERN:107000001
+pericarditis@#$disease@#$MESH:D010493|BERN:258182501
+MEF@#$disease@#$MESH:D010505|OMIM:249100|BERN:106904101
+periodontal disease@#$disease@#$MESH:D010510|BERN:106991101
+Peripheral neuropathy@#$disease@#$MESH:D010523|BERN:107510401
+peritonitis@#$disease@#$MESH:D010532|BERN:257267101
+MPV@#$disease@#$MESH:D010547|BERN:107398901
+pharynx engorgement@#$disease@#$MESH:D010608|BERN:259753201
+Sore throat@#$disease@#$MESH:D010612|BERN:106922001
+PCP@#$disease@#$MESH:D010623|BERN:107408301
+B7-H1 deficiency@#$disease@#$MESH:D010661|OMIM:261600|BERN:106918201
+pheochromocytomas@#$disease@#$MESH:D010673|OMIM:171300|BERN:120715001
+Granulomatous phlebitis@#$disease@#$MESH:D010689|BERN:106949301
+picornavirus@#$disease@#$MESH:D010850|BERN:107291101
+white@#$disease@#$MESH:D010854|BERN:107532301
+disorders@#$disease@#$MESH:D010900|BERN:259542101
+anterior pituitary tumors@#$disease@#$MESH:D010911|BERN:107391701
+hyaloid membranes of pulmonic alveoli@#$disease@#$MESH:D010930|BERN:106908801
+plasmacytoma@#$disease@#$MESH:D010954|BERN:120731901
+FCV@#$disease@#$MESH:D010981|OMIM:185050|BERN:107382701
+Pleural effusion@#$disease@#$MESH:D010996|BERN:106988101
+effusive pleuritis@#$disease@#$MESH:D010998|BERN:106950701
+COVID-19 epidemics@#$disease@#$MESH:D011000|BERN:107413601
+Pyogranulomatous pleuropneumonia@#$disease@#$MESH:D011001|BERN:107473201
+pneumatosis intestinalis@#$disease@#$MESH:D011006|BERN:107544901
+pneumatocele@#$disease@#$MESH:D011007|BERN:255728301
+. pneumoniae infection@#$disease@#$MESH:D011008|BERN:106921201
+-COVID-19 pneumonia@#$disease@#$MESH:D011014|BERN:106971201
+lipid pneumonia@#$disease@#$MESH:D011017|BERN:107411501
+pneumococcal pneumonia@#$disease@#$MESH:D011018|BERN:107397701
+Mycoplasma pneumonia@#$disease@#$MESH:D011019|BERN:107379501
+P. carinii pneumonia@#$disease@#$MESH:D011020|BERN:107350501
+Staphylococcus aureus pneumonia@#$disease@#$MESH:D011023|BERN:107411301
+Acute viral pneumonia@#$disease@#$MESH:D011024|BERN:258466301
+Spontaneous pneumothorax@#$disease@#$MESH:D011030|BERN:106980701
+paracetamol poisoning@#$disease@#$MESH:D011041|BERN:266769701
+acute poliomyelitis@#$disease@#$MESH:D011051|BERN:106952301
+relapsing polychondritis@#$disease@#$MESH:D011081|BERN:107416901
+congestive ovary@#$disease@#$MESH:D011085|OMIM:184700|BERN:106989901
+critical-illness polyneuropathy@#$disease@#$MESH:D011115|BERN:106979601
+APC@#$disease@#$MESH:D011125|OMIM:175100|BERN:106926301
+polyps@#$disease@#$MESH:D011127|BERN:267163301
+autoimmune demyelinating disease@#$disease@#$MESH:D011129|BERN:106927801
+polyuria@#$disease@#$MESH:D011141|BERN:267148601
+Poultry Disease@#$disease@#$MESH:D011201|BERN:254457401
+poxvirus infections@#$disease@#$MESH:D011213|BERN:107289001
+renal complications@#$disease@#$MESH:D011248|BERN:260551401
+PMS@#$disease@#$MESH:D011293|BERN:2007401
+Priapism@#$disease@#$MESH:D011317|BERN:256403201
+BPH@#$disease@#$MESH:D011470|BERN:106981701
+chronic pelvic pain@#$disease@#$MESH:D011472|BERN:106906501
+bacterial and protozoan infections@#$disease@#$MESH:D011528|BERN:255112401
+Histomoniasis@#$disease@#$MESH:D011528|BERN:258675101
+Aujesky's disease@#$disease@#$MESH:D011557|BERN:259573401
+restlessness@#$disease@#$MESH:D011595|BERN:254303501
+psychotic@#$disease@#$MESH:D011618|BERN:258987801
+fulminant pulmonary edema@#$disease@#$MESH:D011654|BERN:106983001
+PE@#$disease@#$MESH:D011655|BERN:106987401
+pulmonary emphysema@#$disease@#$MESH:D011656|BERN:106950201
+IPF@#$disease@#$MESH:D011658|BERN:106983801
+Lung fibrosis@#$disease@#$MESH:D011658|BERN:106989001
+cardiopulmonary disease@#$disease@#$MESH:D011660|BERN:107534301
+PVOD@#$disease@#$MESH:D011668|OMIM:265450|BERN:107545901
+abnormal heart function@#$disease@#$MESH:D011681|BERN:258207501
+Purpura@#$disease@#$MESH:D011693|BERN:254345401
+multifocal necrosis of the renal tubules and trachea@#$disease@#$MESH:D011704|BERN:107291701
+Pyoderma@#$disease@#$MESH:D011711|BERN:106922401
+Q fever@#$disease@#$MESH:D011778|BERN:106947501
+tetraparesis@#$disease@#$MESH:D011782|BERN:260713501
+Ebola, Marburg, Nipah, Hendra, and rabies viruses@#$disease@#$MESH:D011818|BERN:4711201
+epithelioid human rectal tumor@#$disease@#$MESH:D012004|BERN:107542201
+SARS-associated mammalian reovirus@#$disease@#$MESH:D012088|BERN:107292701
+CoV respiratory disease@#$disease@#$MESH:D012120|BERN:259440601
+respiratory and gastrointestinal diseases@#$disease@#$MESH:D012120|MESH:D005767|BERN:259440601|BERN:255283201
+respiratory and kidney diseases@#$disease@#$MESH:D012120|MESH:D007674|BERN:259440601|BERN:106971401
+respiratory and neurological disease@#$disease@#$MESH:D012120|MESH:D009422|BERN:259440601|BERN:254923401
+respiratory and urogenital disease@#$disease@#$MESH:D012120|MESH:D014570|BERN:259440601|BERN:254607701
+RDS@#$disease@#$MESH:D012127|BERN:107424801
+ARDS@#$disease@#$MESH:D012128|BERN:107294601
+Acute respiratory failure@#$disease@#$MESH:D012131|BERN:106908201
+respiratory and bulbar paralysis@#$disease@#$MESH:D012133|MESH:D010244|OMIM:211500|BERN:266076301|BERN:107255201
+BCV respiratory@#$disease@#$MESH:D012135|BERN:266073901
+Immunization and Respiratory Diseases@#$disease@#$MESH:D012140|BERN:260625801
+Acute viral infections of upper respiratory tract@#$disease@#$MESH:D012141|BERN:255979601
+Bacterial and viral upper respiratory infections@#$disease@#$MESH:D012141|BERN:3606401
+Retinal degeneration@#$disease@#$MESH:D012162|BERN:107001501
+Retinopathy@#$disease@#$MESH:D012164|BERN:259128201
+acute retinitis@#$disease@#$MESH:D012173|BERN:257380601
+retinoblastoma@#$disease@#$MESH:D012175|OMIM:180200|BERN:106984701
+axonal remyelination@#$disease@#$MESH:D012183|BERN:259968601
+retrovirus and coronavirus infections@#$disease@#$MESH:D012192|MESH:D018352|BERN:107272001|BERN:107493801
+Reye syndrome@#$disease@#$MESH:D012202|BERN:107531801
+Rhabdomyolysis@#$disease@#$MESH:D012206|BERN:106992601
+Rhabdomyosarcoma@#$disease@#$MESH:D012208|BERN:107002501
+centrilobular nodules@#$disease@#$MESH:D012218|BERN:107466101
+Rhinitis@#$disease@#$MESH:D012220|BERN:106991201
+Rift Valley Fever@#$disease@#$MESH:D012295|BERN:258816201
+rigor@#$disease@#$MESH:D012298|BERN:257672301
+RNA@#$disease@#$MESH:D012327|BERN:260537401
+RMSF@#$disease@#$MESH:D012373|BERN:107527901
+Rotavirus infection@#$disease@#$MESH:D012400|BERN:106918501
+Rotavirus and coronavirus infections@#$disease@#$MESH:D012400|MESH:D018352|BERN:106918501|BERN:107493801
+rubella@#$disease@#$MESH:D012409|BERN:106907501
+CRS@#$disease@#$MESH:D012410|BERN:107426601
+Salivary gland lesions@#$disease@#$MESH:D012467|BERN:267136301
+tumors of the anterior pituitary, lungs, salivary glands and Harderian glands@#$disease@#$MESH:D012468|BERN:107494801
+enteric salmonellosis@#$disease@#$MESH:D012478|BERN:255389501
+Salmonella infection@#$disease@#$MESH:D012480|BERN:106904801
+O@#$disease@#$MESH:D012497|OMIM:268800|BERN:107452401
+sarcoma@#$disease@#$MESH:D012509|BERN:106969801
+Kaposi's sarcoma@#$disease@#$MESH:D012514|OMIM:148000|BERN:107350201
+animal health disasters@#$disease@#$MESH:D012532|BERN:106940801
+Schistosomiasis@#$disease@#$MESH:D012552|BERN:258570501
+intestinal alterations@#$disease@#$MESH:D012554|BERN:255656601
+chronic murine schistosomiasis mansoni@#$disease@#$MESH:D012555|OMIM:181460|BERN:260669001
+sclerosis@#$disease@#$MESH:D012598|BERN:259108001
+scrub typhus@#$disease@#$MESH:D012612|BERN:107491901
+mammary gland neoplasms@#$disease@#$MESH:D012626|BERN:107380001
+seizures@#$disease@#$MESH:D012640|BERN:256838701
+exudative fibrinous serositis@#$disease@#$MESH:D012700|BERN:254706601
+IB-like conditions@#$disease@#$MESH:D012734|BERN:106917801
+VD@#$disease@#$MESH:D012749|BERN:255780501
+hypovolemic shock@#$disease@#$MESH:D012769|BERN:255577601
+Shock@#$disease@#$MESH:D012769|BERN:256334401
+cardiogenic shock@#$disease@#$MESH:D012770|BERN:258504901
+septic and cardiogenic shock@#$disease@#$MESH:D012772|BERN:111082401
+infectious sialoadenitis@#$disease@#$MESH:D012793|BERN:106942701
+drooling@#$disease@#$MESH:D012798|BERN:107461101
+IBV respiratory signs@#$disease@#$MESH:D012818|BERN:262498401
+Sinusitis@#$disease@#$MESH:D012852|BERN:107000601
+Occupational skin disease@#$disease@#$MESH:D012871|BERN:254048701
+Helminth parasites@#$disease@#$MESH:D012876|BERN:258027201
+skin cancer@#$disease@#$MESH:D012878|BERN:107477001
+sleep disordered breathing@#$disease@#$MESH:D012891|BERN:107002401
+Smallpox@#$disease@#$MESH:D012899|BERN:106933401
+sneeze@#$disease@#$MESH:D012912|BERN:262845401
+spinal cord diseases@#$disease@#$MESH:D013118|BERN:254881101
+Spinal cord injuries@#$disease@#$MESH:D013119|BERN:264821601
+spleen disease@#$disease@#$MESH:D013158|BERN:255030601
+spleen enlargement@#$disease@#$MESH:D013163|BERN:265182901
+IBV T strain@#$disease@#$MESH:D013180|BERN:265142301
+chronic tropical sprue@#$disease@#$MESH:D013182|BERN:107423801
+Severe Acute@#$disease@#$MESH:D013224|BERN:107549501
+absence of perivascular cuffing@#$disease@#$MESH:D013226|BERN:106984001
+necrotizing and pyogranulomatous mesenteric steatitis@#$disease@#$MESH:D013231|BERN:255885301
+gastric ulcers@#$disease@#$MESH:D013276|BERN:107547901
+oral mucosal disease@#$disease@#$MESH:D013280|BERN:106998201
+PTSD@#$disease@#$MESH:D013313|BERN:254991101
+panencephalitis@#$disease@#$MESH:D013344|BERN:107457601
+subcutaneous emphysema@#$disease@#$MESH:D013352|BERN:254844001
+congenital caudal vena cava obstruction@#$disease@#$MESH:D013479|BERN:106942301
+Suppurative inflammation@#$disease@#$MESH:D013492|BERN:257044101
+cesarean operation@#$disease@#$MESH:D013529|BERN:258965701
+H1N1 swine flu@#$disease@#$MESH:D013553|BERN:255842201
+swine erysipelas@#$disease@#$MESH:D013554|BERN:255905401
+swine vesicular disease@#$disease@#$MESH:D013555|BERN:121691401
+syncope@#$disease@#$MESH:D013575|BERN:254579101
+-Barre syndrome@#$disease@#$MESH:D013577|BERN:261206401
+synovitis@#$disease@#$MESH:D013585|BERN:106992401
+villous atropy@#$disease@#$MESH:D013586|BERN:107287101
+Treponema pallidum@#$disease@#$MESH:D013587|BERN:106991701
+tachycardia@#$disease@#$MESH:D013610|BERN:260117501
+sinus tachycardia@#$disease@#$MESH:D013616|BERN:257335901
+Taenia@#$disease@#$MESH:D013622|BERN:254388501
+TA@#$disease@#$MESH:D013700|BERN:106903301
+temporomandibular joint disease@#$disease@#$MESH:D013705|BERN:256830201
+testicular disease@#$disease@#$MESH:D013733|BERN:259859701
+IL-21 receptor deficiency@#$disease@#$MESH:D013734|OMIM:300068|BERN:107500101
+tetanus@#$disease@#$MESH:D013742|BERN:259501701
+ovarian and testicle lesions@#$disease@#$MESH:D013798|BERN:107450601
+Underweight@#$disease@#$MESH:D013851|BERN:261671301
+multifocal thoracic nodular disease@#$disease@#$MESH:D013896|BERN:258203001
+Thrombocytopenia@#$disease@#$MESH:D013921|BERN:255012301
+thrombopenia@#$disease@#$MESH:D013921|BERN:260214301
+Thrombocytosis@#$disease@#$MESH:D013922|BERN:106925901
+Thrombosis@#$disease@#$MESH:D013927|BERN:257942301
+hyaline thrombus@#$disease@#$MESH:D013927|BERN:260467501
+influenza type C@#$disease@#$MESH:D013945|BERN:106913701
+cytokine storm@#$disease@#$MESH:D013958|BERN:107374801
+Tick paralysis@#$disease@#$MESH:D013985|BERN:258249001
+tick@#$disease@#$MESH:D013986|BERN:260136501
+dermatophytosis@#$disease@#$MESH:D014005|BERN:106937201
+tonsillitis@#$disease@#$MESH:D014069|BERN:256361001
+dental@#$disease@#$MESH:D014076|BERN:257552301
+embryonic resorption@#$disease@#$MESH:D014091|BERN:107551101
+T gondii and FIV infections@#$disease@#$MESH:D014123|BERN:106994101
+Trachea@#$disease@#$MESH:D014133|BERN:256247801
+tracheitis@#$disease@#$MESH:D014136|BERN:254295101
+trachoma@#$disease@#$MESH:D014141|BERN:106946501
+Amplified tremors@#$disease@#$MESH:D014202|BERN:264036201
+Treponema@#$disease@#$MESH:D014211|BERN:107392001
+arterial worm@#$disease@#$MESH:D014257|BERN:257130801
+TN@#$disease@#$MESH:D014277|BERN:106924501
+trypanosomiasis@#$disease@#$MESH:D014352|BERN:106908101
+Chagas disease@#$disease@#$MESH:D014355|BERN:106981601
+M. tuberculosis@#$disease@#$MESH:D014376|BERN:106945701
+Mycobacterium tuberculosis@#$disease@#$MESH:D014376|BERN:106971101
+Bovine tuberculosis@#$disease@#$MESH:D014380|BERN:255391401
+hyperplasia of draining lymph nodes@#$disease@#$MESH:D014388|BERN:107369501
+Tuberculosis, and Malaria@#$disease@#$MESH:D014394|BERN:107278601
+infetious peritonitis@#$disease@#$MESH:D014395|BERN:107280701
+PTB@#$disease@#$MESH:D014397|BERN:107508201
+tularaemia@#$disease@#$MESH:D014406|BERN:106948401
+Attenuated Salmonella enterica serovar Typhi@#$disease@#$MESH:D014435|BERN:106936401
+Parker's rat coronavirus@#$disease@#$MESH:D014437|BERN:107272201
+ulcerative lesions@#$disease@#$MESH:D014456|BERN:255105301
+loss of consciousness@#$disease@#$MESH:D014474|BERN:265203101
+ureteral stone formation@#$disease@#$MESH:D014514|BERN:107548801
+urinary and fecal incontinence@#$disease@#$MESH:D014549|MESH:D005242|BERN:257433701|BERN:106997301
+CoV-CNS and CoV-respiratory tract infections@#$disease@#$MESH:D014552|BERN:106986701
+diseases of the kidneys and the urinary tract@#$disease@#$MESH:D014570|BERN:254607701
+urinary tract tumors@#$disease@#$MESH:D014571|BERN:107386401
+urticaria@#$disease@#$MESH:D014581|BERN:256543901
+vaginal bleeding@#$disease@#$MESH:D014592|BERN:259645501
+neoplasms of the uterus@#$disease@#$MESH:D014594|BERN:107541101
+FIP-associated uveitis@#$disease@#$MESH:D014605|BERN:106979801
+anterior uveitis@#$disease@#$MESH:D014606|BERN:107373001
+Vaccinia@#$disease@#$MESH:D014615|BERN:106997401
+vascular@#$disease@#$MESH:D014652|BERN:256572101
+FIP vasculitis@#$disease@#$MESH:D014657|BERN:106987301
+cardial insufficiencies@#$disease@#$MESH:D014689|BERN:106912201
+VF@#$disease@#$MESH:D014693|BERN:258098001
+brainstem spongiform lesions@#$disease@#$MESH:D014717|BERN:257317801
+VE@#$disease@#$MESH:D014720|BERN:260947201
+SARS-CoV viraemia@#$disease@#$MESH:D014766|BERN:260656801
+2009 H1N1 virus infection@#$disease@#$MESH:D014777|BERN:254469801
+viral and bacterial diseases@#$disease@#$MESH:D014777|MESH:D001424|BERN:254469801|BERN:256312401
+viral and Mycoplasma infections@#$disease@#$MESH:D014777|MESH:D009175|BERN:254469801|BERN:107479701
+viral and prion diseases@#$disease@#$MESH:D014777|MESH:D017096|BERN:254469801|BERN:107003501
+neurodegenerative disabilities@#$disease@#$MESH:D014786|BERN:259796901
+deficient in vitamin A@#$disease@#$MESH:D014802|BERN:106989201
+Emesis@#$disease@#$MESH:D014839|BERN:260970901
+VWD@#$disease@#$MESH:D014842|BERN:106902301
+FCoV types I and II@#$disease@#$MESH:D014849|OMIM:148820|BERN:107472601
+Wallerian degeneration@#$disease@#$MESH:D014855|BERN:258803301
+WN@#$disease@#$MESH:D014898|OMIM:277700|BERN:107497301
+West Nile fever@#$disease@#$MESH:D014901|OMIM:610379|BERN:107462501
+B. pertussis infection@#$disease@#$MESH:D014917|BERN:106943201
+Davidson Trauma@#$disease@#$MESH:D014947|BERN:266858501
+Yellow Fever@#$disease@#$MESH:D015004|BERN:106923801
+Yersinia pseudotuberculosis@#$disease@#$MESH:D015012|BERN:107356301
+Camel zoonotic diseases@#$disease@#$MESH:D015047|BERN:260218901
+microbial illnesses@#$disease@#$MESH:D015163|BERN:106914701
+CRC@#$disease@#$MESH:D015179|OMIM:114500|BERN:106936601
+IBD@#$disease@#$MESH:D015212|OMIM:266600|BERN:256094401
+granulomatous or pyogranulomatous vasculitis@#$disease@#$MESH:D015267|BERN:106928301
+diminished sense of smell@#$disease@#$MESH:D015354|BERN:263633001
+myocardial injury@#$disease@#$MESH:D015428|BERN:254995801
+weight loss@#$disease@#$MESH:D015431|BERN:264004301
+DDD@#$disease@#$MESH:D015432|BERN:256398401
+B and T cell hyperplasia@#$disease@#$MESH:D015456|BERN:107441401
+T cell dysfunction@#$disease@#$MESH:D015458|BERN:107536501
+AML@#$disease@#$MESH:D015470|OMIM:601626|BERN:107418901
+Human immunodeficiency virus type 1@#$disease@#$MESH:D015493|OMIM:159580|BERN:107420101
+Nasal obstruction@#$disease@#$MESH:D015508|BERN:106992101
+HIV-1 (IIIB)@#$disease@#$MESH:D015526|BERN:107500901
+cowpox virus@#$disease@#$MESH:D015605|BERN:107458901
+histiocytosis@#$disease@#$MESH:D015614|BERN:106996801
+FeCV type 1@#$disease@#$MESH:D015663|BERN:107377001
+H1N1 flu@#$disease@#$MESH:D015673|BERN:258385901
+abdominal pain@#$disease@#$MESH:D015746|BERN:264892001
+thymic and/or bursal atrophy@#$disease@#$MESH:D015799|OMIM:258870|BERN:107505701
+infection of the posterior pole of the eye@#$disease@#$MESH:D015817|BERN:258423701
+MERS-Co V@#$disease@#$MESH:D015826|OMIM:150230|BERN:107382501
+excess lachrymation@#$disease@#$MESH:D015835|BERN:258320901
+bilateral panuveitis@#$disease@#$MESH:D015864|BERN:106930101
+Pp@#$disease@#$MESH:D015868|BERN:107515701
+persistent@#$disease@#$MESH:D015877|BERN:265243101
+operative@#$disease@#$MESH:D016063|BERN:257268301
+simian foamy viruses@#$disease@#$MESH:D016097|BERN:257678901
+SL@#$disease@#$MESH:D016111|OMIM:270200|BERN:107371701
+MERS-CoV positive@#$disease@#$MESH:D016115|BERN:107400601
+BCoV NTD@#$disease@#$MESH:D016135|BERN:106996001
+respiratory tract illness@#$disease@#$MESH:D016156|BERN:258097801
+Lentivirus infection@#$disease@#$MESH:D016180|BERN:107471701
+Feline Immunodeficiency@#$disease@#$MESH:D016181|BERN:254945401
+SARS associated virus@#$disease@#$MESH:D016263|BERN:107439801
+B lymphoma@#$disease@#$MESH:D016393|BERN:107548501
+T cell lymphoma@#$disease@#$MESH:D016399|BERN:107529901
+acute febrile@#$disease@#$MESH:D016463|BERN:106942201
+B henselae bacteremia@#$disease@#$MESH:D016470|BERN:257186701
+motoneuron axotomy@#$disease@#$MESH:D016472|BERN:106996601
+peripheral vascular disease@#$disease@#$MESH:D016491|BERN:106999901
+corneal vascularisation@#$disease@#$MESH:D016510|BERN:106938401
+B cell immunodeficiency@#$disease@#$MESH:D016511|BERN:106905601
+bronchial hyperreactivity@#$disease@#$MESH:D016535|BERN:107469501
+Neurological FIP@#$disease@#$MESH:D016543|BERN:107549201
+ITP@#$disease@#$MESH:D016553|OMIM:188030|BERN:121763101
+Feline Immnunodeficiency@#$disease@#$MESH:D016582|BERN:254724901
+Bovine calf scours@#$disease@#$MESH:D016583|BERN:254791201
+panic@#$disease@#$MESH:D016584|OMIM:167870|BERN:258886801
+granular cell tumors@#$disease@#$MESH:D016586|BERN:106948201
+solid nodules@#$disease@#$MESH:D016606|BERN:106982701
+digestive system malignancies@#$disease@#$MESH:D016609|BERN:255610701
+Coronavirus-associated illnesses@#$disease@#$MESH:D016638|BERN:255271901
+BSE@#$disease@#$MESH:D016643|BERN:259538101
+Pneumocystis carinii infection@#$disease@#$MESH:D016720|BERN:107547101
+pleura@#$disease@#$MESH:D016724|BERN:107357201
+pyogranulomatous myositis@#$disease@#$MESH:D016727|BERN:107532601
+Parvovirus B19 infection@#$disease@#$MESH:D016731|BERN:107524601
+Hepatitis E@#$disease@#$MESH:D016751|BERN:106923201
+sudden cardiac arrest@#$disease@#$MESH:D016757|BERN:259432701
+Feline Infectious Peritonitis@#$disease@#$MESH:D016766|BERN:121747401
+cutaneous leishmaniasis@#$disease@#$MESH:D016773|BERN:258794701
+Plasmodium falciparum malaria@#$disease@#$MESH:D016778|BERN:107391301
+Cerebral toxoplasmosis@#$disease@#$MESH:D016781|BERN:107448201
+HSV@#$disease@#$MESH:D016849|BERN:107273801
+Ureaplasma@#$disease@#$MESH:D016869|BERN:107502201
+ehrlichiosis@#$disease@#$MESH:D016873|BERN:107496001
+bacterial lung infections@#$disease@#$MESH:D016908|BERN:107465601
+maternal and perinatal disease@#$disease@#$MESH:D017042|BERN:107270701
+hepatic failure@#$disease@#$MESH:D017093|BERN:106988301
+Spongiform encephalopathy@#$disease@#$MESH:D017096|BERN:107003501
+IgA deficiency@#$disease@#$MESH:D017098|BERN:107491701
+acute hepatic failure@#$disease@#$MESH:D017114|BERN:107386301
+bacterial gut disease@#$disease@#$MESH:D017192|BERN:259641601
+Myocardial ischemia@#$disease@#$MESH:D017202|BERN:106988801
+Pinworm@#$disease@#$MESH:D017229|BERN:254434901
+calicivirus infections@#$disease@#$MESH:D017250|BERN:107284901
+tickborne infectious diseases@#$disease@#$MESH:D017282|BERN:106930401
+LV@#$disease@#$MESH:D017379|BERN:255342701
+RSV, RV and hBoV@#$disease@#$MESH:D017380|BERN:260427701
+HI@#$disease@#$MESH:D017490|OMIM:242300|BERN:107353101
+HS@#$disease@#$MESH:D017497|BERN:106948901
+Diffuse alveolar lesion@#$disease@#$MESH:D017563|BERN:107359701
+Disease X@#$disease@#$MESH:D017566|BERN:107534601
+Community acquired respiratory viral infections@#$disease@#$MESH:D017714|BERN:106933601
+oral hairy leukoplakia@#$disease@#$MESH:D017733|BERN:257099801
+multi-drug resistant (MDR) tuberculosis@#$disease@#$MESH:D018088|BERN:107363201
+glucose intolerance@#$disease@#$MESH:D018149|BERN:106980301
+Porcine circovirus 2 (PCV2) infection@#$disease@#$MESH:D018173|BERN:107272801
+Arterivirus@#$disease@#$MESH:D018174|BERN:107366201
+arterivirus and coronavirus infections@#$disease@#$MESH:D018174|MESH:D018352|BERN:107366201|BERN:107493801
+Torovirus@#$disease@#$MESH:D018176|BERN:107358101
+flavivirus@#$disease@#$MESH:D018177|BERN:107461001
+pesti-virus infections@#$disease@#$MESH:D018182|BERN:107391601
+Pandemic H1N1, influenza and parainfluenza viruses@#$disease@#$MESH:D018184|BERN:107273501
+Morbillivirus infections@#$disease@#$MESH:D018185|BERN:107391501
+avian pneumovirus infection@#$disease@#$MESH:D018186|BERN:107392801
+multiple lobe involvement@#$disease@#$MESH:D018216|BERN:107526101
+abdominal tumour@#$disease@#$MESH:D018221|BERN:107443901
+Adenomas of the adrenal cortex@#$disease@#$MESH:D018246|BERN:107475601
+MERS HCA@#$disease@#$MESH:D018248|BERN:107411001
+adenomatous polyps@#$disease@#$MESH:D018256|BERN:106939201
+follicular cell hyperplasia of the thyroid gland@#$disease@#$MESH:D018263|BERN:107405201
+alveolar/bronchiolar neoplasms@#$disease@#$MESH:D018301|BERN:107421601
+disordering of the olfactory epithelium@#$disease@#$MESH:D018304|BERN:107442101
+SARS-complicated pregnancy@#$disease@#$MESH:D018311|BERN:107389901
+neurogenic detrusor overactivity@#$disease@#$MESH:D018319|BERN:107389801
+capillary engorgement@#$disease@#$MESH:D018325|BERN:106938001
+cellular@#$disease@#$MESH:D018330|BERN:107421701
+malignant rhabdoid tumor@#$disease@#$MESH:D018335|BERN:106918401
+229E and coronavirus OC 43 infections@#$disease@#$MESH:D018352|BERN:107493801
+Rhinovirus and coronavirus infection@#$disease@#$MESH:D018352|BERN:254571001|BERN:107493801
+coronavirus and adenovirus infections@#$disease@#$MESH:D018352|MESH:D000257|BERN:107493801|BERN:107412601
+coronavirus and parvovirus infection@#$disease@#$MESH:D018352|MESH:D010322|BERN:107493801|BERN:107437401
+Coronavirus and Pasteurella infections@#$disease@#$MESH:D018352|MESH:D010326|BERN:107493801|BERN:107387401
+coronavirus and Salmonella infections@#$disease@#$MESH:D018352|MESH:D012480|BERN:107493801|BERN:106904801
+coronavirus and arterivirus infections@#$disease@#$MESH:D018352|MESH:D018174|BERN:107493801|BERN:107366201
+alphavirus@#$disease@#$MESH:D018354|BERN:107551401
+alphavirus and coronavirus infections@#$disease@#$MESH:D018354|MESH:D018352|BERN:107551401|BERN:107493801
+Bovine respiratory syncytial virus (BRSV) infections@#$disease@#$MESH:D018357|BERN:106944601
+small-vessel leukocytoclastic vasculitis@#$disease@#$MESH:D018366|BERN:107400101
+Bacterial pneumonia@#$disease@#$MESH:D018410|BERN:107387501
+bacterial or fungal pneumonia@#$disease@#$MESH:D018410|BERN:107387501|BERN:258115101
+AP@#$disease@#$MESH:D018420|BERN:260460401
+COPD Exacerbation@#$disease@#$MESH:D018450|BERN:256862701
+SARS coronavirus S protein@#$disease@#$MESH:D018455|BERN:107479501
+gut-associated lymphoid tissue infection@#$disease@#$MESH:D018461|BERN:107000801
+left ventricular dysfunction@#$disease@#$MESH:D018487|BERN:107392501
+hyperoxia@#$disease@#$MESH:D018496|BERN:266498401
+bronchiolitis obliterans organising pneumonia-like lesions@#$disease@#$MESH:D018549|BERN:107473701
+gastric pits@#$disease@#$MESH:D018589|BERN:259755201
+septic@#$disease@#$MESH:D018746|BERN:257661701
+dysfunctions of BBB@#$disease@#$MESH:D018754|BERN:106979001
+arthralgia@#$disease@#$MESH:D018771|BERN:260903501
+hantavirus infections@#$disease@#$MESH:D018778|BERN:106945101
+MHV-4 viral encephalomyelitis@#$disease@#$MESH:D018792|BERN:256169801
+hantavirus pulmonary syndrome@#$disease@#$MESH:D018804|BERN:107480801
+EC septicaemia@#$disease@#$MESH:D018805|BERN:255523601
+sepsis@#$disease@#$MESH:D018805|BERN:256894201
+ventricular and supraventricular premature complexes@#$disease@#$MESH:D018879|BERN:255721001
+Muscle weakness@#$disease@#$MESH:D018908|BERN:262290901
+Kirsten murine sarcoma@#$disease@#$MESH:D019042|BERN:107528401
+Aueszki disease virus@#$disease@#$MESH:D019142|BERN:107423901
+AD@#$disease@#$MESH:D019150|BERN:107550501
+atrial enlargement@#$disease@#$MESH:D019214|BERN:106942401
+MHV wasting syndrome@#$disease@#$MESH:D019282|BERN:106943801
+PRRS@#$disease@#$MESH:D019318|BERN:255100401
+Hematologic Malignancies@#$disease@#$MESH:D019337|BERN:107491601
+endotoxemia@#$disease@#$MESH:D019446|BERN:265506601
+mucopurulent oculonasal discharge@#$disease@#$MESH:D019522|BERN:254219401
+influenza-like clinical syndromes@#$disease@#$MESH:D019559|BERN:107469301
+pediatric ARI@#$disease@#$MESH:D019571|BERN:107483801
+dengue hemorrhagic fever@#$disease@#$MESH:D019595|BERN:106934201
+Neurodegenerative Disorders@#$disease@#$MESH:D019636|BERN:255886401
+auto-immune hepatitis@#$disease@#$MESH:D019693|BERN:107513701
+Chronic hepatitis B@#$disease@#$MESH:D019694|BERN:107509901
+neck lesions@#$disease@#$MESH:D019838|BERN:267027101
+MERS-like symptoms@#$disease@#$MESH:D019954|BERN:261513601
+impaired motor skills@#$disease@#$MESH:D019957|BERN:258503301
+Mood disorders@#$disease@#$MESH:D019964|BERN:260023201
+substance abuse@#$disease@#$MESH:D019966|BERN:254053101
+gluten related disorders@#$disease@#$MESH:D019973|BERN:254195501
+EBV infection@#$disease@#$MESH:D020031|BERN:255660901
+Neurogenic inflammation@#$disease@#$MESH:D020078|BERN:264097001
+OND@#$disease@#$MESH:D020182|BERN:107375201
+terror@#$disease@#$MESH:D020184|BERN:107507001
+injuries of the nervous system@#$disease@#$MESH:D020196|BERN:264464901
+nerve injury@#$disease@#$MESH:D020220|BERN:265028101
+duck@#$disease@#$MESH:D020233|BERN:254125501
+staggering gait@#$disease@#$MESH:D020234|BERN:265010001
+WEE@#$disease@#$MESH:D020241|BERN:107414601
+EEE@#$disease@#$MESH:D020242|BERN:107414501
+deep vein thrombosis@#$disease@#$MESH:D020246|BERN:106989101
+remodeling@#$disease@#$MESH:D020257|BERN:264980501
+coronavirus induced diseases@#$disease@#$MESH:D020262|BERN:259920501
+immune dysschwannian/dysneuronal polyneuropathy@#$disease@#$MESH:D020269|BERN:260895801
+GBS@#$disease@#$MESH:D020275|OMIM:139393|BERN:107496601
+chronic relapsing demyelination@#$disease@#$MESH:D020277|BERN:107416001
+autoimmune demyelinating disease of the central nervous system@#$disease@#$MESH:D020278|BERN:107415901
+chronic cerebral vasculitis@#$disease@#$MESH:D020293|BERN:107438401
+hemorrhagic stroke@#$disease@#$MESH:D020300|BERN:255115201
+intracranial haemorrhage@#$disease@#$MESH:D020300|BERN:260148401
+paraparesis@#$disease@#$MESH:D020335|BERN:265058601
+lower extremity weakness@#$disease@#$MESH:D020336|BERN:265058001
+Necrotizing enterocolitis@#$disease@#$MESH:D020345|BERN:107422201
+Limbic encephalitis@#$disease@#$MESH:D020363|BERN:106915201
+BMD@#$disease@#$MESH:D020388|OMIM:300376|BERN:107371601
+EMD@#$disease@#$MESH:D020389|OMIM:181350|BERN:107400201
+periodic hypokalemic@#$disease@#$MESH:D020514|BERN:107467801
+cerebral stroke@#$disease@#$MESH:D020521|OMIM:606799|BERN:106966501
+chronic multiple sclerosis plaques@#$disease@#$MESH:D020528|BERN:107273701
+remitting and relapsing disorder@#$disease@#$MESH:D020529|BERN:107448601
+PCA@#$disease@#$MESH:D020762|BERN:107285701
+Vascular and central nervous system lesions@#$disease@#$MESH:D020785|BERN:107286401
+malformation of the cerebral cortex@#$disease@#$MESH:D020786|OMIM:116860|BERN:107286301
+CNS viral disease@#$disease@#$MESH:D020805|BERN:259537401
+protozoal and bacterial infections@#$disease@#$MESH:D020808|BERN:107254401
+Escherichia coli bacteremia@#$disease@#$MESH:D020814|BERN:107377201
+dyskinesia@#$disease@#$MESH:D020820|BERN:259493901
+HPD@#$disease@#$MESH:D020821|BERN:107354501
+axonal injury@#$disease@#$MESH:D020833|BERN:267021101
+hypovolaemia@#$disease@#$MESH:D020896|BERN:254165601
+Intrinsic Disorder@#$disease@#$MESH:D020919|BERN:107432201
+focal motor deficit@#$disease@#$MESH:D020938|BERN:107434901
+embryo resorption@#$disease@#$MESH:D020964|BERN:257296001
+embryo lesions@#$disease@#$MESH:D020964|BERN:257900701
+wheat allergy@#$disease@#$MESH:D021182|BERN:107274801
+swollen kidneys@#$disease@#$MESH:D021782|BERN:107465001
+Emerging infectious diseases@#$disease@#$MESH:D021821|BERN:107293001
+chills@#$disease@#$MESH:D023341|BERN:261962501
+Malawi polyomavirus@#$disease@#$MESH:D027601|BERN:107456901
+IBV SD@#$disease@#$MESH:D029461|OMIM:269920|BERN:107428001
+SARS-CoV-induced human disease@#$disease@#$MESH:D030342|BERN:255025001
+human papillomavirus (HPV) infection@#$disease@#$MESH:D030361|BERN:254352601
+AE lesions@#$disease@#$MESH:D030981|BERN:107537501
+MERS-CoV mortality@#$disease@#$MESH:D031261|BERN:254901501
+retinal vasculitis@#$disease@#$MESH:D031300|BERN:106946601
+viral haemorrhagic septicaemia virus@#$disease@#$MESH:D031941|BERN:256372901
+hyperuricemia@#$disease@#$MESH:D033461|BERN:255099101
+Chronic wasting disease@#$disease@#$MESH:D034081|BERN:255994201
+hypoalbuminemia@#$disease@#$MESH:D034141|BERN:106994701
+CM@#$disease@#$MESH:D034701|BERN:107435801
+stress@#$disease@#$MESH:D040921|BERN:256670101
+malnutrition@#$disease@#$MESH:D044342|BERN:106988901
+Acute Febrile Respiratory Syndrome@#$disease@#$MESH:D045169|BERN:106916301
+henipavirus@#$disease@#$MESH:D045464|BERN:107517901
+steatorrhea@#$disease@#$MESH:D045602|BERN:257687301
+Lawsonia intracellularis (Li) infections@#$disease@#$MESH:D045824|BERN:107295001
+Monkey pox@#$disease@#$MESH:D045908|BERN:254572001
+HC@#$disease@#$MESH:D046349|OMIM:121300|BERN:107277201
+acute hepatic necrosis@#$disease@#$MESH:D047508|BERN:107389701
+Degenerative lesions@#$disease@#$MESH:D047728|BERN:107255801
+calf pneumonia@#$disease@#$MESH:D048089|BERN:254489901
+Bovine Respiratory Disease@#$disease@#$MESH:D048090|BERN:260852001
+Nonobese diabetic@#$disease@#$MESH:D048909|BERN:106909101
+infiltrative lesions@#$disease@#$MESH:D049970|BERN:106946001
+HTS@#$disease@#$MESH:D050031|OMIM:140300|BERN:107465201
+overweight@#$disease@#$MESH:D050177|BERN:265417001
+chronic pancreatitis@#$disease@#$MESH:D050500|BERN:107533501
+difficulty breathing@#$disease@#$MESH:D051346|BERN:264908401
+Epstein-Barr virus-associated hemophagocytic syndrome@#$disease@#$MESH:D051359|OMIM:267700|BERN:107409901
+kidney failure@#$disease@#$MESH:D051437|BERN:106979701
+postherpetic neuralgia@#$disease@#$MESH:D051474|BERN:255474301
+malignant histiocytoma@#$disease@#$MESH:D051677|BERN:107291301
+mucosal antibodies@#$disease@#$MESH:D052016|BERN:106982901
+BN@#$disease@#$MESH:D052018|OMIM:607499|BERN:259051301
+coronaviruses serotypes I and II@#$disease@#$MESH:D052120|OMIM:300257|BERN:107292001
+FS@#$disease@#$MESH:D052159|OMIM:136680|BERN:107506001
+Avian urolithiasis syndrome@#$disease@#$MESH:D052878|BERN:106911501
+azotemia@#$disease@#$MESH:D053099|BERN:255009501
+aspiration@#$disease@#$MESH:D053120|BERN:262092701
+nocturia@#$disease@#$MESH:D053158|BERN:254760401
+lethargy@#$disease@#$MESH:D053609|BERN:263738601
+COVID-19 associated pneumonia@#$disease@#$MESH:D053717|BERN:107398101
+CV infection@#$disease@#$MESH:D053821|BERN:258271901
+pulmonary infarcts@#$disease@#$MESH:D054060|BERN:107541801
+FAD@#$disease@#$MESH:D054069|OMIM:231680|BERN:107362301
+cerebrocortical necrosis@#$disease@#$MESH:D054069|OMIM:231680|BERN:424501
+disorder of neuronal migration@#$disease@#$MESH:D054081|BERN:107430401
+pre-T-ALL@#$disease@#$MESH:D054218|BERN:107442501
+porcine myeloma@#$disease@#$MESH:D054219|BERN:107442401
+acute aortic syndrome@#$disease@#$MESH:D054508|BERN:262342501
+VTE@#$disease@#$MESH:D054556|BERN:106986601
+hyperphosphatemia@#$disease@#$MESH:D054559|BERN:106904201
+Skin damage@#$disease@#$MESH:D054705|BERN:107419401
+Feline histiocytic sarcoma@#$disease@#$MESH:D054747|BERN:107490101
+extensively drug-resistant tuberculosis@#$disease@#$MESH:D054908|BERN:107499801
+dysautonomia@#$disease@#$MESH:D054969|BERN:107444801
+graft dysfunction@#$disease@#$MESH:D055031|BERN:265135301
+Thymic atrophy@#$disease@#$MESH:D055093|BERN:107442301
+Lung Injury@#$disease@#$MESH:D055370|BERN:266251001
+Acute lung injury@#$disease@#$MESH:D055371|BERN:106989501
+azole-resistant pulmonary aspergillosis@#$disease@#$MESH:D055732|BERN:106926701
+H1N1@#$disease@#$MESH:D055882|BERN:107403901
+corneal damage@#$disease@#$MESH:D055954|BERN:262716001
+Acute liver injury@#$disease@#$MESH:D056486|BERN:258884901
+Chronic liver injury@#$disease@#$MESH:D056487|BERN:257871901
+acute chest syndrome@#$disease@#$MESH:D056586|BERN:106947101
+Systemic vasculitis@#$disease@#$MESH:D056647|BERN:106905001
+antineutrophil cytoplasmic antibody-associated vasculitis@#$disease@#$MESH:D056648|BERN:107551801
+ALP@#$disease@#$MESH:D056735|OMIM:601859|BERN:107465501
+NS@#$disease@#$MESH:D056770|OMIM:256500|BERN:107451401
+degeneration of oligodendrocytes@#$disease@#$MESH:D056784|BERN:106999401
+parainfluenza type 1, 2 and 3@#$disease@#$MESH:D056889|OMIM:302060|BERN:107477301
+fracture@#$disease@#$MESH:D057068|BERN:263337001
+protein misfolding diseases@#$disease@#$MESH:D057165|BERN:107356601
+FTD@#$disease@#$MESH:D057180|OMIM:600274|BERN:106999001
+neglected@#$disease@#$MESH:D058069|BERN:262311901
+ARF@#$disease@#$MESH:D058186|BERN:106985301
+demyelinating plaques@#$disease@#$MESH:D058225|BERN:262604501
+demyelinated plaques@#$disease@#$MESH:D058226|BERN:262601801
+flea@#$disease@#$MESH:D058267|BERN:107453501
+Epididymal stone formation@#$disease@#$MESH:D058426|BERN:263230701
+JHM retinopathy@#$disease@#$MESH:D058437|BERN:107473801
+DSD@#$disease@#$MESH:D058490|OMIM:612965|BERN:107464001
+acute end stage lung diseases@#$disease@#$MESH:D058625|BERN:106984401
+tachypnea@#$disease@#$MESH:D059246|BERN:261926601
+peripheral nerve injuries@#$disease@#$MESH:D059348|BERN:261911201
+LUTS@#$disease@#$MESH:D059411|BERN:262196101
+Thrombocytopenia Syndrome@#$disease@#$MESH:D059885|BERN:107530301
+Occupational injury@#$disease@#$MESH:D060051|BERN:267164301
+CPV-2 coinfection@#$disease@#$MESH:D060085|BERN:259486801
+Olfactory neuropathy@#$disease@#$MESH:D061219|BERN:266763101
+unilateral tibial nerve transection@#$disease@#$MESH:D061221|BERN:266720901
+Chlamydia pneumonia@#$disease@#$MESH:D061387|BERN:107448701
+hepatocellular carcinogenesis@#$disease@#$MESH:D063646|BERN:258192501
+FAE@#$disease@#$MESH:D063647|BERN:106921101
+Myalgia@#$disease@#$MESH:D063806|BERN:106993601
+Febrile Neutropenia@#$disease@#$MESH:D064147|BERN:106998901
+nitrite toxicity@#$disease@#$MESH:D064420|BERN:264142101
+commensal dysbiosis@#$disease@#$MESH:D064806|BERN:265200201
+cytidine deaminase-deficient@#$disease@#$OMIM:102700|MESH:C531816|BERN:265283001
+AIB@#$disease@#$OMIM:104500|MESH:C562879|BERN:121410501
+pulmonary syndrome@#$disease@#$OMIM:106700|MESH:D012587|BERN:107457701
+GE@#$disease@#$OMIM:109350|MESH:D005764|BERN:106990201
+B@#$disease@#$OMIM:113620|MESH:D019280|BERN:107519101
+breast cancer@#$disease@#$OMIM:114480|MESH:D001943|BERN:107480901
+HCC@#$disease@#$OMIM:114550|MESH:D006528|BERN:107524301
+arrhythmia@#$disease@#$OMIM:115000|MESH:D001145|BERN:256349801
+caprine arthritis-encephalitis virus@#$disease@#$OMIM:116200|MESH:C566158|BERN:106601
+MERS-CoV S1 antigen@#$disease@#$OMIM:116920|MESH:C535887|BERN:3482001
+CP@#$disease@#$OMIM:119540|MESH:C566991|BERN:263477201
+Demyelination in the optic nerve@#$disease@#$OMIM:120430|MESH:C535970|BERN:260999501
+Coronaviridae@#$disease@#$OMIM:122460|MESH:D003333|BERN:107256601
+hyposthenuria@#$disease@#$OMIM:125800|MESH:D018500|BERN:107437301
+Esophageal cancer@#$disease@#$OMIM:133239|MESH:D004938|BERN:107458701
+Gastric or esophagogastricjunction (EGJ) malignant tumor@#$disease@#$OMIM:137215|MESH:D013274|BERN:107387701
+TS@#$disease@#$OMIM:137580|MESH:D005879|BERN:106907401
+Gliomas@#$disease@#$OMIM:137800|MESH:D005910|BERN:106970101
+OAS@#$disease@#$OMIM:140600|MESH:D010003|BERN:106969901
+FHF@#$disease@#$OMIM:142680|MESH:C536657|BERN:120747501
+FH@#$disease@#$OMIM:143890|BERN:254443101
+renal cell carcinoma@#$disease@#$OMIM:144700|MESH:D002292|BERN:107395701
+IS@#$disease@#$OMIM:146850|BERN:13301
+NM@#$disease@#$OMIM:147421|MESH:D018979|BERN:107447901
+TC@#$disease@#$OMIM:154500|MESH:D008342|BERN:154701
+loss of retinal ganglion cells@#$disease@#$OMIM:158900|MESH:C536391|BERN:90901
+human papillomavirus@#$disease@#$OMIM:167959|BERN:121370801
+PD@#$disease@#$OMIM:168600|BERN:264984701
+PWS@#$disease@#$OMIM:176270|MESH:D011218|BERN:106934301
+Prostate Cancer@#$disease@#$OMIM:176807|MESH:D011471|BERN:107535701
+RCD@#$disease@#$OMIM:180020|MESH:C566719|BERN:1650501
+schizophrenia@#$disease@#$OMIM:181500|MESH:D012559|BERN:260079301
+SMS@#$disease@#$OMIM:182290|MESH:D058496|BERN:107538801
+WL@#$disease@#$OMIM:185800|MESH:C536223|BERN:2494901
+DG@#$disease@#$OMIM:188400|MESH:D004062|BERN:107495101
+MERS-CoV SA 1@#$disease@#$OMIM:190440|BERN:263820801
+Down syndrome@#$disease@#$OMIM:190685|MESH:D004314|BERN:106980401
+Bovine coronavirus associated syndromes@#$disease@#$OMIM:191900|BERN:120606901
+BRV@#$disease@#$OMIM:193007|MESH:C535431|BERN:2037701
+AE@#$disease@#$OMIM:201100|MESH:C538178|BERN:257404401
+IAD@#$disease@#$OMIM:201400|MESH:C562707|BERN:264923601
+deficiency of Arg@#$disease@#$OMIM:207800|MESH:D020162|BERN:107514801
+T- or B-cell deficiencies@#$disease@#$OMIM:207900|MESH:D056807|BERN:107505801
+autism@#$disease@#$OMIM:209850|MESH:D001321|BERN:258174001
+-cell lung cancer@#$disease@#$OMIM:211980|MESH:D008175|BERN:107481401
+CH@#$disease@#$OMIM:214500|MESH:D002609|BERN:107548201
+CF@#$disease@#$OMIM:219700|MESH:D003550|BERN:106986301
+functional deterioration of the heart@#$disease@#$OMIM:220400|MESH:D029593|BERN:107447501
+Type 1 diabetes@#$disease@#$OMIM:222100|MESH:D003922|BERN:107495601
+exudative hyperresponsiveness@#$disease@#$OMIM:226300|MESH:D011504|BERN:107494701
+EV@#$disease@#$OMIM:226400|MESH:D004819|BERN:258705401
+IVB@#$disease@#$OMIM:239100|MESH:D010009|BERN:107373501
+CD19 deficiency@#$disease@#$OMIM:240500|MESH:D017074|BERN:106919401
+Cytopathy@#$disease@#$OMIM:251900|MESH:D017240|BERN:106941101
+ML CCV@#$disease@#$OMIM:252605|MESH:C565367|BERN:265755001
+Alzheimer type II astrocytosis@#$disease@#$OMIM:252650|MESH:D009081|BERN:107393501
+CH VI@#$disease@#$OMIM:253200|MESH:D009087|BERN:107527401
+MM@#$disease@#$OMIM:254450|MESH:D055728|BERN:106922101
+multiple myeloma@#$disease@#$OMIM:254500|MESH:D009101|BERN:106985601
+subacute demyelinating encephalomyelitis@#$disease@#$OMIM:256000|MESH:D007888|BERN:107523501
+SK-N-SH neuroblastoma@#$disease@#$OMIM:256700|MESH:D009447|BERN:106986801
+dysfunction of Niemann-Pick C1@#$disease@#$OMIM:257220|MESH:D052556|BERN:107479301
+MVA MERS@#$disease@#$OMIM:257300|MESH:C536987|BERN:111056101
+coma@#$disease@#$OMIM:257550|MESH:C537423|BERN:259395101
+pancreatic tumor nodules@#$disease@#$OMIM:260350|MESH:D010190|BERN:106931901
+IGS@#$disease@#$OMIM:261100|BERN:3707201
+robin@#$disease@#$OMIM:261800|MESH:D010855|BERN:258562601
+PRV@#$disease@#$OMIM:263300|MESH:D011087|BERN:106906601
+syncopal seizures@#$disease@#$OMIM:266100|MESH:C536254|BERN:261059901
+ARD@#$disease@#$OMIM:266500|MESH:D012035|BERN:107521401
+SS@#$disease@#$OMIM:270150|MESH:D012859|BERN:106921301
+thyrotoxicosis@#$disease@#$OMIM:275000|MESH:D006111|BERN:106998401
+Retinal inflammatory and degenerative processes@#$disease@#$OMIM:300216|MESH:D058456|BERN:107375501
+FGS@#$disease@#$OMIM:300321|MESH:C537923|BERN:107432801
+X-linked immunodeficiency@#$disease@#$OMIM:300400|MESH:D053632|BERN:107416501
+invasive pneumococcal diseases@#$disease@#$OMIM:300640|MESH:C564468|BERN:3994701
+human immunodeficiency viruses 1 and 2@#$disease@#$OMIM:301000|MESH:D014923|BERN:106950301
+L@#$disease@#$OMIM:303350|MESH:C536029|BERN:262923301
+haemophilia@#$disease@#$OMIM:306700|MESH:D006467|BERN:106913601
+ND@#$disease@#$OMIM:310600|MESH:C537849|BERN:260380801
+RS@#$disease@#$OMIM:312700|MESH:D041441|BERN:107544401
+Asthma@#$disease@#$OMIM:600807|MESH:D001249|BERN:106971701
+episodic wheeze@#$disease@#$OMIM:601042|MESH:C563401|BERN:2366301
+ECG@#$disease@#$OMIM:601144|MESH:D053840|BERN:106905401
+obesity@#$disease@#$OMIM:601665|MESH:D009765|BERN:261400701
+vacuolar lesions@#$disease@#$OMIM:601846|MESH:C566617|BERN:121055201
+sickle cell disease@#$disease@#$OMIM:603903|MESH:D000755|BERN:107354701
+cervical cancer@#$disease@#$OMIM:603956|MESH:D002583|BERN:107352601
+VL@#$disease@#$OMIM:604004|MESH:C536141|BERN:1662901
+parainfluenza types 1, 2, and 3@#$disease@#$OMIM:604307|MESH:C565133|BERN:2799601
+parvovirus type 2c@#$disease@#$OMIM:604352|MESH:C565788|BERN:2187501
+respiratory syndrome coronavirus 2@#$disease@#$OMIM:604928|MESH:C565733|BERN:3264501
+Anorexia@#$disease@#$OMIM:606788|MESH:D000856|BERN:260791501
+AE COPD@#$disease@#$OMIM:606963|MESH:D029424|BERN:107376801
+RNase L deficiency@#$disease@#$OMIM:607014|MESH:D008059|BERN:107546901
+autosomal recessive periventricular heterotopia@#$disease@#$OMIM:608097|MESH:C564292|BERN:1317301
+Leishmania donovani@#$disease@#$OMIM:608207|MESH:D007898|BERN:107373301
+WGS@#$disease@#$OMIM:608710|MESH:D014890|BERN:106909001
+abnormalities of pulmonary function@#$disease@#$OMIM:608852|BERN:2644501
+HIV@#$disease@#$OMIM:609423|MESH:D015658|BERN:106985801
+T-cell lymphopenia@#$disease@#$OMIM:609889|MESH:C563691|BERN:264990701
+Enteric coronavirus@#$disease@#$OMIM:610370|MESH:C563673|BERN:264958601
+Ebola, Hendra, and Nipah viruses@#$disease@#$OMIM:610551|MESH:D020803|BERN:107253001
+COVID 19@#$disease@#$OMIM:611031|MESH:C567026|BERN:544501
+spinal cord and brainstem lesions@#$disease@#$OMIM:611105|MESH:C567009|BERN:121709901
+PED@#$disease@#$OMIM:612126|BERN:120637201
+Myd88 deficiency@#$disease@#$OMIM:612260|MESH:C567379|BERN:452101
+Papular cutaneous lesions@#$disease@#$OMIM:612376|MESH:D015473|BERN:107419701
+ALL@#$disease@#$OMIM:613065|MESH:D054198|BERN:107405101

@@ -1,0 +1,361 @@
+rs12711521@#$mutation@#$BERN:10614104
+rs2261695@#$mutation@#$BERN:10614204
+rs2273346@#$mutation@#$BERN:10614304
+rs7548659@#$mutation@#$BERN:10614404
+rs3794987@#$mutation@#$BERN:12237504
+rs2268690@#$mutation@#$BERN:12913504
+rs420701988@#$mutation@#$BERN:16444204
+rs149988433@#$mutation@#$BERN:16444304
+rs16170823@#$mutation@#$BERN:16444404
+rs5743708@#$mutation@#$BERN:328104
+rs1024611@#$mutation@#$BERN:340704
+rs2070874@#$mutation@#$BERN:7184904
+rs4917@#$mutation@#$BERN:7617404
+rs2248690@#$mutation@#$BERN:7654104
++408C/T@#$mutation@#$CUI-less-+408C/T
+01C/T@#$mutation@#$CUI-less-01C/T
+1114 (Leu to Phe@#$mutation@#$CUI-less-1114 (Leu to Phe
+1163 (Cys to Phe@#$mutation@#$CUI-less-1163 (Cys to Phe
+4 lysine residue to glutamine@#$mutation@#$CUI-less-4 lysine residue to glutamine
+65 (Leu to His@#$mutation@#$CUI-less-65 (Leu to His
+A 110 K@#$mutation@#$CUI-less-A 110 K
+A 3C@#$mutation@#$CUI-less-A 3C
+A 40K@#$mutation@#$CUI-less-A 40K
+A 59 E@#$mutation@#$CUI-less-A 59 E
+A 65K@#$mutation@#$CUI-less-A 65K
+A1006V@#$mutation@#$CUI-less-A1006V
+A134V@#$mutation@#$CUI-less-A134V
+A252S@#$mutation@#$CUI-less-A252S
+A26F@#$mutation@#$CUI-less-A26F
+A26V@#$mutation@#$CUI-less-A26V
+A288L@#$mutation@#$CUI-less-A288L
+A291P@#$mutation@#$CUI-less-A291P
+A2G@#$mutation@#$CUI-less-A2G
+A3C@#$mutation@#$CUI-less-A3C
+A4408C@#$mutation@#$CUI-less-A4408C
+A528V@#$mutation@#$CUI-less-A528V
+A59 E@#$mutation@#$CUI-less-A59 E
+A59 M@#$mutation@#$CUI-less-A59 M
+A59 N@#$mutation@#$CUI-less-A59 N
+A59 S@#$mutation@#$CUI-less-A59 S
+A59V@#$mutation@#$CUI-less-A59V
+A77G@#$mutation@#$CUI-less-A77G
+A82V@#$mutation@#$CUI-less-A82V
+A834V@#$mutation@#$CUI-less-A834V
+Ala 769 to Tyr@#$mutation@#$CUI-less-Ala 769 to Tyr
+Ala 828 and Pro 1061 to Ser@#$mutation@#$CUI-less-Ala 828 and Pro 1061 to Ser
+Arg with Ile at position 188@#$mutation@#$CUI-less-Arg with Ile at position 188
+Arg(708)Arg@#$mutation@#$CUI-less-Arg(708)Arg
+Arg132 residue to Leu@#$mutation@#$CUI-less-Arg132 residue to Leu
+Asn-1209-Gln@#$mutation@#$CUI-less-Asn-1209-Gln
+Asp-211 and Glu-213 with alanine@#$mutation@#$CUI-less-Asp-211 and Glu-213 with alanine
+C to T at position 1583@#$mutation@#$CUI-less-C to T at position 1583
+C112S@#$mutation@#$CUI-less-C112S
+C144A@#$mutation@#$CUI-less-C144A
+C145A@#$mutation@#$CUI-less-C145A
+C145S@#$mutation@#$CUI-less-C145S
+C148A@#$mutation@#$CUI-less-C148A
+C389T@#$mutation@#$CUI-less-C389T
+C425S@#$mutation@#$CUI-less-C425S
+C429T@#$mutation@#$CUI-less-C429T
+C86T@#$mutation@#$CUI-less-C86T
+C93S@#$mutation@#$CUI-less-C93S
+C956T@#$mutation@#$CUI-less-C956T
+Cys145 to Ser@#$mutation@#$CUI-less-Cys145 to Ser
+Cys425 to Ser@#$mutation@#$CUI-less-Cys425 to Ser
+D1128A@#$mutation@#$CUI-less-D1128A
+D130A@#$mutation@#$CUI-less-D130A
+D164N@#$mutation@#$CUI-less-D164N
+D28K@#$mutation@#$CUI-less-D28K
+D324A@#$mutation@#$CUI-less-D324A
+D39A@#$mutation@#$CUI-less-D39A
+D40A@#$mutation@#$CUI-less-D40A
+D429A@#$mutation@#$CUI-less-D429A
+D454A@#$mutation@#$CUI-less-D454A
+D463A@#$mutation@#$CUI-less-D463A
+D510G@#$mutation@#$CUI-less-D510G
+D757N@#$mutation@#$CUI-less-D757N
+D766S@#$mutation@#$CUI-less-D766S
+D82R@#$mutation@#$CUI-less-D82R
+D87G@#$mutation@#$CUI-less-D87G
+Delta19@#$mutation@#$CUI-less-Delta19
+Delta3@#$mutation@#$CUI-less-Delta3
+Delta346@#$mutation@#$CUI-less-Delta346
+Delta7@#$mutation@#$CUI-less-Delta7
+Delta77@#$mutation@#$CUI-less-Delta77
+E11A@#$mutation@#$CUI-less-E11A
+E121K@#$mutation@#$CUI-less-E121K
+E121L@#$mutation@#$CUI-less-E121L
+E121Q@#$mutation@#$CUI-less-E121Q
+E121R@#$mutation@#$CUI-less-E121R
+E121V@#$mutation@#$CUI-less-E121V
+E138K@#$mutation@#$CUI-less-E138K
+E218A@#$mutation@#$CUI-less-E218A
+E290R@#$mutation@#$CUI-less-E290R
+E410-N@#$mutation@#$CUI-less-E410-N
+E452A@#$mutation@#$CUI-less-E452A
+E82A@#$mutation@#$CUI-less-E82A
+F140A@#$mutation@#$CUI-less-F140A
+F181V@#$mutation@#$CUI-less-F181V
+F233A@#$mutation@#$CUI-less-F233A
+F360S@#$mutation@#$CUI-less-F360S
+F613Y@#$mutation@#$CUI-less-F613Y
+G-2518A@#$mutation@#$CUI-less-G-2518A
+G-637 by A@#$mutation@#$CUI-less-G-637 by A
+G-to-A transition at codon 1307@#$mutation@#$CUI-less-G-to-A transition at codon 1307
+G10 P@#$mutation@#$CUI-less-G10 P
+G100E@#$mutation@#$CUI-less-G100E
+G104E@#$mutation@#$CUI-less-G104E
+G104V@#$mutation@#$CUI-less-G104V
+G10P@#$mutation@#$CUI-less-G10P
+G11A@#$mutation@#$CUI-less-G11A
+G11P@#$mutation@#$CUI-less-G11P
+G120A@#$mutation@#$CUI-less-G120A
+G15526C@#$mutation@#$CUI-less-G15526C
+G190A@#$mutation@#$CUI-less-G190A
+G29 with A@#$mutation@#$CUI-less-G29 with A
+G29P@#$mutation@#$CUI-less-G29P
+G332A@#$mutation@#$CUI-less-G332A
+G395C@#$mutation@#$CUI-less-G395C
+G405-D@#$mutation@#$CUI-less-G405-D
+G413R@#$mutation@#$CUI-less-G413R
+G50A@#$mutation@#$CUI-less-G50A
+G50C@#$mutation@#$CUI-less-G50C
+G594S@#$mutation@#$CUI-less-G594S
+G764R@#$mutation@#$CUI-less-G764R
+G978T@#$mutation@#$CUI-less-G978T
+G987A@#$mutation@#$CUI-less-G987A
+Gln-2965-Ala@#$mutation@#$CUI-less-Gln-2965-Ala
+Gln-4068/Ser@#$mutation@#$CUI-less-Gln-4068/Ser
+Gln-4995/Ala@#$mutation@#$CUI-less-Gln-4995/Ala
+Gln-74 to an alanine@#$mutation@#$CUI-less-Gln-74 to an alanine
+Gln370Arg@#$mutation@#$CUI-less-Gln370Arg
+Glu 173, Tyr@#$mutation@#$CUI-less-Glu 173, Tyr
+Glu(708)Glu@#$mutation@#$CUI-less-Glu(708)Glu
+Gly to Asp) at position 108@#$mutation@#$CUI-less-Gly to Asp) at position 108
+Gly-11 to alanine@#$mutation@#$CUI-less-Gly-11 to alanine
+Gly-247-Val@#$mutation@#$CUI-less-Gly-247-Val
+Gly-861-Glu@#$mutation@#$CUI-less-Gly-861-Glu
+H114R@#$mutation@#$CUI-less-H114R
+H126R@#$mutation@#$CUI-less-H126R
+H127Y@#$mutation@#$CUI-less-H127Y
+H1381R@#$mutation@#$CUI-less-H1381R
+H144A@#$mutation@#$CUI-less-H144A
+H183R@#$mutation@#$CUI-less-H183R
+H185R@#$mutation@#$CUI-less-H185R
+H209A@#$mutation@#$CUI-less-H209A
+H229E@#$mutation@#$CUI-less-H229E
+H234A@#$mutation@#$CUI-less-H234A
+H274Y@#$mutation@#$CUI-less-H274Y
+H277A@#$mutation@#$CUI-less-H277A
+H716D@#$mutation@#$CUI-less-H716D
+H798R@#$mutation@#$CUI-less-H798R
+H79G@#$mutation@#$CUI-less-H79G
+HIS 2012 to HIS@#$mutation@#$CUI-less-HIS 2012 to HIS
+His-251-Val@#$mutation@#$CUI-less-His-251-Val
+His134Tyr@#$mutation@#$CUI-less-His134Tyr
+His812Leu@#$mutation@#$CUI-less-His812Leu
+I228A@#$mutation@#$CUI-less-I228A
+I230A@#$mutation@#$CUI-less-I230A
+I375M@#$mutation@#$CUI-less-I375M
+I507 L@#$mutation@#$CUI-less-I507 L
+I529T@#$mutation@#$CUI-less-I529T
+I577S@#$mutation@#$CUI-less-I577S
+I69A/S@#$mutation@#$CUI-less-I69A/S
+I958F@#$mutation@#$CUI-less-I958F
+Ile to Ala mutation at position 5@#$mutation@#$CUI-less-Ile to Ala mutation at position 5
+K103 N@#$mutation@#$CUI-less-K103 N
+K103N@#$mutation@#$CUI-less-K103N
+K103R@#$mutation@#$CUI-less-K103R
+K173A@#$mutation@#$CUI-less-K173A
+K183G@#$mutation@#$CUI-less-K183G
+K183R@#$mutation@#$CUI-less-K183R
+K194R@#$mutation@#$CUI-less-K194R
+K223A@#$mutation@#$CUI-less-K223A
+K260 N@#$mutation@#$CUI-less-K260 N
+K267E@#$mutation@#$CUI-less-K267E
+K269A@#$mutation@#$CUI-less-K269A
+K479N@#$mutation@#$CUI-less-K479N
+K480A@#$mutation@#$CUI-less-K480A
+K62A@#$mutation@#$CUI-less-K62A
+K706A@#$mutation@#$CUI-less-K706A
+K90R@#$mutation@#$CUI-less-K90R
+K99 E@#$mutation@#$CUI-less-K99 E
+L100I@#$mutation@#$CUI-less-L100I
+L10H@#$mutation@#$CUI-less-L10H
+L10L@#$mutation@#$CUI-less-L10L
+L1114R@#$mutation@#$CUI-less-L1114R
+L141T@#$mutation@#$CUI-less-L141T
+L218A@#$mutation@#$CUI-less-L218A
+L224A@#$mutation@#$CUI-less-L224A
+L226A@#$mutation@#$CUI-less-L226A
+L25P@#$mutation@#$CUI-less-L25P
+L270F@#$mutation@#$CUI-less-L270F
+L27A@#$mutation@#$CUI-less-L27A
+L31V@#$mutation@#$CUI-less-L31V
+L386del@#$mutation@#$CUI-less-L386del
+L472F@#$mutation@#$CUI-less-L472F
+L5178Y/T@#$mutation@#$CUI-less-L5178Y/T
+L584A@#$mutation@#$CUI-less-L584A
+L652I@#$mutation@#$CUI-less-L652I
+L665S@#$mutation@#$CUI-less-L665S
+L857-F@#$mutation@#$CUI-less-L857-F
+L86A@#$mutation@#$CUI-less-L86A
+Leu 803 to Ala@#$mutation@#$CUI-less-Leu 803 to Ala
+Leu to Val at 103@#$mutation@#$CUI-less-Leu to Val at 103
+Leu106Trp@#$mutation@#$CUI-less-Leu106Trp
+Leu94Pro@#$mutation@#$CUI-less-Leu94Pro
+M1058 L@#$mutation@#$CUI-less-M1058 L
+M1058L@#$mutation@#$CUI-less-M1058L
+M298R@#$mutation@#$CUI-less-M298R
+M611F@#$mutation@#$CUI-less-M611F
+Met162 with Ala@#$mutation@#$CUI-less-Met162 with Ala
+N1347A@#$mutation@#$CUI-less-N1347A
+N157A@#$mutation@#$CUI-less-N157A
+N176A@#$mutation@#$CUI-less-N176A
+N214A@#$mutation@#$CUI-less-N214A
+N232A@#$mutation@#$CUI-less-N232A
+N237A@#$mutation@#$CUI-less-N237A
+N258T@#$mutation@#$CUI-less-N258T
+N357Q@#$mutation@#$CUI-less-N357Q
+N38A@#$mutation@#$CUI-less-N38A
+N475A@#$mutation@#$CUI-less-N475A
+N479S@#$mutation@#$CUI-less-N479S
+N514S@#$mutation@#$CUI-less-N514S
+N52A@#$mutation@#$CUI-less-N52A
+N545A@#$mutation@#$CUI-less-N545A
+P15 S@#$mutation@#$CUI-less-P15 S
+P166L@#$mutation@#$CUI-less-P166L
+P166S@#$mutation@#$CUI-less-P166S
+P462L@#$mutation@#$CUI-less-P462L
+Phe140_Ala@#$mutation@#$CUI-less-Phe140_Ala
+Phe269 by Tyr@#$mutation@#$CUI-less-Phe269 by Tyr
+Pro-145 to Cys@#$mutation@#$CUI-less-Pro-145 to Cys
+Pro363 to Ser@#$mutation@#$CUI-less-Pro363 to Ser
+Q132L@#$mutation@#$CUI-less-Q132L
+Q159L@#$mutation@#$CUI-less-Q159L
+Q189A@#$mutation@#$CUI-less-Q189A
+Q21R@#$mutation@#$CUI-less-Q21R
+Q2965/A2966@#$mutation@#$CUI-less-Q2965/A2966
+Q299A@#$mutation@#$CUI-less-Q299A
+Q600V@#$mutation@#$CUI-less-Q600V
+Q65E@#$mutation@#$CUI-less-Q65E
+R106A@#$mutation@#$CUI-less-R106A
+R188I@#$mutation@#$CUI-less-R188I
+R192G@#$mutation@#$CUI-less-R192G
+R194K@#$mutation@#$CUI-less-R194K
+R227D@#$mutation@#$CUI-less-R227D
+R227E@#$mutation@#$CUI-less-R227E
+R298A@#$mutation@#$CUI-less-R298A
+R298A/L@#$mutation@#$CUI-less-R298A/L
+R298E@#$mutation@#$CUI-less-R298E
+R441A@#$mutation@#$CUI-less-R441A
+R453A@#$mutation@#$CUI-less-R453A
+R642M@#$mutation@#$CUI-less-R642M
+R64D@#$mutation@#$CUI-less-R64D
+R662A@#$mutation@#$CUI-less-R662A
+R662K@#$mutation@#$CUI-less-R662K
+R667A@#$mutation@#$CUI-less-R667A
+R741T@#$mutation@#$CUI-less-R741T
+R793M@#$mutation@#$CUI-less-R793M
+R797A@#$mutation@#$CUI-less-R797A
+R895G@#$mutation@#$CUI-less-R895G
+R911C@#$mutation@#$CUI-less-R911C
+S 197del@#$mutation@#$CUI-less-S 197del
+S-197DEL@#$mutation@#$CUI-less-S-197DEL
+S1060A@#$mutation@#$CUI-less-S1060A
+S120A@#$mutation@#$CUI-less-S120A
+S139A@#$mutation@#$CUI-less-S139A
+S158A@#$mutation@#$CUI-less-S158A
+S219A@#$mutation@#$CUI-less-S219A
+S259/L@#$mutation@#$CUI-less-S259/L
+S284-T285@#$mutation@#$CUI-less-S284-T285
+S2Q@#$mutation@#$CUI-less-S2Q
+S310G@#$mutation@#$CUI-less-S310G
+S33R@#$mutation@#$CUI-less-S33R
+S48A@#$mutation@#$CUI-less-S48A
+S510/D@#$mutation@#$CUI-less-S510/D
+S651L@#$mutation@#$CUI-less-S651L
+S701A@#$mutation@#$CUI-less-S701A
+S757R@#$mutation@#$CUI-less-S757R
+S950F@#$mutation@#$CUI-less-S950F
+Ser to Arg) at position 757@#$mutation@#$CUI-less-Ser to Arg) at position 757
+Ser to Pro at 367@#$mutation@#$CUI-less-Ser to Pro at 367
+Ser139_Ala@#$mutation@#$CUI-less-Ser139_Ala
+T1015N@#$mutation@#$CUI-less-T1015N
+T1087N@#$mutation@#$CUI-less-T1087N
+T16A@#$mutation@#$CUI-less-T16A
+T21901A@#$mutation@#$CUI-less-T21901A
+T231A@#$mutation@#$CUI-less-T231A
+T25G@#$mutation@#$CUI-less-T25G
+T321M@#$mutation@#$CUI-less-T321M
+T330R@#$mutation@#$CUI-less-T330R
+T487 V@#$mutation@#$CUI-less-T487 V
+T487S@#$mutation@#$CUI-less-T487S
+T549S@#$mutation@#$CUI-less-T549S
+T742R@#$mutation@#$CUI-less-T742R
+T742S@#$mutation@#$CUI-less-T742S
+T742V@#$mutation@#$CUI-less-T742V
+T760R@#$mutation@#$CUI-less-T760R
+T82A@#$mutation@#$CUI-less-T82A
+T82M@#$mutation@#$CUI-less-T82M
+Thr to Asn at 379@#$mutation@#$CUI-less-Thr to Asn at 379
+Thr-17 to Ile and Ser@#$mutation@#$CUI-less-Thr-17 to Ile and Ser
+Thr285 and Ile286 to Ala@#$mutation@#$CUI-less-Thr285 and Ile286 to Ala
+Tyr-1144 to Asp@#$mutation@#$CUI-less-Tyr-1144 to Asp
+V106A@#$mutation@#$CUI-less-V106A
+V148A@#$mutation@#$CUI-less-V148A
+V202I@#$mutation@#$CUI-less-V202I
+V25F@#$mutation@#$CUI-less-V25F
+V39A@#$mutation@#$CUI-less-V39A
+V51A@#$mutation@#$CUI-less-V51A
+V553I@#$mutation@#$CUI-less-V553I
+V601G@#$mutation@#$CUI-less-V601G
+V635E@#$mutation@#$CUI-less-V635E
+V672F@#$mutation@#$CUI-less-V672F
+V68A@#$mutation@#$CUI-less-V68A
+V785S@#$mutation@#$CUI-less-V785S
+V787S@#$mutation@#$CUI-less-V787S
+V81A@#$mutation@#$CUI-less-V81A
+W197F@#$mutation@#$CUI-less-W197F
+Y113H@#$mutation@#$CUI-less-Y113H
+Y1191A@#$mutation@#$CUI-less-Y1191A
+Y127A@#$mutation@#$CUI-less-Y127A
+Y135Q@#$mutation@#$CUI-less-Y135Q
+Y1378A@#$mutation@#$CUI-less-Y1378A
+Y162A@#$mutation@#$CUI-less-Y162A
+Y162F@#$mutation@#$CUI-less-Y162F
+Y162H@#$mutation@#$CUI-less-Y162H
+Y162Q@#$mutation@#$CUI-less-Y162Q
+Y181C@#$mutation@#$CUI-less-Y181C
+Y188L@#$mutation@#$CUI-less-Y188L
+Y195A@#$mutation@#$CUI-less-Y195A
+Y217N@#$mutation@#$CUI-less-Y217N
+Y241H@#$mutation@#$CUI-less-Y241H
+Y320A@#$mutation@#$CUI-less-Y320A
+Y374-T375insND@#$mutation@#$CUI-less-Y374-T375insND
+Y43H@#$mutation@#$CUI-less-Y43H
+Y442C@#$mutation@#$CUI-less-Y442C
+Y442F@#$mutation@#$CUI-less-Y442F
+Y58A@#$mutation@#$CUI-less-Y58A
+Y681Q@#$mutation@#$CUI-less-Y681Q
+Y93H@#$mutation@#$CUI-less-Y93H
+Y96A@#$mutation@#$CUI-less-Y96A
+Y96F@#$mutation@#$CUI-less-Y96F
+alanine substitution at Arg(708@#$mutation@#$CUI-less-alanine substitution at Arg(708
+alanine to valine at amino acid position 528@#$mutation@#$CUI-less-alanine to valine at amino acid position 528
+cysteine in position 547 to alanine@#$mutation@#$CUI-less-cysteine in position 547 to alanine
+glycine 2840-alanine@#$mutation@#$CUI-less-glycine 2840-alanine
+methionine to leucine at position 1058@#$mutation@#$CUI-less-methionine to leucine at position 1058
+methionine to leucine substitution at position 1058@#$mutation@#$CUI-less-methionine to leucine substitution at position 1058
+methionine-475 with isoleucine@#$mutation@#$CUI-less-methionine-475 with isoleucine
+pET-30A@#$mutation@#$CUI-less-pET-30A
+phenylalanine 109 with tyrosine@#$mutation@#$CUI-less-phenylalanine 109 with tyrosine
+proline 12 with serine@#$mutation@#$CUI-less-proline 12 with serine
+proline residue 45 by histidine@#$mutation@#$CUI-less-proline residue 45 by histidine
+serine 287 to isoleucine@#$mutation@#$CUI-less-serine 287 to isoleucine
+serine-to-alanine mutation at amino acid 585@#$mutation@#$CUI-less-serine-to-alanine mutation at amino acid 585
+serine-to-glycine change at position 310@#$mutation@#$CUI-less-serine-to-glycine change at position 310
+tyrosine 20 with either alanine or aspartic acid@#$mutation@#$CUI-less-tyrosine 20 with either alanine or aspartic acid
+tyrosine 99 with either alanine or aspartic acid@#$mutation@#$CUI-less-tyrosine 99 with either alanine or aspartic acid
+valine-to-alanine alteration at residue 68@#$mutation@#$CUI-less-valine-to-alanine alteration at residue 68
