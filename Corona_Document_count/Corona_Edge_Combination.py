@@ -24,8 +24,8 @@ def edge_combination(concept_list = []):
     d = list(itertools.combinations(c,2))
     return d
 
-f = open("./bern_document_count.txt","r")
-f_out = open("./bern_edge_combination.txt","w")
+f = open("./bern_niclosamide_document_count.txt","r")
+f_out = open("./bern_niclosamide_edge_combination.txt","w")
 
 
 pmid_temp = "aaaa"
@@ -51,7 +51,7 @@ while True:
 
             for k in f_out_temp2:
                 f_out.write(str(k))
-                if (k != f_out_temp2[-1]): f.write("@#$")
+                if (k != f_out_temp2[-1]): f_out.write("@#$")
             f_out.write("\n")
 
     line = line.rstrip("\n")

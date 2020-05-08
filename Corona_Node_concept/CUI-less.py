@@ -1,6 +1,6 @@
 
-f = open("./bern_species.txt","r")
-f_out = open("./bern_species_cui.txt","w")
+f = open("./bern_miRNA.txt","r")
+f_out = open("./bern_miRNA_cui.txt","w")
 
 temp = [1,1,1,1]
 while True:

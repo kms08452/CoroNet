@@ -1,8 +1,8 @@
 import itertools
 from operator import itemgetter
 
-f = open("./bern_edge_combination_sorted.txt","r")
-f_out = open("./bern_edge_combination_sorted_merged.txt","w")
+f = open("./bern_niclosamide_edge_combination_sorted.txt","r")
+f_out = open("./bern_niclosamide_edge_combination_sorted_merged.txt","w")
 
 
 f_out_temp = []

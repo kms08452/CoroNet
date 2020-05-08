@@ -9,15 +9,14 @@ import requests
 import json
 
 
-from neo4j import GraphDatabase, basic_auth
+from neo4j import GraphDatabase
 
 
 #url = "bolt://175.121.89.176:8685"
 url = "bolt://1.233.215.39:7687"
-#url = "bolt://1.233.215.39:7688"
 
-driver = GraphDatabase.driver(url,auth=basic_auth("kms0845","neo4j"))
-#driver = GraphDatabase.driver(url,auth=basic_auth("neo4j","neo4j1234"))
+driver = GraphDatabase.driver(url,auth=("kms0845","neo4j"))
+
 
 class Nodes_Noe4j:
     def __init__(self, type=""):
@@ -28,9 +27,9 @@ class Nodes_Noe4j:
         self.data = {}
         self.open_query_filter_cnt = 521817
 
-        self.read_nodes_lables = ["Chemival", "Disease", "Gene", "Species", "Pro"]
-        self.lable_web_dictionary = {"Query": 1, "Chemical": 2, "Disease": 3, "Mutation": 4, "Gene": 5, "Species": 6, "CellLine": 7,
-                            "Hallmark": 8, "Pro" : 5, "Pro_Sub" : 5}
+        self.read_nodes_lables = ["Chemical", "Disease", "Gene", "Species", "Pro"]
+        self.lable_web_dictionary = {"Query": ["1"], "Drug": ["2"], "Disease": ["3"], "Mutation": ["4"], "Gene": ["5"], "Species": ["6"], "CellLine": ["7"],
+                            "Hallmark": ["8"], "Pro" : ["9"], "Pro_Sub" : ["10"], "Chemical" : ["11"], "miRNA" : ["12"], "pathway" : ["13"], "approved_drug" : ["14"]}
         self.lable_reverse_dictionary = {1: "Chemical", 2: "Disease", 3: "Mutation", 4: "Gene", 5: "Species", 6: "CellLine",
                                     7: "Hallmark", 8: "Pro"}
         self.lable_dictionary = {"Chemical": 1, "Disease": 2, "Mutation": 3, "Gene": 4, "Species": 5, "CellLine": 6,
@@ -111,20 +110,20 @@ class Nodes_Noe4j:
     def data_check(self):
         seach_check = False
         for cnt,i in enumerate(self.data["links"]):
-            if('cnt' not in i):
+            if('cnt' not in i['properties']):
                 print("edge without cnt")
                 print(i)
                 #print(cnt)
             seach_check = False
             for j in self.data["nodes"]:
-                if(j["nid"] == i["source"]):
+                if(j["id"] == i["startNode"]):
                     seach_check = True
                     break
             if(seach_check == False):
                 print("source error : ",i["source"])
             seach_check = False
             for j in self.data["nodes"]:
-                if(j["nid"] == i["target"]):
+                if(j["id"] == i["endNode"]):
                     seach_check = True
                     break
             if (seach_check == False):
@@ -139,20 +138,22 @@ class Nodes_Noe4j:
 
         if(len(arg) >= 3) :
 
-            if(str(arg[3]) == 'Gene'):
-                query_ID_temp = str(arg[2])
-                arg[2] = "GeneID:"+query_ID_temp.split(":")[1]
-
-            if(str(arg[5]) == 'Gene'):
-                query_ID_temp = str(arg[4])
-                arg[4] = "GeneID:" + query_ID_temp.split(":")[1]
+            # if(str(arg[3]) == 'Gene'):
+            #     query_ID_temp = str(arg[2])
+            #     arg[2] = "GeneID:"+query_ID_temp.split(":")[1]
+            #
+            # if(str(arg[5]) == 'Gene'):
+            #     query_ID_temp = str(arg[4])
+            #     arg[4] = "GeneID:" + query_ID_temp.split(":")[1]
 
             if(arg[1]== str(1)):
                 arg_target_id = str(arg[2])
                 arg_target_domain = str(arg[3])
-                arg_start_year = int(arg[4])
-                arg_end_year = int(arg[5])
-                self.open_discovery_with_year(target_label_type = arg_target_domain, target_id = arg_target_id, open_query_filter_cnt = 20, start_years = arg_start_year, end_years = arg_end_year)
+                arg_start_year = 2020
+                arg_end_year = 2020
+                #arg_start_year = int(arg[4])
+                #arg_end_year = int(arg[5])
+                self.open_discovery_CORONET(target_label_type = arg_target_domain, target_id = arg_target_id, open_query_filter_cnt = 20, start_years = arg_start_year, end_years = arg_end_year)
             elif(arg[1] == str(2)):
                 arg_start_target_id = str(arg[2])
                 arg_start_target_domain = str(arg[3])
@@ -188,7 +189,7 @@ class Nodes_Noe4j:
 
 
         self.data_check()
-        self.data_info_add()
+        #self.data_info_add()
         php_dump(self.data)
         end_time = time.time()
     def all_nodes(self):
@@ -463,6 +464,275 @@ class Nodes_Noe4j:
         # for i, n in enumerate(sorted_cnt):
         #     if(i == 10): break
         #     print(str(n[0]),end=",")
+        return result_nodes
+
+    def open_discovery_CORONET(self, target_label_type = "Gene", target_id = "GeneID:7157", open_query_filter_cnt = 20, start_years = 2000, end_years = 2010) :
+        result = {}
+        result2 = {}
+        sorted_cnt = {}
+        visit = []
+        temp3 = 0
+        with driver.session() as session:
+            result = session.read_transaction(self.open_discovery_tx_CORONET, target_label_type, target_id, open_query_filter_cnt, start_years, end_years)
+
+        for i in self.data['nodes']:
+            if(i["properties"]["cd"] == target_id):
+                i["labels"] = ["1"] # Query : 1
+        return 1
+    def open_discovery_tx_CORONET(self, tx, endNode_label_type="Gene", endNode_id="GeneID:7157", query_filter_cnt = 0, start_years = 2000, end_years = 2010):
+
+        result_nodes = {}
+        #run_text = "Match (Gene00001: "+endNode_label_type+" {ID: \""+endNode_id+ "\" })-[s]-(Gene_web)-[r]-(n)\n"+"where toInteger(split(Gene_web.count, \";\")[-1]) > 521817\n"+"return ID(Gene_web)"
+
+        #MATCH (General_Node00001: Gene {ID: "GeneID:7157"})-[s] - (General_Node_web)
+        #WHERE exists(s.cnt_2009) or exists(s.cnt_2008) or exists(s.cnt_2007) or exists(s.cnt_2006) or exists(s.cnt_2005) or exists(s.cnt_2004) or exists(s.cnt_2003) or exists(s.cnt_2002) or exists(s.cnt_2001) or exists(s.cnt_2000)
+        #WITH s, coalesce(s.cnt_2009,0) + coalesce(s.cnt_2008, 0) +  coalesce(s.cnt_2007, 0) +  coalesce(s.cnt_2006, 0) +  coalesce(s.cnt_2005, 0) +  coalesce(s.cnt_2004, 0) +  coalesce(s.cnt_2003, 0) +  coalesce(s.cnt_2002, 0) +  coalesce(s.cnt_2001, 0) +  coalesce(s.cnt_2000, 0) as cnt
+        #order by cnt desc
+        #return s,cnt
+        #limit 10
+
+        cnt_text = ""
+        coalesce_text = ""
+        cnt_property_text = ""
+        run_text = ""
+        run_text = run_text + "MATCH (General_Node00001: " + endNode_label_type + " {ID: \"" + endNode_id + "\"})-[s:PMID_cooccurnce] - (General_Node_web)\n"
+        #cnt_text = "WHERE "
+        #coalesce_text = "WITH General_Node00001, General_Node_web, s, "
+        # for i in range(start_years, end_years) :
+        #     cnt_property_text = "cnt_" + str(i)
+        #     cnt_text = cnt_text + "exists(s."+cnt_property_text+") or "
+        #     coalesce_text = coalesce_text + "coalesce(s."+cnt_property_text+", 0) +"
+        #cnt_text = cnt_text[:-3]
+        #coalesce_text = coalesce_text[:-2] + " as cnt"
+        # run_text = run_text + cnt_text + '\n'
+        # run_text = run_text + coalesce_text + '\n'
+        # run_text = run_text + "Order by cnt desc \n"
+        run_text = run_text + "return s, General_Node00001, General_Node_web \n"
+        run_text = run_text + "Order by s.PMID_CNT desc \n"
+        run_text = run_text + "limit 100"
+        #print(run_text)
+
+        nodes = []
+        links_temp = []
+        nodes_propreties = {}
+        links_properties = {}
+        for edge in tx.run(run_text):
+            edges = edge[0]
+            total_edge_cnt = edge[0]['PMID_CNT']
+            start_node = edge[0].start_node
+            end_node = edge[0].end_node
+
+            links_properties["cnt"] = total_edge_cnt
+            links_temp.append({"type": "PMID_test1", "startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id), "properties" : links_properties})
+
+            nodes_propreties = {}
+            nodes_propreties["cd"] = start_node._properties['ID']
+            nodes_propreties["nm"] = start_node._properties['text']
+            nodes.append({"id":str(start_node.id),"labels":self.lable_web_dictionary[start_node._properties['type']],"properties":nodes_propreties})
+
+            nodes_propreties = {}
+            nodes_propreties["cd"] = end_node._properties['ID']
+            nodes_propreties["nm"] = end_node._properties['text']
+            nodes.append({"id": str(end_node.id),
+                          "labels": self.lable_web_dictionary[end_node._properties['type']], "properties":nodes_propreties})
+        # print(links)
+        links = []
+
+        General_Node00001 = start_node
+        #for starting point of open query
+
+        sorted_links = sorted(links_temp, key=lambda k: k['properties']['cnt'], reverse=True)
+
+        sorted_nodes = []
+        for i in range(0, 20):
+            links_properties = {}
+            links_properties["cnt"] = sorted_links[i]['properties']['cnt']
+            links.append({'type' : sorted_links[i]['type'], 'startNode' : sorted_links[i]['startNode'],'endNode' : sorted_links[i]['endNode'], 'properties': links_properties})
+            sorted_nodes.append(sorted_links[i]['startNode'])
+            sorted_nodes.append(sorted_links[i]['endNode'])
+
+        settype_nodes = set()
+        ex_nodes = []
+        for d in sorted_nodes:
+            t = tuple([d])
+            if t not in settype_nodes:
+                settype_nodes.add(t)
+                ex_nodes.append(d)
+
+        final_nodes = []
+        for i in ex_nodes:
+
+            for j in nodes:
+                if (j['id'] == i):
+                    final_nodes.append(j)
+                    break
+
+
+
+        # first_layer_len = len(final_nodes)
+        # arcradius = 100
+        # circleradius = 10
+        # n = first_layer_len
+        # m = [20, 140, 20, 100]
+        # w = 948 - m[1] - m[3]
+        # h = 600 - m[0] - m[2]
+        # center_x = w / 2 + m[1]
+        # center_y = h / 2 + m[0]
+        #
+        # for i in range(0,first_layer_len):
+        #     if(final_nodes[i]['cd'] == endNode_id):
+        #         final_nodes[i]['fix_x'] = center_x
+        #         final_nodes[i]['fix_y'] = center_y
+        #     else:
+        #         ang = (math.pi * 2 * i) / (first_layer_len-1)
+        #         circle_x = arcradius * math.sin(ang) + center_x
+        #         circle_y = arcradius * math.cos(ang) + center_y
+        #         final_nodes[i]['fix_x'] = circle_x
+        #         final_nodes[i]['fix_y'] = circle_y
+
+
+        self.data['nodes'] = final_nodes
+        self.data['links'] = links
+
+        #MATCH (SSS)
+        #Where ID(SSS) = 12359409
+        #With SSS
+        #Match (a)
+        #Where ID(a) = 12359409 Or ID(a) = 132876 Or ID(a) = 144511 Or ID(a) = 142261 Or ID(a) = 126034 Or ID(a) = 144942 Or ID(a) = 125798 Or ID(a) = 144570 Or ID(a) = 131423 Or ID(a) = 143620 Or ID(a) = 136735 Or ID(a) = 143082 Or ID(a) = 125821 Or ID(a) = 205145 Or ID(a) = 129790 Or ID(a) = 79141798 Or ID(a) = 79133404 Or ID(a) = 79133405 Or ID(a) = 126000 Or ID(a) = 133595 Or ID(a) = 145655 With SSS, a
+        #Match (a)-[r]-(b)
+        #Where not (SSS)--(b)
+        #return ID(b),count(*)
+        #order by count(*) Desc
+        #limit 100
+
+
+
+        run_text = ""
+        run_text = run_text + "MATCH (SSS)"+"\n"
+        run_text = run_text + "Where ID(SSS) = " + str(General_Node00001.id) + "\n"
+        run_text = run_text + "With SSS\n"
+        run_text = run_text + "Match (a)\n"
+        nodes_text = "Where "
+
+        first_layer_node_list = []
+        for i in final_nodes:
+            nodes_text = nodes_text + "ID(a) = " + str(i["id"]) + " Or "
+            first_layer_node_list.append(i["id"])
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text
+        run_text = run_text + "With SSS, a\n"
+        run_text = run_text + "Match (a)-[r]-(b)\n"
+        run_text = run_text + "Where not (SSS)--(b)\n"
+        run_text = run_text + "with a,r,b\n"
+        run_text = run_text + "return ID(b),count(*)\n"
+        run_text = run_text + "order by count(*) Desc\n"
+        run_text = run_text + "limit 10\n"
+
+
+        #print("number of second layers : ")
+
+
+        #-----------------------------------------------------------------------------------------------------------
+        #second layer part
+        # print(links)
+        temp_links = []
+        first_second_edges = []
+        second_layer_nodes = []
+        second_layer_cnt = 0
+        for record in tx.run(run_text):
+            second_layer_nodes.append(record[0])
+            second_layer_cnt = record[1]
+
+
+        run_text = ""
+        run_text = run_text + "MATCH (SSS)" + "\n"
+        run_text = run_text + "Where ID(SSS) = " + str(General_Node00001.id) + "\n"
+        run_text = run_text + "With SSS\n"
+        run_text = run_text + "Match (a)\n"
+        nodes_text = "Where "
+        first_layer_node_list = []
+        for i in final_nodes:
+            nodes_text = nodes_text + "ID(a) = " + str(i["id"]) + " Or "
+            first_layer_node_list.append(i["id"])
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text
+        run_text = run_text + "With SSS, a\n"
+        run_text = run_text + "Match (b)\n"
+        nodes_text = "Where "
+        first_layer_node_list = []
+        for i in second_layer_nodes:
+            nodes_text = nodes_text + "ID(b) = " + str(i) + " Or "
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text +"\n"
+        run_text = run_text + "With a, b\n"
+        run_text = run_text + "Match (a)-[r]-(b)\n"
+        # cnt_text = "WHERE "
+        # coalesce_text = "WITH a, r, b, "
+        # for i in range(start_years, end_years) :
+        #     cnt_property_text = "cnt_" + str(i)
+        #     cnt_text = cnt_text + "exists(r." + cnt_property_text + ") or "
+        #     coalesce_text = coalesce_text + "coalesce(r." + cnt_property_text + ", 0) +"
+        # cnt_text = cnt_text[:-3]
+        # coalesce_text = coalesce_text[:-2] + " as cnt"
+        # run_text = run_text + cnt_text + '\n'
+        # run_text = run_text + coalesce_text + '\n'
+        run_text = run_text + "return r,b\n"
+        run_text = run_text + "Order by r.PMID_CNT desc \n"
+        run_text = run_text + "limit 100"
+
+        links_temp = []
+
+
+
+        for edge in tx.run(run_text):
+            edges = edge[0]
+            total_edge_cnt = edge[0]['PMID_CNT']
+            end_node = edge[1]
+
+            #a.data['links'].append({"startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id), "cnt": total_edge_cnt, "lables": 1})
+            links_properties = {}
+            links_properties["cnt"] = total_edge_cnt
+            self.data['links'].append(
+                {"type": "PMID_TEST2", "startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id),"properties" : links_properties})
+
+            nodes_propreties = {}
+            nodes_propreties["cd"] = end_node._properties['ID']
+            nodes_propreties["nm"] = end_node._properties['text']
+            self.data['nodes'].append(
+                {"id": str(end_node.id),
+                 "labels": self.lable_web_dictionary[end_node._properties['type']],"properties":nodes_propreties})
+
+
+        nodes = []
+        nodes = self.data['nodes']
+        settype_nodes = set()
+        ex_nodes = []
+        for d in nodes:
+            t = tuple([d["id"]])
+            if t not in settype_nodes:
+                settype_nodes.add(t)
+                ex_nodes.append(d)
+        #
+        self.data['nodes'].clear()
+
+        # second_layer_len = len(ex_nodes)-first_layer_len
+        #
+        # circleradius = 10
+        #
+        # ang_cnt = 0
+        for i in ex_nodes:
+        #     if('fix_x' in i and 'fix_y' in i):
+        #         self.data['nodes'].append(i)
+        #         continue
+        #     ang_cnt = ang_cnt + 1
+        #     ang = (math.pi * 2 * ang_cnt) / second_layer_len
+        #     circle_x = (arcradius + 100) * math.sin(ang) + center_x
+        #     circle_y = (arcradius + 100) * math.cos(ang) + center_y
+        #     i['fix_x'] = circle_x
+        #     i['fix_y'] = circle_y
+             self.data['nodes'].append(i)
+
+
         return result_nodes
 
     def open_discovery_with_year(self, target_label_type = "Gene", target_id = "GeneID:7157", open_query_filter_cnt = 20, start_years = 2000, end_years = 2010) :
@@ -1463,40 +1733,6 @@ class Nodes_Noe4j:
             self.merge_relationships_cnt_by_id_with_year(i[0].start,i[0].end,"cooccurnce",i[0]._properties)
         return 1
 
-def disease_hierarchy():
-    global a
-    f = open('./CTD_diseases.obo', 'r')
-    content = f.read()
-    terms = content.split('\n[Term]\n')
-
-    organism_disease_info = {}
-    organism_disease_rows = []
-    disease_info = {}
-    disease_rows = []
-
-    rels = []
-
-    for item in terms:
-        for line in item.splitlines():
-            if line.split(':')[0] == 'id':
-                organism_disease_info['Disease_ID'] = line.lstrip('id: ')
-            elif line.split(':')[0] == 'name':
-                organism_disease_info['Name'] = line.lstrip('name: ')
-
-        for line in item.splitlines():
-            if (line.split(':')[0] == 'is_a'):
-                rels.append([organism_disease_info['Disease_ID'], line.lstrip('is_a: ').split(' ! ')[0]])
-                organism_disease_info['Parent_ID'] = line.lstrip('is_a: ').split(' ! ')[0]
-
-        organism_disease_rows.append(organism_disease_info.copy())
-
-#    check_node_id_with_lable
-    for i in rels:
-
-        if ( a.node_id_with_lable(node1_name = i[0], node1_domain = "Disease_hierarchy") == -1): a.add_nodes("Disease_hierarchy", ID = i[0])
-        if ( a.node_id_with_lable(node1_name = i[1], node1_domain = "Disease_hierarchy") == -1): a.add_nodes("Disease_hierarchy", ID = i[1])
-        a.create_relationship_with_domain(node1_name = i[0], node1_domain = "Disease_hierarchy", node2_name = i[1], node2_domain = "Disease_hierarchy", relationship_type = "Disease_Tree")
-    f.close()
 
 def csv_parser(temp_in):
     #for eliminationg , between double qutation
@@ -1520,729 +1756,7 @@ def csv_parser(temp_in):
     temp_list.append(temp_str)
     temp_str = ""
     return temp_list
-def edge_input(input_file = "F://LionDB//complete_MESHD000544_MESHD004967.tar//complete_MESHD000544_MESHD004967//edges.csv"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-    node1_id = 0
-    node2_id = 0
 
-    csv_file = fileinput.input(input_file)
-    csv_config = csv_file.readline().rstrip('\n').split(',')
-
-    relationship_cnt = 1
-    csv_dictionary = {}
-
-    for i in range(0,len(csv_config)):
-        if (csv_config[i][0] == ':'):
-            csv_config[i] = csv_config[i][1:]
-        elif (':' in csv_config[i]):
-            csv_config[i] = csv_config[i].split(':')[0]
-        csv_dictionary[csv_config[i]] = i
-    print(csv_config)
-    line_cnt = 1
-    edge_input_dictionary = {}
-    cnt3 = 1
-    for line in csv_file:
-        if (0 > cnt3):
-            cnt3 = cnt3 + 1
-            if (cnt3 % 10000 == 0): print(cnt3)
-            continue
-        line_temp = csv_parser(line.rstrip('\n'))
-
-        type_of_relationship = line_temp[csv_dictionary["TYPE"]]
-        node1_name = line_temp[csv_dictionary["START_ID"]]
-        node2_name = line_temp[csv_dictionary["END_ID"]]
-        relationship_cnt = relationship_cnt + 1
-
-        for j in range(2,len(csv_config)):
-            edge_input_dictionary[csv_config[j]] = line_temp[j]
-
-        a.create_relationship(node1_name, node2_name, type_of_relationship, edge_input_dictionary)
-        #create_relationship_with_domain
-        if(relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt*10000)
-            line_cnt += 1
-
-    csv_file.close()
-def edge_input_domain_fix(input_file = "F://LionDB//complete_MESHD000544_MESHD004967.tar//complete_MESHD000544_MESHD004967//edges.csv",domain1="Pro_Sub",domain2="Gene"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-    node1_id = 0
-    node2_id = 0
-
-    csv_file = fileinput.input(input_file)
-    csv_config = csv_file.readline().rstrip('\n').split(',')
-
-    relationship_cnt = 1
-    csv_dictionary = {}
-
-    for i in range(0,len(csv_config)):
-        if (csv_config[i][0] == ':'):
-            csv_config[i] = csv_config[i][1:]
-        elif (':' in csv_config[i]):
-            csv_config[i] = csv_config[i].split(':')[0]
-        csv_dictionary[csv_config[i]] = i
-    print(csv_config)
-    line_cnt = 1
-    edge_input_dictionary = {}
-    cnt3 = 1
-    for line in csv_file:
-        if (0 > cnt3):
-            cnt3 = cnt3 + 1
-            if (cnt3 % 10000 == 0): print(cnt3)
-            continue
-        line_temp = csv_parser(line.rstrip('\n'))
-
-        type_of_relationship = line_temp[csv_dictionary["TYPE"]]
-        node1_name = line_temp[csv_dictionary["START_ID"]]
-        node2_name = line_temp[csv_dictionary["END_ID"]]
-        relationship_cnt = relationship_cnt + 1
-
-        for j in range(2,len(csv_config)):
-            edge_input_dictionary[csv_config[j]] = line_temp[j]
-
-        a.create_relationship_with_domain(node1_name, domain1,node2_name, domain2, type_of_relationship, edge_input_dictionary)
-        #node1_name: str = "MESH", node1_domain: str = "Chemical", node2_name: str = "TAXID", node2_domain: str = "Chemical",relationship_type: str = "knows", properties: dict = {}) :
-        if(relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt*10000)
-            line_cnt += 1
-
-    csv_file.close()
-
-def edge_year_input(input_file = "F://LionDB//complete_MESHD000544_MESHD004967.tar//complete_MESHD000544_MESHD004967//edges.csv"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-    node1_id = 0
-    node2_id = 0
-    lable_reverse_dictionary = {1:"Chemical", 2:"Disease", 3:"Mutation", 4:"Gene", 5:"Species", 6:"CellLine",
-                                            7:"Hallmark", 8:"Pro"}
-    #lable_dictionary = {"Chemical": 1, "Disease": 2, "Mutation": 3, "Gene": 4, "Species": 5, "CellLine": 6,
-    #                    "Hallmark": 7, "Pro" : 8}
-    csv_file = fileinput.input(input_file,  openhook=fileinput.hook_encoded("utf-8-sig"))
-    csv_config = csv_file.readline().rstrip('\n').split(',')
-
-    relationship_cnt = 1
-    csv_dictionary = {}
-
-    for i in range(0,len(csv_config)):
-        if (csv_config[i][0] == ':'):
-            csv_config[i] = csv_config[i][1:]
-        elif (':' in csv_config[i]):
-            csv_config[i] = csv_config[i].split(':')[0]
-        csv_dictionary[csv_config[i]] = i
-    print(csv_config)
-    line_cnt = 1
-    edge_input_dictionary = {}
-    cnt3 = 1
-    for line in csv_file:
-        if (0 > cnt3):
-            cnt3 = cnt3 + 1
-            if (cnt3 % 10000 == 0): print(cnt3)
-            continue
-        line_temp = csv_parser(line.rstrip('\n'))
-
-        type_of_relationship = "cooccurnce"
-        node1_name = line_temp[csv_dictionary["NODE1_ID"]].split(";")[0].rstrip(' ')
-
-        try :
-            node1_domain = lable_reverse_dictionary[int(line_temp[csv_dictionary["NODE1_DOMAIN"]])]
-        except:
-            print("Node1_DOMAIN Erorr!",cnt3)
-            print(line)
-        node2_name = line_temp[csv_dictionary["NODE2_ID"]].split(";")[0].rstrip(' ')
-        #.split(";")[0] for Gene:3484;3485;3489
-        # if("CHEBI" in node1_name or "CHEBI" in node2_name) :
-        #     print("CHEBI skip :", node1_name,"&&", node2_name)
-        #     continue
-        try :
-            node2_domain = lable_reverse_dictionary[int(line_temp[csv_dictionary["NODE2_DOMAIN"]])]
-        except:
-            print("Node1_DOMAIN Erorr!",cnt3)
-            print(line)
-        relationship_cnt = relationship_cnt + 1
-
-        edge_input_dictionary = {}
-        for j in range(0,len(csv_config)):
-            if(csv_config[j] == "NODE1_ID" or csv_config[j] == "NODE1_DOMAIN" or csv_config[j] == "NODE2_ID" or csv_config[j] == "NODE2_DOMAIN" ): continue
-            elif csv_config[j] == "YEAR" :
-                temp_year = int(line_temp[j])
-            elif csv_config[j] == "COUNT" :
-                edge_input_dictionary["cnt_"+str(temp_year)]  = line_temp[j]
-                temp_year_cnt = int(line_temp[j])
-            else : edge_input_dictionary[csv_config[j]] = line_temp[j]
-
-        try : temp_year = int(line_temp[csv_dictionary["YEAR"]])
-        except :
-            print("year error : ",temp_year)
-            continue
-        if(temp_year <= 1992) : continue
-
-        temp_node1_id = a.node_id_with_lable(node1_name,node1_domain)
-        temp_node2_id = a.node_id_with_lable(node2_name,node2_domain)
-
-        if(temp_node1_id == -1 or temp_node2_id == -1): continue
-        if (temp_node1_id == None or temp_node2_id == None): continue
-
-        if(node2_name == "MESH:C051890"):
-            node2_name = node2_name
-        print(node1_name, node1_domain, node2_name, node2_domain, type_of_relationship, edge_input_dictionary)
-        temp003 = a.check_relationships_by_id(temp_node1_id,temp_node2_id, type_of_relationship)
-        # print(temp003)
-        if (temp003 == -1):
-            a.create_relationship_by_id(temp_node1_id,temp_node2_id, type_of_relationship, edge_input_dictionary)
-        elif(temp003 == -2):
-            print("unkown relationship error")
-            print(node1_name,node1_domain,node2_name,node2_domain)
-            continue
-        else:
-            a.update_relationships_cnt_by_id_with_year(temp_node1_id, temp_node2_id, temp003, type_of_relationship, temp_year, temp_year_cnt)
-
-        if(relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt*10000)
-            line_cnt += 1
-
-    csv_file.close()
-def edge_year_input_node_loaded(input_file = "F://LionDB//complete_MESHD000544_MESHD004967.tar//complete_MESHD000544_MESHD004967//edges.csv"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-    node1_id = 0
-    node2_id = 0
-    lable_reverse_dictionary = {1: "Chemical", 2: "Disease", 3: "Mutation", 4: "Gene", 5: "Species", 6: "CellLine",
-                                7: "Hallmark", 8: "Pro"}
-    # lable_dictionary = {"Chemical": 1, "Disease": 2, "Mutation": 3, "Gene": 4, "Species": 5, "CellLine": 6,
-    #                    "Hallmark": 7, "Pro" : 8}
-    csv_file = fileinput.input(input_file,  openhook=fileinput.hook_encoded("utf-8-sig"))
-#    csv_config = csv_file.readline().rstrip('\n').split(',')
-    csv_config = "NODE1_ID,NODE1_DOMAIN,NODE2_ID,NODE2_DOMAIN,YEAR,COUNT".rstrip('\n').split(',')
-    relationship_cnt = 1
-    csv_dictionary = {}
-
-    for i in range(0,len(csv_config)):
-        if (csv_config[i][0] == ':'):
-            csv_config[i] = csv_config[i][1:]
-        elif (':' in csv_config[i]):
-            csv_config[i] = csv_config[i].split(':')[0]
-        csv_dictionary[csv_config[i]] = i
-    print(csv_config)
-    line_cnt = 1
-    edge_input_dictionary = {}
-    cnt3 = 1
-    for line in csv_file:
-        if (0 > cnt3):
-            cnt3 = cnt3 + 1
-            if (cnt3 % 10000 == 0): print(cnt3)
-            continue
-        line_temp = csv_parser(line.rstrip('\n'))
-
-        type_of_relationship = "co_occurnce"
-        node1_name = line_temp[csv_dictionary["NODE1_ID"]].split(";")[0].rstrip(' ')
-        try:
-            node1_domain = lable_reverse_dictionary[int(line_temp[csv_dictionary["NODE1_DOMAIN"]])]
-        except:
-            print("NODE1_DOMIAN ERROR!!",cnt3)
-            print(line)
-            continue
-        node2_name = line_temp[csv_dictionary["NODE2_ID"]].split(";")[0].rstrip(' ')
-        #.split(";")[0] for Gene:3484;3485;3489
-        # if("CHEBI" in node1_name or "CHEBI" in node2_name) :
-        #     print("CHEBI skip :", node1_name,"&&", node2_name)
-        #     continue
-        if ("rs" in node1_name  or "rs" in node2_name):
-            print("Mutation skip :", node1_name, "&&", node2_name)
-            continue
-        try:
-            node2_domain = lable_reverse_dictionary[int(line_temp[csv_dictionary["NODE2_DOMAIN"]])]
-        except:
-            print("NODE2_DOMAIN ERROR!!",cnt3)
-            print(line)
-            continue
-        relationship_cnt = relationship_cnt + 1
-
-        edge_input_dictionary = {}
-        for j in range(0,len(csv_config)):
-            if(csv_config[j] == "NODE1_ID" or csv_config[j] == "NODE1_DOMAIN" or csv_config[j] == "NODE2_ID" or csv_config[j] == "NODE2_DOMAIN" ): continue
-            elif csv_config[j] == "YEAR" :
-                temp_year = int(line_temp[j])
-            elif csv_config[j] == "COUNT" :
-                edge_input_dictionary["cnt_"+str(temp_year)]  = line_temp[j]
-                temp_year_cnt = int(line_temp[j])
-            else : edge_input_dictionary[csv_config[j]] = line_temp[j]
-
-        #temp_node1_id = a.node_id_with_lable(node1_name,node1_domain)
-        #temp_node2_id = a.node_id_with_lable(node2_name,node2_domain)
-        if("Gene" in node1_name and "GeneID" not in node1_name) :
-            node1_name = "GeneID:"+node1_name.split("Gene:")[-1]
-        if ("Gene" in node2_name and "GeneID" not in node2_name):
-            node2_name = "GeneID:" + node2_name.split("Gene:")[-1]
-        print(node1_name,",", node2_name)
-        temp_node1_id = a.nodes.get(node1_name, -1)
-        temp_node2_id = a.nodes.get(node2_name, -1)
-
-
-        if(temp_node1_id == -1 or temp_node2_id == -1): continue
-
-        try : temp_year = int(line_temp[csv_dictionary["YEAR"]])
-        except :
-            print("year error : ",temp_year)
-            continue
-        #if(temp_year <= 1975) : continue
-        #print(node1_name, node1_domain, node2_name, node2_domain, type_of_relationship, edge_input_dictionary)
-        temp003 = a.check_relationships_by_id(temp_node1_id,temp_node2_id, type_of_relationship)
-        # print(temp003)
-        if (temp003 == -1):
-            a.create_relationship_by_id(temp_node1_id,temp_node2_id, type_of_relationship, edge_input_dictionary)
-        elif(temp003 == -2):
-            print("unkown relationship error")
-            print(node1_name,node1_domain,node2_name,node2_domain)
-            continue
-        else:
-            a.update_relationships_cnt_by_id_with_year(temp_node1_id, temp_node2_id, temp003, type_of_relationship, temp_year, temp_year_cnt)
-
-        if(relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt*10000)
-            line_cnt += 1
-
-    csv_file.close()
-def edge_pmid_input_Bern(input_file = "./bern_niclosamide_edge_combination_sorted_merged2_.txt"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-
-    node1_id = 0
-    node2_id = 0
-    node1_domain = ""
-    node2_domain = ""
-
-    Bern_lable_reverse_dictionary = {"drug":"Drug", "disease":"Disease", "mutation":"Mutation", "gene":"Gene", "species":"Species", "miRNA":"miRNA",
-                                            "pathway":"pathway", "Special":"Special"}
-    lable_reverse_dictionary = {1:"Chemical", 2:"Disease", 3:"Mutation", 4:"Gene", 5:"Species", 6:"CellLine",
-                                            7:"Hallmark", 8:"Pro"}
-
-    #lable_dictionary = {"Chemical": 1, "Disease": 2, "Mutation": 3, "Gene": 4, "Species": 5, "CellLine": 6,
-    #                    "Hallmark": 7, "Pro" : 8}
-    f = open(input_file,"r")
-
-    relationship_cnt = 1
-    line_cnt = 1
-
-    edge_input_dictionary = {}
-    cnt3 = 1
-
-    while True:
-        line = f.readline()
-        if not line : break
-        line_temp = line.split("@#$")
-        type_of_relationship = "PMID_cooccurnce"
-
-        # if('CUI-less' in line_temp[2]):
-        #     line_temp[2] = "CUI-less-"+str(line_temp[0])
-        node1_name = line_temp[2].split("|")[0]
-        try :
-            node1_domain = Bern_lable_reverse_dictionary[str(line_temp[1])]
-        except:
-            print("Node1_DOMAIN_1 Erorr!",cnt3)
-            print(line)
-
-        # if ('CUI-less' in line_temp[5]):
-        #     line_temp[5] = "CUI-less-" + str(line_temp[3])
-        node2_name = line_temp[5].split("|")[0]
-        try :
-            node2_domain = Bern_lable_reverse_dictionary[str(line_temp[4])]
-        except:
-            print("Node1_DOMAIN_2 Erorr!",cnt3)
-            print(line)
-
-        relationship_cnt = relationship_cnt + 1
-        edge_input_dictionary = {}
-        edge_input_dictionary["PMID_CNT"] = int(line_temp[6])
-
-        temp_node1_id = a.node_id_with_lable(node1_name, node1_domain)
-        temp_node2_id = a.node_id_with_lable(node2_name, node2_domain)
-
-        if (temp_node1_id == -1 or temp_node2_id == -1):
-            print(str(node1_name)+"__"+str(node2_name))
-            continue
-        if (temp_node1_id == None or temp_node2_id == None):
-            print(str(node1_name) + "__" + str(node2_name))
-            continue
-
-        if (relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt * 10000)
-            line_cnt += 1
-
-        # temp003 = a.check_relationships_by_id(temp_node1_id, temp_node2_id, type_of_relationship)
-        # if (temp003 == -1):
-        #     print(str(node1_name) + "_XXXX_" + str(node2_name))
-        #     continue
-        # else:
-        #     continue
-        #-----------
-        temp003 = a.check_relationships_by_id(temp_node1_id, temp_node2_id, type_of_relationship)
-        # print(temp003)
-        if (temp003 == -1):
-            a.create_relationship_by_id(temp_node1_id, temp_node2_id, type_of_relationship, edge_input_dictionary)
-        elif (temp003 == -2):
-            print("unkown relationship error")
-            print(node1_name, node1_domain, node2_name, node2_domain)
-            continue
-        if (relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt * 10000)
-            line_cnt += 1
-    f.close()
-    #test
-def edge_approved_input_Corona(input_file = "C:/Users/kms0845/PycharmProjects/CoroNet/Corona_Miscellsious/DrugBank_Corona_Node.txt"):
-    global a
-    #output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-
-    node1_id = 0
-    node2_id = 0
-    node1_domain = ""
-    node2_domain = ""
-
-    Bern_lable_reverse_dictionary = {"drug":"Drug", "disease":"Disease", "mutation":"Mutation", "gene":"Gene", "species":"Species", "miRNA":"miRNA",
-                                            "pathway":"pathway", "Special":"Special"}
-    lable_reverse_dictionary = {1:"Chemical", 2:"Disease", 3:"Mutation", 4:"Gene", 5:"Species", 6:"CellLine",
-                                            7:"Hallmark", 8:"Pro"}
-
-    #lable_dictionary = {"Chemical": 1, "Disease": 2, "Mutation": 3, "Gene": 4, "Species": 5, "CellLine": 6,
-    #                    "Hallmark": 7, "Pro" : 8}
-    f = open(input_file,"r")
-
-    relationship_cnt = 1
-    line_cnt = 1
-
-    edge_input_dictionary = {}
-    cnt3 = 1
-
-    while True:
-        line = f.readline()
-        if not line : break
-        line_temp = line.split("@#$")
-        type_of_relationship = "Approved_Drug_Relationship"
-
-        # if('CUI-less' in line_temp[2]):
-        #     line_temp[2] = "CUI-less-"+str(line_temp[0])
-        node1_name = line_temp[2].split("|")[0]
-        try :
-            node1_domain = "Drug"
-        except:
-            print("Node1_DOMAIN_1 Erorr!",cnt3)
-            print(line)
-
-        # if ('CUI-less' in line_temp[5]):
-        #     line_temp[5] = "CUI-less-" + str(line_temp[3])
-        node2_name = line_temp[2].split("|")[0]
-        try :
-            node2_domain = "approved_drug"
-        except:
-            print("Node2_DOMAIN_2 Erorr!",cnt3)
-            print(line)
-
-        relationship_cnt = relationship_cnt + 1
-        edge_input_dictionary = {}
-        #edge_input_dictionary["PMID_CNT"] = int(line_temp[6])
-
-        temp_node1_id = a.node_id_with_lable(node1_name, node1_domain)
-        temp_node2_id = a.node_id_with_lable(node2_name, node2_domain)
-
-        if (temp_node1_id == -1 or temp_node2_id == -1):
-            print(str(node1_name)+"__"+str(node2_name))
-            continue
-        if (temp_node1_id == None or temp_node2_id == None):
-            print(str(node1_name) + "__" + str(node2_name))
-            continue
-
-        if (relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt * 10000)
-            line_cnt += 1
-
-        # temp003 = a.check_relationships_by_id(temp_node1_id, temp_node2_id, type_of_relationship)
-        # if (temp003 == -1):
-        #     print(str(node1_name) + "_XXXX_" + str(node2_name))
-        #     continue
-        # else:
-        #     continue
-        #-----------
-        temp003 = a.check_relationships_by_id(temp_node1_id, temp_node2_id, type_of_relationship)
-        # print(temp003)
-        if (temp003 == -1):
-            a.create_relationship_by_id(temp_node1_id, temp_node2_id, type_of_relationship, edge_input_dictionary)
-        elif (temp003 == -2):
-            print("unkown relationship error")
-            print(node1_name, node1_domain, node2_name, node2_domain)
-            continue
-        if (relationship_cnt == 10000):
-            relationship_cnt = 0
-            print(line_cnt * 10000)
-            line_cnt += 1
-    f.close()
-    #test
-
-
-def node_input(input_file= "C://Users//kms0845//Downloads//LionDB//Node_Cellline.csv"):
-    global a
-#    input_file =
-#    output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-
-
-    csv_file = fileinput.input(input_file, openhook=fileinput.hook_encoded("utf-8-sig"))
-    csv_config = csv_file.readline().rstrip('\n').split('@#$')
-    print(csv_config)
-    csv_input_dictionary = {}
-    for i in range(0, len(csv_config)):
-        if (csv_config[i][0] == ':'):
-            csv_config[i] = csv_config[i][1:]
-        elif (':' in csv_config[i]):
-            csv_config[i] = csv_config[i].split(':')[0]
-        if (csv_config[i].upper() == "TYPE"): csv_config[i] = 'type'
-    for i in range(0, len(csv_config)):
-        csv_input_dictionary[csv_config[i]] = i
-    node_cnt = 1
-    try:
-        type_index = csv_input_dictionary["type"]
-    except:
-        type_index = csv_input_dictionary["Type"]
-
-    node_input_dictionary = {}
-
-    cnt = 0
-    line_temp = ""
-    for line in csv_file:
-        label_type = ""
-        temp_in = ""
-        #,"라는 패턴이 나오면 ",까지 대기
-
-        # if(line.split(",")[-1] != "KEGG\n" and line.split(",")[-1] != "KNApSAcK\n" and line.split(",")[-1] != "COCONUT\n"):
-        #    line_temp = line_temp+line.rstrip('\n')
-        #    continue
-        # else:
-        #     line = line_temp + line
-        #     line_temp = ""
-
-        #temp_in = csv_parser(line.rstrip('\n'))
-        temp_in = line.rstrip('\n').split("@#$")
-        cnt = cnt + 1
-        #if(cnt < 67040) : continue
-        print(temp_in)
-
-        for j in range(0,len(csv_config)):
-            node_input_dictionary[csv_config[j]] = temp_in[j]
-
-        try :
-            label_type = temp_in[type_index]
-        except:
-            print("add node without type error.")
-            continue
-
-        if(a.node_id_with_lable(node_input_dictionary['ID'],label_type) == -1):
-            a.add_nodes(label_type, **node_input_dictionary)
-        else:
-            print(node_input_dictionary['ID']+" exists")
-
-    print("\nUpload done")
-    csv_file.close()
-
-def node_input_BERN(input_file_path="./Corona_Nodes/bern_Special_cui_sorted.txt",data_type="Special"):
-    global a
-    #    input_file =
-    #    output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-
-
-    #{
-    # "LABEL": "entity",
-    # "text": "Acetylmuramyl-Alanyl-Isoglutamine",
-    # "OID": "D09.067.550.050;D09.811.522.050;D12.644.233.050;",
-    # "ID": "MESH:D000119",
-    # "type": "Chemical",
-    # "remarks": ""
-    # }
-
-    f = open(input_file_path,"r")
-    input_file = f.readlines()
-    f.close()
-    csv_input_dictionary = {}
-
-    node_input_dictionary = {"LABLE":"entity","text":"text_null","OID":"OID_null","ID":"ID_null","type":data_type,"remarkts":""}
-
-    cnt = 0
-    line_temp = ""
-    for line in input_file:
-        label_type = ""
-        temp_in = line.rstrip("\n").split("@#$")
-
-        node_input_dictionary["text"] = temp_in[0]
-        node_input_dictionary["OID"] = temp_in[2]
-        node_input_dictionary["ID"] = temp_in[2].split("|")[0]
-
-        temp_in = csv_parser(line.rstrip('\n'))
-
-        cnt = cnt + 1
-
-        print(temp_in)
-
-        try:
-            label_type = data_type
-        except:
-            print("add node without type error.")
-            continue
-
-        a.add_nodes(label_type, **node_input_dictionary)
-
-    print("\nUpload done")
-def node_input_Corona(input_file_path="C:/Users/kms0845/PycharmProjects/CoroNet/Corona_Miscellsious/DrugBank_Corona_Node.txt",data_type="approved_drug"):
-    global a
-    #    input_file =
-    #    output_file = "C://Users//kms0845//Desktop//Work//Data//190531//edges_out_real.csv"
-
-
-    #{
-    # "LABEL": "entity",
-    # "text": "Acetylmuramyl-Alanyl-Isoglutamine",
-    # "OID": "D09.067.550.050;D09.811.522.050;D12.644.233.050;",
-    # "ID": "MESH:D000119",
-    # "type": "Chemical",
-    # "remarks": ""
-    # }
-
-    f = open(input_file_path,"r")
-    input_file = f.readlines()
-    f.close()
-    csv_input_dictionary = {}
-
-    node_input_dictionary = {"LABLE":"entity","text":"text_null","OID":"OID_null","ID":"ID_null","type":data_type,"remarkts":""}
-
-    cnt = 0
-    line_temp = ""
-    for line in input_file:
-        label_type = ""
-        temp_in = line.rstrip("\n").split("@#$")
-
-        node_input_dictionary["text"] = temp_in[0]
-        node_input_dictionary["OID"] = temp_in[3]
-        node_input_dictionary["ID"] = temp_in[2].split("|")[0]
-
-        temp_in = csv_parser(line.rstrip('\n'))
-
-        cnt = cnt + 1
-
-        print(temp_in)
-
-        try:
-            label_type = data_type
-        except:
-            print("add node without type error.")
-            continue
-
-        a.add_nodes(label_type, **node_input_dictionary)
-
-    print("\nUpload done")
-
-def output_csv(node_list=[]):
-    global a
-    print(node_list)
-    start_node_id = 0
-    end_node_id = 0
-    temp003 = 0
-    cnt001 = 1
-    for i, node_a in enumerate(node_list):
-        for j, node_b in enumerate(node_list):
-            if (i >= j): continue
-            print("i = " + str(i) + " and j = " + str(j))
-            print("i = " + node_a + " and j = " + node_b)
-            start_node_id = 0
-            end_node_id = 0
-            search_temp = 0
-            search_temp = a.nodes.get(node_a,-1)
-            if (search_temp != -1): start_node_id = search_temp
-            else:
-                start_node_id = a.node_id(node_a)
-                if(start_node_id == -1):
-                    print("start_node_id 찾을 수 없음 : "+node_a)
-                    break
-                    #for __ to change i exit j
-            search_temp = 0
-            search_temp = a.nodes.get(node_b, -1)
-            if (search_temp != -1): end_node_id = search_temp
-            else :
-                end_node_id = a.node_id(node_b)
-                if (end_node_id == -1):
-                    print("end_node_id 찾을 수 없음 : " + node_b)
-                    continue
-            temp003 = a.check_relationships_by_id(start_node_id, end_node_id)
-            #print(temp003)
-            if(temp003 == -1):
-                a.create_relationship_by_id(start_node_id,end_node_id,"test",{'cnt':1})
-                # cnt001 += 1
-                # if(cnt001 >= 10):
-                #     driver.close()
-                #     sys.exit(1)
-            else:
-                a.update_relationships_cnt_by_id(start_node_id,end_node_id,temp003)
-                #print(temp003)
-            #out.write(node_a + "," + node_b + ",,PTC_occurrence\n")
-def count_bioconcept(bioconcept_location = "//1TB//FTP_DATA//PubTatorCentral//bioconcepts2pubtatorcentral"):
-    template = ""
-    new_line = list()
-    document_number = ""
-    bioconcept = ""
-    #out.write(':START_ID,:END_ID,year:int,:TYPE\n')
-    # 'C://Users//sonic//Desktop//PubtatorCentral//bioconcepts2pubtatorcentral//bioconcepts2pubtatorcentral'
-    with open(bioconcept_location, 'r', encoding='utf-8-sig') as f:
-        while True:
-            line = f.readline()
-            bioconcept = ""
-            if not line: break
-            # print(line)
-            try:
-                if (line.split(',')[2].isdigit() == True):
-                    if (line.split(',')[1] == "Species"):
-                        bioconcept = "NCBI:TAXID:" + line.split(',')[2]
-                    elif (line.split(',')[1] == "Gene"):
-                        bioconcept = "GeneID:" + line.split(',')[2]
-                    else:
-                        print("digit error !!")
-                else:
-                    bioconcept = line.split(',')[2]
-            except:
-                print(line)
-                print("file error")
-                continue
-                # os.system('Pause')
-
-            if template == line.split(',')[0]:
-                # 같은 문서
-                new_line.append(bioconcept)
-                # print(new_line)
-            else:
-                # 다른 문서
-                if (template == ""):
-                    template = line.split(',')[0]
-                    new_line.append(bioconcept)
-                else:
-                    document_number = template
-                    output_csv(new_line)
-                    # for i,node in enumerate(new_line):
-                    #     print(str(i) + "  :  " + node)
-
-                    template = line.split(',')[0]
-                    # print('new document')
-                    new_line.clear()
-                    document_number = ""
-                    new_line.append(bioconcept)
-
-                    # print(line.split(',')[0])
-                    # print(line.split(',')[2])
-                    # new_line.append(line.split(',')[0])
-                    # print(new_line)
-
-    # edge.to_csv('C://Users//sonic//Desktop//edge.csv', index=False)
-    f.close()
 
 def express_js(data= {'msg':"Hi!!!"}):
     #url = "http://localhost:3000"
@@ -2265,10 +1779,16 @@ def express_js(data= {'msg':"Hi!!!"}):
 
     return
 def php_dump(data= {'msg':"Hi!!!"}):
-
+    data['relationships'] = data['links']
+    del data['links']
+    # in neo4jd3 'links' change into 'relationships'  2020_05_08 mskim
     for i in data.keys():
         for j,a in enumerate(data[i]):
             for k in a.keys():
+                # if(i == 'nodes' and k == 'id'):
+                #     temp = data[i][j]['properties']['nm']
+                #     data[i][j][k] = ""
+                #     data[i][j][k] = temp
                 if("\"" in str(data[i][j][k])):
                     #print(data[i][j][k])
                     data[i][j][k] = data[i][j][k].replace("\"","_")
@@ -2277,126 +1797,16 @@ def php_dump(data= {'msg':"Hi!!!"}):
     #headers = {'Content-type':'applications/json', 'Accept' : 'text/plain'}
     #r = requests.post(url, data = json.dumps(data), headers = headers)
 
-def lionLBDValidation(bioconcept_ID="PR:000003035",bioconcept_Domain="Gene"):
-    import cx_Oracle as oci
-    Oracle_url = "192.168.0.132"
-    conn = oci.connect('neo4j/neo1234@192.168.0.132:1521/graph')
-
-    #f = open("/home/yonsei/PycharmProjects/GraphDB/Pop_up/Chemical_Pop_up/chemical_popup_merge2","r")
-    f = open("/home/yonsei/PycharmProjects/GraphDB/Pop_up/Disease/disease_popup","r")
-    temp = f.readline()
-    print(temp)
-    lines = f.readlines()
-    test_data = []
-    for i in lines:
-        test_data.append(i.split("@#$")[0])
-    f.close()
-    test_out = open("./test_out.text","w")
-    # b = Nodes_Noe4j()
-    for i in test_data:
-#        if(i != "TAXID:487"): continue
-        # b.__init__()
-        bioconcept_ID = i
-        LBDbioconcept_ID = bioconcept_ID
-        if("TAXID:" in bioconcept_ID):
-            #some virus appears as speceis in disease db
-            LBDbioconcept_ID = "NCBITaxon:"+bioconcept_ID.split(':')[1]
-            bioconcept_Domain = "Species"
-        else:
-            bioconcept_Domain = "Disease"
-        Neighbor_Base_URL = 'http://lbd.lionproject.net/neighbours/'
-        URL = Neighbor_Base_URL + LBDbioconcept_ID
-        response = requests.get(URL)
-        if(response.status_code != 200):
-            print(LBDbioconcept_ID,"Request Error!!")
-            continue
-        data = response.json()
-        path = "./Disease_Lion_LBD/" + str(bioconcept_ID)+".json"
-        with open(path,"w") as json_file:
-            json.dump(data, json_file)
-        # lion_nodes = data["nodes"]
-        #
-        #
-        # arg = str("Lion 4 "+bioconcept_ID+" "+bioconcept_Domain+" 1980 2000").split(" ")
-        # b.conditional_start(arg)
-        #
-        # results_nodes = b.data['nodes']
-        # if(results_nodes == 0):
-        #     #Starting node without connecting edge
-        #     continue
-        # found_cnt = 0
-        #
-        #
-        # # print(conn.version)
-        # cursor = conn.cursor()
-        # # self.lable_web_dictionary = {"Query": 1, "Chemical": 2, "Disease": 3, "Mutation": 4, "Gene": 5, "Species": 6,
-        # #                              "CellLine": 7,
-        # #                              "Hallmark": 8}
-        #
-        # excluded_node_cnt = 0
-        # filtered_lion_nodes = []
-        # for i in lion_nodes:
-        #     if("HOC" in i['id']) :
-        #         excluded_node_cnt = excluded_node_cnt + 1
-        #         continue
-        #     if("NCBITaxon:" in i['id']):
-        #         i['id'] = "TAXID:"+i['id'].split(':')[1]
-        #     # if("CHEBI:" in i['id']):
-        #     #     excluded_node_cnt = excluded_node_cnt + 1
-        #     #     continue
-        #     if("PR:" in i['id']):
-        #         excluded_node_cnt = excluded_node_cnt + 1
-        #         continue
-        #         query_ID_temp = ""
-        #         query_ID_temp = query_ID_temp + "PROID = \'" + i['id'] +"\'"
-        #         # print('select PROID, DEFINITION from NEO4J_GENE_POPUP_NEW where ' + query_ID_temp)
-        #         cursor.execute('select PROID, GENEID from NEO4J_GENE_POPUP_NEW where ' + query_ID_temp)
-        #         for k in cursor.fetchall():
-        #             print(k[1])
-        #     filtered_lion_nodes.append(i)
-        # total_lion_nodes = len(filtered_lion_nodes)
-        # total_results_nodes = len(results_nodes)
-        # found_check = False
-        # for i in filtered_lion_nodes:
-        #     found_check = False
-        #     for j in results_nodes:
-        #         if(i['id'] == j['cd']):
-        #             found_cnt = found_cnt + 1
-        #             found_check = True
-        #             break
-        #     if(found_check == False):
-        #         print(i['id'],i['name']," not found !")
-        # found_percent = found_cnt/total_lion_nodes*100
-        # temp = i['id']+","+str(i['name'])+","+str(total_lion_nodes)+","+str(total_results_nodes)+","+str(found_cnt)+","+str(found_percent)
-        print(i)
-        test_out.write(i)
-        test_out.write("\n")
-    # cursor.close()
-    conn.close()
-    test_out.close()
-
 if __name__ == '__main__':
     start_time = time.time()
 
     a = Nodes_Noe4j()
-    #node_input_Corona()
-    edge_approved_input_Corona()
-    #edge_pmid_input_Bern()
-
-    #subscribe test
-
     #a.load_all_nodes()
-    #edge_year_input_node_loaded("./pmid_results_NoneGene_NonGene.csv")
-    #edge_year_input_node_loaded_sql_print("/12TB/200211/upload_run/edge_pro_2020.tsv")
-    #node_input('/home/yonsei/PycharmProjects/GraphDB/Pop_up/Chemical/chebi_chemical_node.scv')
-    #arg = sys.argv
-    #arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 1 PR:000016558 Gene 1980 2020'.split(" ")
-    # #disease_hierarchy()
-    # if(len(arg) < 5):
-    #     arg = "Class.py 2 MESH:D001241 Chemical MESH:D010146 Disease 1980 2020".split(" ")
-        # arg = "Class.py 4 MESH:D056684 Disease 1980 2020 ".split(" ")
-        # arg = "Lion 1 MESH:D001241 Chemical 1980 2000".split(" ")
-    #a.conditional_start(arg)
+
+    arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 1 BERN:4567303 Drug'.split(" ")
+
+
+    a.conditional_start(arg)
 
     #edge_year_input("/3TB/test/191231/pmid_result_Gene_filtered_pro_191230.psv")
 
@@ -2423,4 +1833,13 @@ if __name__ == '__main__':
     #a.close_discovery(start_target_label_type="Chemical", start_target_id="MESH:D016685", end_target_label_type="Cellline", end_target_id="CVCL_0023")
 
 
+    #count_bioconcept()
+    #node_input(sys.argv[1])
+    #edge_input(sys.argv[1])
+
+    #print(a.check_relationships("TAXID:24","CVCL_IJ15"))
+    #a.create_relationship()
+    #a.create_relationship("MESH:C528072", "MESH:C528070")
+    #print(a.nodes)
+    #output_csv(["CVCL_V362","CVCL_IP58"])
     driver.close()

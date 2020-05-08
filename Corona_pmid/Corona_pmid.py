@@ -11,7 +11,7 @@ def SubmitPMIDList_BERN(Inputfile):
     #
     f_in = open(Inputfile,"r")
     cnt = 1
-    f_out = open("bern_results.txt","w")
+    f_out = open("bern_niclosamide_results.txt","w")
     while True:
         line = f_in.readline().rstrip("\n")
         if not line : break
@@ -61,7 +61,7 @@ def SubmitPMIDList(Inputfile, Format, Bioconcept):
 
     f.close()
 if __name__ == "__main__":
-    SubmitPMIDList_BERN("./pmid_list_0325.txt")
+    SubmitPMIDList_BERN("./pmid_list_niclosamide")
     #SubmitPMIDList("./pmid_list_0325.txt", "pubtator", "")
     #
     # arg_count = 0

@@ -1,7 +1,7 @@
 from operator import itemgetter
 
-f = open("./bern_species_cui.txt","r")
-f_out = open("./bern_species_cui_sorted.txt","w")
+f = open("./bern_Special.txt","r")
+f_out = open("./bern_Special_cui_sorted.txt","w")
 temp_list = []
 while True:
     line = f.readline()

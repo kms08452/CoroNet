@@ -1,6 +1,6 @@
 
-f = open("./bern_results.txt","r")
-f_out = open("./bern_nodes.txt","w")
+f = open("./bern_niclosamide_results.txt","r")
+f_out = open("bern_miRNA.txt", "w")
 
 while True:
     line = f.readline()
@@ -10,7 +10,7 @@ while True:
     temp_len = len(temp)
     if(temp_len >= 3):
         if(temp_len == 6):
-            if("pathway" not in temp[-2]): continue
+            if("miRNA" not in temp[-2]): continue
             f_out.write(temp[3])
             f_out.write("@#$")
             f_out.write(temp[4])

@@ -1,6 +1,6 @@
 
-f = open("./bern_edge_combination_sorted_merged2.txt","r")
-f_out = open("./bern_edge_combination_sorted_merged2_.txt","w")
+f = open("./bern_niclosamide_edge_combination_sorted_merged2.txt","r")
+f_out = open("./bern_niclosamide_edge_combination_sorted_merged2_.txt","w")
 
 
 pmid_temp = "aaaa"
