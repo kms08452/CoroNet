@@ -176,6 +176,16 @@ class Nodes_Noe4j:
                 arg_end_year = int(arg[5])
                 self.neighbor_discovery_with_years(start_target_label_type=arg_target_domain,
                                                     start_target_id=arg_target_id, start_years = arg_start_year, end_years = arg_end_year)
+            elif (arg[1] == str(5)):
+                arg_target_id = str(arg[2])
+                arg_target_domain = str(arg[3])
+                arg_start_year = 2020
+                arg_end_year = 2020
+                # arg_start_year = int(arg[4])
+                # arg_end_year = int(arg[5])
+                self.weight_discovery_CORONET(target_label_type=arg_target_domain, target_id=arg_target_id,
+                                            open_query_filter_cnt=20, start_years=arg_start_year,
+                                            end_years=arg_end_year)
             else:
                 print("arg error  : ",arg[1])
                 driver.close()
@@ -627,6 +637,280 @@ class Nodes_Noe4j:
         run_text = run_text + "return ID(b),count(*)\n"
         run_text = run_text + "order by count(*) Desc\n"
         run_text = run_text + "limit 10\n"
+
+
+        #print("number of second layers : ")
+
+
+        #-----------------------------------------------------------------------------------------------------------
+        #second layer part
+        # print(links)
+        temp_links = []
+        first_second_edges = []
+        second_layer_nodes = []
+        second_layer_cnt = 0
+        for record in tx.run(run_text):
+            second_layer_nodes.append(record[0])
+            second_layer_cnt = record[1]
+
+
+        run_text = ""
+        run_text = run_text + "MATCH (SSS)" + "\n"
+        run_text = run_text + "Where ID(SSS) = " + str(General_Node00001.id) + "\n"
+        run_text = run_text + "With SSS\n"
+        run_text = run_text + "Match (a)\n"
+        nodes_text = "Where "
+        first_layer_node_list = []
+        for i in final_nodes:
+            nodes_text = nodes_text + "ID(a) = " + str(i["id"]) + " Or "
+            first_layer_node_list.append(i["id"])
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text
+        run_text = run_text + "With SSS, a\n"
+        run_text = run_text + "Match (b)\n"
+        nodes_text = "Where "
+        first_layer_node_list = []
+        for i in second_layer_nodes:
+            nodes_text = nodes_text + "ID(b) = " + str(i) + " Or "
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text +"\n"
+        run_text = run_text + "With a, b\n"
+        run_text = run_text + "Match (a)-[r]-(b)\n"
+        # cnt_text = "WHERE "
+        # coalesce_text = "WITH a, r, b, "
+        # for i in range(start_years, end_years) :
+        #     cnt_property_text = "cnt_" + str(i)
+        #     cnt_text = cnt_text + "exists(r." + cnt_property_text + ") or "
+        #     coalesce_text = coalesce_text + "coalesce(r." + cnt_property_text + ", 0) +"
+        # cnt_text = cnt_text[:-3]
+        # coalesce_text = coalesce_text[:-2] + " as cnt"
+        # run_text = run_text + cnt_text + '\n'
+        # run_text = run_text + coalesce_text + '\n'
+        run_text = run_text + "return r,b\n"
+        run_text = run_text + "Order by r.PMID_CNT desc \n"
+        run_text = run_text + "limit 100"
+
+        links_temp = []
+
+
+
+        for edge in tx.run(run_text):
+            edges = edge[0]
+            total_edge_cnt = edge[0]['PMID_CNT']
+            end_node = edge[1]
+
+            #a.data['links'].append({"startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id), "cnt": total_edge_cnt, "lables": 1})
+            links_properties = {}
+            links_properties["cnt"] = total_edge_cnt
+            self.data['links'].append(
+                {"type": "PMID_TEST2", "startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id),"properties" : links_properties})
+
+            nodes_propreties = {}
+            nodes_propreties["cd"] = end_node._properties['ID']
+            nodes_propreties["nm"] = end_node._properties['text']
+            self.data['nodes'].append(
+                {"id": str(end_node.id),
+                 "labels": self.lable_web_dictionary[end_node._properties['type']],"properties":nodes_propreties})
+
+
+        nodes = []
+        nodes = self.data['nodes']
+        settype_nodes = set()
+        ex_nodes = []
+        for d in nodes:
+            t = tuple([d["id"]])
+            if t not in settype_nodes:
+                settype_nodes.add(t)
+                ex_nodes.append(d)
+        #
+        self.data['nodes'].clear()
+
+        # second_layer_len = len(ex_nodes)-first_layer_len
+        #
+        # circleradius = 10
+        #
+        # ang_cnt = 0
+        for i in ex_nodes:
+        #     if('fix_x' in i and 'fix_y' in i):
+        #         self.data['nodes'].append(i)
+        #         continue
+        #     ang_cnt = ang_cnt + 1
+        #     ang = (math.pi * 2 * ang_cnt) / second_layer_len
+        #     circle_x = (arcradius + 100) * math.sin(ang) + center_x
+        #     circle_y = (arcradius + 100) * math.cos(ang) + center_y
+        #     i['fix_x'] = circle_x
+        #     i['fix_y'] = circle_y
+             self.data['nodes'].append(i)
+
+
+        return result_nodes
+
+
+    def weight_discovery_CORONET(self, target_label_type = "Gene", target_id = "GeneID:7157", open_query_filter_cnt = 20, start_years = 2000, end_years = 2010) :
+        result = {}
+        result2 = {}
+        sorted_cnt = {}
+        visit = []
+        temp3 = 0
+        with driver.session() as session:
+            result = session.read_transaction(self.weight_discovery_tx_CORONET, target_label_type, target_id, open_query_filter_cnt, start_years, end_years)
+
+        for i in self.data['nodes']:
+            if(i["properties"]["cd"] == target_id):
+                i["labels"] = ["1"] # Query : 1
+        return 1
+    def weight_discovery_tx_CORONET(self, tx, endNode_label_type="Gene", endNode_id="GeneID:7157", query_filter_cnt = 0, start_years = 2000, end_years = 2010):
+
+        result_nodes = {}
+        #run_text = "Match (Gene00001: "+endNode_label_type+" {ID: \""+endNode_id+ "\" })-[s]-(Gene_web)-[r]-(n)\n"+"where toInteger(split(Gene_web.count, \";\")[-1]) > 521817\n"+"return ID(Gene_web)"
+
+        #MATCH (General_Node00001: Gene {ID: "GeneID:7157"})-[s] - (General_Node_web)
+        #WHERE exists(s.cnt_2009) or exists(s.cnt_2008) or exists(s.cnt_2007) or exists(s.cnt_2006) or exists(s.cnt_2005) or exists(s.cnt_2004) or exists(s.cnt_2003) or exists(s.cnt_2002) or exists(s.cnt_2001) or exists(s.cnt_2000)
+        #WITH s, coalesce(s.cnt_2009,0) + coalesce(s.cnt_2008, 0) +  coalesce(s.cnt_2007, 0) +  coalesce(s.cnt_2006, 0) +  coalesce(s.cnt_2005, 0) +  coalesce(s.cnt_2004, 0) +  coalesce(s.cnt_2003, 0) +  coalesce(s.cnt_2002, 0) +  coalesce(s.cnt_2001, 0) +  coalesce(s.cnt_2000, 0) as cnt
+        #order by cnt desc
+        #return s,cnt
+        #limit 10
+
+        cnt_text = ""
+        coalesce_text = ""
+        cnt_property_text = ""
+        run_text = ""
+        run_text = run_text + "MATCH (General_Node00001: " + endNode_label_type + " {ID: \"" + endNode_id + "\"})-[s:PMID_cooccurnce] - (General_Node_web)\n"
+        #cnt_text = "WHERE "
+        #coalesce_text = "WITH General_Node00001, General_Node_web, s, "
+        # for i in range(start_years, end_years) :
+        #     cnt_property_text = "cnt_" + str(i)
+        #     cnt_text = cnt_text + "exists(s."+cnt_property_text+") or "
+        #     coalesce_text = coalesce_text + "coalesce(s."+cnt_property_text+", 0) +"
+        #cnt_text = cnt_text[:-3]
+        #coalesce_text = coalesce_text[:-2] + " as cnt"
+        # run_text = run_text + cnt_text + '\n'
+        # run_text = run_text + coalesce_text + '\n'
+        # run_text = run_text + "Order by cnt desc \n"
+        run_text = run_text + "return s, General_Node00001, General_Node_web \n"
+        run_text = run_text + "Order by s.PMID_CNT desc \n"
+        run_text = run_text + "limit 1000"
+        #print(run_text)
+
+        nodes = []
+        links_temp = []
+        nodes_propreties = {}
+        links_properties = {}
+        for edge in tx.run(run_text):
+            edges = edge[0]
+            total_edge_cnt = edge[0]['PMID_CNT']
+            start_node = edge[0].start_node
+            end_node = edge[0].end_node
+
+            if (end_node._properties['type'] == endNode_label_type): continue
+
+            links_properties["cnt"] = total_edge_cnt
+            links_temp.append({"type": "PMID_test1", "startNode": str(edges.start_node.id), "endNode": str(edges.end_node.id), "properties" : links_properties})
+
+            nodes_propreties = {}
+
+            nodes_propreties["cd"] = start_node._properties['ID']
+            nodes_propreties["nm"] = start_node._properties['text']
+            nodes.append({"id":str(start_node.id),"labels":self.lable_web_dictionary[start_node._properties['type']],"properties":nodes_propreties})
+
+            nodes_propreties = {}
+
+            nodes_propreties["cd"] = end_node._properties['ID']
+            nodes_propreties["nm"] = end_node._properties['text']
+            nodes.append({"id": str(end_node.id),
+                          "labels": self.lable_web_dictionary[end_node._properties['type']], "properties":nodes_propreties})
+        # print(links)
+        links = []
+
+        General_Node00001 = start_node
+        #for starting point of open query
+
+        sorted_links = sorted(links_temp, key=lambda k: k['properties']['cnt'], reverse=True)
+
+        sorted_nodes = []
+        for i in range(0, 20):
+            links_properties = {}
+            links_properties["cnt"] = sorted_links[i]['properties']['cnt']
+            links.append({'type' : sorted_links[i]['type'], 'startNode' : sorted_links[i]['startNode'],'endNode' : sorted_links[i]['endNode'], 'properties': links_properties})
+            sorted_nodes.append(sorted_links[i]['startNode'])
+            sorted_nodes.append(sorted_links[i]['endNode'])
+
+        settype_nodes = set()
+        ex_nodes = []
+        for d in sorted_nodes:
+            t = tuple([d])
+            if t not in settype_nodes:
+                settype_nodes.add(t)
+                ex_nodes.append(d)
+
+        final_nodes = []
+        for i in ex_nodes:
+
+            for j in nodes:
+                if (j['id'] == i):
+                    final_nodes.append(j)
+                    break
+
+
+
+        # first_layer_len = len(final_nodes)
+        # arcradius = 100
+        # circleradius = 10
+        # n = first_layer_len
+        # m = [20, 140, 20, 100]
+        # w = 948 - m[1] - m[3]
+        # h = 600 - m[0] - m[2]
+        # center_x = w / 2 + m[1]
+        # center_y = h / 2 + m[0]
+        #
+        # for i in range(0,first_layer_len):
+        #     if(final_nodes[i]['cd'] == endNode_id):
+        #         final_nodes[i]['fix_x'] = center_x
+        #         final_nodes[i]['fix_y'] = center_y
+        #     else:
+        #         ang = (math.pi * 2 * i) / (first_layer_len-1)
+        #         circle_x = arcradius * math.sin(ang) + center_x
+        #         circle_y = arcradius * math.cos(ang) + center_y
+        #         final_nodes[i]['fix_x'] = circle_x
+        #         final_nodes[i]['fix_y'] = circle_y
+
+
+        self.data['nodes'] = final_nodes
+        self.data['links'] = links
+
+        #MATCH (SSS)
+        #Where ID(SSS) = 12359409
+        #With SSS
+        #Match (a)
+        #Where ID(a) = 12359409 Or ID(a) = 132876 Or ID(a) = 144511 Or ID(a) = 142261 Or ID(a) = 126034 Or ID(a) = 144942 Or ID(a) = 125798 Or ID(a) = 144570 Or ID(a) = 131423 Or ID(a) = 143620 Or ID(a) = 136735 Or ID(a) = 143082 Or ID(a) = 125821 Or ID(a) = 205145 Or ID(a) = 129790 Or ID(a) = 79141798 Or ID(a) = 79133404 Or ID(a) = 79133405 Or ID(a) = 126000 Or ID(a) = 133595 Or ID(a) = 145655 With SSS, a
+        #Match (a)-[r]-(b)
+        #Where not (SSS)--(b)
+        #return ID(b),count(*)
+        #order by count(*) Desc
+        #limit 100
+
+
+
+        run_text = ""
+        run_text = run_text + "MATCH (SSS)"+"\n"
+        run_text = run_text + "Where ID(SSS) = " + str(General_Node00001.id) + "\n"
+        run_text = run_text + "With SSS\n"
+        run_text = run_text + "Match (a)\n"
+        nodes_text = "Where "
+
+        first_layer_node_list = []
+        for i in final_nodes:
+            nodes_text = nodes_text + "ID(a) = " + str(i["id"]) + " Or "
+            first_layer_node_list.append(i["id"])
+        nodes_text = nodes_text[:-3]
+        run_text = run_text + nodes_text
+        run_text = run_text + "With SSS, a\n"
+        run_text = run_text + "Match (a)-[r]-(b)\n"
+        #run_text = run_text + "Where not (SSS)--(b)\n"
+        run_text = run_text + "with a,r,b\n"
+        run_text = run_text + "return ID(b),count(*)\n"
+        run_text = run_text + "order by count(*) Desc\n"
+        run_text = run_text + "limit 20\n"
 
 
         #print("number of second layers : ")
@@ -1803,7 +2087,7 @@ if __name__ == '__main__':
     a = Nodes_Noe4j()
     #a.load_all_nodes()
 
-    arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 1 BERN:4567303 Drug'.split(" ")
+    arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 5 CUI-less-SARS-CoV-2 Disease'.split(" ")
 
 
     a.conditional_start(arg)
