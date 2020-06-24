@@ -13,9 +13,9 @@ from neo4j import GraphDatabase
 
 
 #url = "bolt://175.121.89.176:8685"
-url = "bolt://1.233.215.39:7687"
+url = "bolt://1.233.215.41:8687"
 
-driver = GraphDatabase.driver(url,auth=("kms0845","neo4j"))
+driver = GraphDatabase.driver(url,auth=("kms0845","kms0845"))
 
 
 class Nodes_Noe4j:
@@ -128,6 +128,220 @@ class Nodes_Noe4j:
                     break
             if (seach_check == False):
                 print("target error : ", i["target"])
+
+    def QueryList_To_Json(self, Query = "return n"):
+        with driver.session() as session:
+            session.read_transaction(self.QueryList_To_Json_Run, Query)
+
+        with driver.session() as session:
+            session.read_transaction(self.QueryList_To_Json_edge_Run, Query)
+        temp_data = self.data["nodes"]
+        list_temp = "["
+        for j in temp_data:
+            list_temp = list_temp + str(j['id']) + ", "
+        list_temp = list_temp [:-2]
+        list_temp = list_temp + "]"
+        for i in temp_data:
+            Query2 = "MATCH (s)-[r]-(s2)\nwhere id(s) = "+str(i['id'])+" and id(s2) in " + list_temp + " RETURN s,r"
+            with driver.session() as session:
+                session.read_transaction(self.Query_To_Json_Run2, Query2)
+        php_dump(self.data)
+
+    def QueryList_To_Json_Run(self, tx, Query = "return n"):
+        try:
+            sorted_nodes = []
+            links = []
+            for record in tx.run(Query):
+                nodes_propreties = {}
+                nodes_propreties["cd"] = str(record[0]._properties['ID'])
+                nodes_propreties["nm"] = str(record[0]._properties['text'])
+                sorted_nodes.append({"id": str(record[0].id),
+                              "labels": self.lable_web_dictionary[record[0]._properties['type']],
+                              "properties": nodes_propreties})
+
+            bool_temp = False
+            ex_nodes = []
+            for i in sorted_nodes:
+                for j in ex_nodes:
+                    if(j["id"] == i["id"]):
+                        bool_temp = True
+                        break
+                if(bool_temp == False) : ex_nodes.append(i)
+                else: bool_temp = False
+
+            self.data['nodes'] = ex_nodes
+            return 1
+        except:
+            # print("node id not found : "+node1_name)
+            return -1
+
+    def QueryList_To_Json_edge_Run(self, tx, Query="return n"):
+        nodes = self.data["nodes"]
+        try:
+            sorted_nodes = []
+            links = []
+            for record in tx.run(Query):
+                nodes_propreties = {}
+                nodes_propreties["cd"] = str(record[0]._properties['ID'])
+                nodes_propreties["nm"] = str(record[0]._properties['text'])
+                sorted_nodes.append({"id": str(record[0].id),
+                                     "labels": self.lable_web_dictionary[record[0]._properties['type']],
+                                     "properties": nodes_propreties})
+
+            bool_temp = False
+            ex_nodes = []
+            for i in sorted_nodes:
+                for j in ex_nodes:
+                    if (j["id"] == i["id"]):
+                        bool_temp = True
+                        break
+                if (bool_temp == False):
+                    ex_nodes.append(i)
+                else:
+                    bool_temp = False
+
+            self.data['nodes'] = ex_nodes
+            return 1
+        except:
+            # print("node id not found : "+node1_name)
+            return -1
+
+    def Query_To_Json(self, Query = "return n"):
+        with driver.session() as session:
+            session.read_transaction(self.Query_To_Json_Run, Query)
+
+        temp_data = self.data["nodes"]
+        list_temp = "["
+        for j in temp_data:
+            list_temp = list_temp + str(j['id']) + ", "
+        list_temp = list_temp [:-2]
+        list_temp = list_temp + "]"
+        for i in temp_data:
+            Query2 = "MATCH (s)-[r]-(s2)\nwhere id(s) = "+str(i['id'])+" and id(s2) in " + list_temp + " RETURN s,r\nlimit 20"
+            with driver.session() as session:
+                session.read_transaction(self.Query_To_Json_Run2, Query2)
+
+        for j in self.data["nodes"]:
+            if (j['properties']['nm'] == 'Triticum aestivum'):
+                j['labels'] = ['1']
+        chemical_check_bool = False
+        for i in self.data["links"]:
+            chemical_check_bool = False
+            chemical_check_id = str(i['startNode'])
+            for j in self.data["nodes"]:
+                if(j['labels'][0] != '11') : continue
+                if(j['id'] == chemical_check_id):
+                    chemical_check_bool = True
+                    break
+
+            chemical_check_id = str(i['endNode'])
+            for j in self.data["nodes"]:
+                if (j['labels'][0] != '11'): continue
+                if (j['id'] == chemical_check_id):
+                    chemical_check_bool = True
+                    break
+            if(chemical_check_bool == False):
+                i['type'] = 'Inter-Connected'
+        php_dump(self.data)
+
+    def Query_To_Json_Run(self, tx, Query = "return n"):
+        try:
+            sorted_nodes = []
+            links = []
+            for record in tx.run(Query):
+                links.append({'type': 'Associate', 'startNode': record[0].id, 'endNode': record[2].id,
+                              'Properties' : { 'cnt': record[1]['PMID_CNT']}})
+
+                nodes_propreties = {}
+                nodes_propreties["cd"] = str(record[0]._properties['ID'])
+                nodes_propreties["nm"] = str(record[0]._properties['text'])
+                sorted_nodes.append({"id": str(record[0].id),
+                              "labels": self.lable_web_dictionary[record[0]._properties['type']],
+                              "properties": nodes_propreties})
+
+                nodes_propreties = {}
+                nodes_propreties["cd"] = str(record[2]._properties['ID'])
+                nodes_propreties["nm"] = str(record[2]._properties['text'])
+                sorted_nodes.append({"id": str(record[2].id),
+                                     "labels": self.lable_web_dictionary[record[2]._properties['type']],
+                                     "properties": nodes_propreties})
+
+            bool_temp = False
+            ex_nodes = []
+            for i in sorted_nodes:
+                for j in ex_nodes:
+                    if(j["id"] == i["id"]):
+                        bool_temp = True
+                        break
+                if(bool_temp == False) : ex_nodes.append(i)
+                else: bool_temp = False
+            #ex_nodes = list(map(dict, set(tuple(sorted(d.items())) for d in sorted_nodes)))
+            #
+            # settype_nodes = set()
+            # ex_nodes = []
+            # for d in sorted_nodes:
+            #     t = tuple([d])
+            #     #key = frozenset(t.items())
+            #     if t not in settype_nodes:
+            #         settype_nodes.add(t)
+            #         ex_nodes.append(d)
+            self.data['nodes'] = ex_nodes
+            self.data['links'] = links
+            return 1
+        except:
+            # print("node id not found : "+node1_name)
+            return -1
+
+    def Query_To_Json_Run2(self, tx, Query = "return n"):
+        try:
+            sorted_nodes = []
+            links = []
+            nodes = self.data['nodes']
+            nodes_list = ["RBV","Cyclosporin A","Kaletra","Chloroquine","Ritonavir","Actinomycin D","chloramphenicol","NTZ","Nelfinavir", "Niclosamide","Rapamycin","Acyclovir","Indomethacin"]
+            links = self.data['links']
+            check_cnt = 0
+            for record in tx.run(Query):
+                start_id = record[1].start_node.id
+                end_id = record[1].end_node.id
+                if(start_id == end_id) : continue
+                for i in nodes:
+                    if(i['id'] == str(start_id)):
+                        check_cnt = check_cnt + 1
+                    if(i['id'] == str(end_id)):
+                        check_cnt = check_cnt + 1
+                if(check_cnt == 2):
+                    duplicate_check = False
+                    associate_check = False
+                    for j in links:
+                        if(j['startNode'] == start_id and j['endNode'] == end_id):
+                            duplicate_check = True
+                            break
+                        if (j['startNode'] == end_id and j['endNode'] == start_id):
+                            duplicate_check = True
+                            break
+                    if(duplicate_check == False) :
+                        for k in nodes_list:
+                            if(k == str(record[1].start_node['text'])):
+                                associate_check = True
+                            elif(k == str(record[1].end_node['text'])):
+                                associate_check = True
+                        if(associate_check == True):
+
+                            links.append({'type': 'Associate', 'startNode': record[1].start_node.id,
+                                          'endNode': record[1].end_node.id,
+                                          'Properties': {'cnt': record[1]['PMID_CNT']}})
+                        else:
+                            links.append({'type': 'InterConnection', 'startNode': record[1].start_node.id, 'endNode': record[1].end_node.id,
+                              'Properties' : { 'cnt': record[1]['PMID_CNT']}})
+                    duplicate_check = False
+                    associate_check = False
+
+                self.data['links'] = links
+                check_cnt = 0
+            return 1
+        except:
+            # print("node id not found : "+node1_name)
+            return -1
     def conditional_start(self, arg):
         start_time = time.time()
 
@@ -2075,9 +2289,11 @@ def php_dump(data= {'msg':"Hi!!!"}):
                 #     data[i][j][k] = temp
                 if("\"" in str(data[i][j][k])):
                     #print(data[i][j][k])
-                    data[i][j][k] = data[i][j][k].replace("\"","_")
-
-    print(json.dumps(data))
+                    data[i][j][k] = str(data[i][j][k]).replace("\"","_")
+    f = open("json_dumps.json","w")
+    f.write(json.dumps(data))
+    f.close()
+    print("json dumps done!")
     #headers = {'Content-type':'applications/json', 'Accept' : 'text/plain'}
     #r = requests.post(url, data = json.dumps(data), headers = headers)
 
@@ -2086,11 +2302,16 @@ if __name__ == '__main__':
 
     a = Nodes_Noe4j()
     #a.load_all_nodes()
+    Query_temp = "MATCH (s:Query_Result)-[r]-(s2:Query_Result)\nRETURN s,r,s2"
+    Query_temp2 = "match (n) \n where n.text in [\"Triticum aestivum\",\"Oxygen\", \"Glucose\", \"Calcium\", \"Potassium\", \"Ethanol\", \"Adenosine Triphosphate\", \"Sodium\", \"Carbon\", \"Hydrogen\", \"alpha-amino acid\",\"Meriones unguiculatus\", \"Salmonella enterica subsp. enterica serovar Typhimurium\", \"Human alphaherpesvirus 1\", \"Mus musculus\", \"Panax ginseng\", \"Saccharomyces cerevisiae\", \"Rous sarcoma virus\", \"Hepatitis B virus\", \"Cavia porcellus\", \"Rattus norvegicus\",  \"Inflammatory Bowel Diseases\", \"Alveolar Bone Loss\", \"Reperfusion Injury\", \"Tremor\", \"Testicular Neoplasms\", \"\\\"Malaria, Falciparum\\\"\", \"\\\"Lymphoma, B-Cell\\\"\", \"\\\"Leukemia, Myeloid, Acute\\\"\", \"Weight Gain\", \"Vascular Diseases\", \"Tuberculosis\" ,\" myelin basic protein\", \" glial fibrillary acidic protein\", \" alpha-synuclein\", \" 72 kDa type IV collagenase\", \" intercellular adhesion molecule 1\", \" somatotropin\", \" Toll-like receptor 4\", \" superoxide dismutase [Cu-Zn]\", \" plasminogen\", \" matrix metalloproteinase-9\"]\n return n"
+    a.Query_To_Json(Query_temp)
+    # QueryList_temp = "match (n) \n where n.text in [\"Triticum aestivum\", \"Oxygen\", \"Glucose\", \"Calcium\", \"Potassium\", \"Ethanol\", \"Adenosine Triphosphate\", \"Sodium\", \"Carbon\", \"Hydrogen\", \"alpha-amino acid\", \"Cholesterol\", \"Amino Acids\", \"Peptides\", \"Glutathione\", \"Water\", \"Superoxides\", \"Iron\", \"Nucleotides\", \"Nitrogen\", \"Zinc\", \"Cysteine\", \"Nitric Oxide\", \"Insulin\", \"Lactic Acid\", \"Serotonin\", \"Fatty Acids\", \"Phosphates\", \"Dopamine\", \"Tumor Necrosis Factor-alpha\", \"Meriones unguiculatus\", \"Salmonella enterica subsp. enterica serovar Typhimurium\", \"Human alphaherpesvirus 1\", \"Mus musculus\", \"Panax ginseng\", \"Saccharomyces cerevisiae\", \"Rous sarcoma virus\", \"Hepatitis B virus\", \"Cavia porcellus\", \"Rattus norvegicus\", \"Zea mays subsp. mays\", \"Canis lupus familiaris\", \"Carassius auratus\", \"Gallus gallus\", \"Ginkgo biloba\", \"Cucumber mosaic virus\", \"Bovine orthopneumovirus\", \"unidentified adenovirus\", \"Helicobacter pylori\", \"Mycobacterium tuberculosis\", \"Pisum sativum\", \"Ilex paraguariensis\", \"Penicillium chrysogenum virus\", \"Cricetulus griseus\", \"Ovis aries\", \"Glycine max\", \"Solanum lycopersicum\", \"Aspergillus fumigatus\", \"Arabidopsis thaliana\", \"Bos taurus\", \"Inflammatory Bowel Diseases\", \"Syndrome\", \"Alveolar Bone Loss\", \"Reperfusion Injury\", \"Tremor\", \"Testicular Neoplasms\", \"\\\"Malaria, Falciparum\\\"\", \"\\\"Lymphoma, B-Cell\\\"\", \"\\\"Leukemia, Myeloid, Acute\\\"\", \"Weight Gain\", \"Vascular Diseases\", \"Tuberculosis\" , \"Thyroid Diseases\", \"Thrombocytopenia\", \"Soft Tissue Injuries\", \"Endometrial Neoplasms\", \"Sepsis\", \"\\\"Gangliosidosis, GM1\\\"\", \"Ocular Motility Disorders\", \"HIV Infections\", \"Glucose Intolerance\", \"Weight Loss\", \"Wounds and Injuries\", \"Virus Diseases\", \"Uremia\", \"\\\"Tuberculosis, Pulmonary\\\"\", \"Tooth Migration\", \"Protein C Deficiency\", \"Myocardial Ischemia\", \"Thrombosis\", \"\\\"Aging, Premature\\\"\", \" myelin basic protein\", \" glial fibrillary acidic protein\", \" alpha-synuclein\", \" 72 kDa type IV collagenase\", \" intercellular adhesion molecule 1\", \" somatotropin\", \" Toll-like receptor 4\", \" superoxide dismutase [Cu-Zn]\", \" plasminogen\", \" matrix metalloproteinase-9\", \" interleukin-1 receptor antagonist protein\", \" interferon gamma\", \" hypoxia-inducible factor 1-alpha\", \" alpha-1D adrenergic receptor\", \" vimentin\", \" tumor necrosis factor\", \" TGF-beta 1\", \"\\\" superoxide dismutase [Mn], mitochondrial\\\"\" , \"\\\" solute carrier family 2, facilitated glucose transporter member 1\\\"\", \" pro-opiomelanocortin\", \"\\\" nitric oxide synthase, inducible\\\"\", \" myeloperoxidase\", \" D site-binding protein\", \" interleukin-3\", \" interleukin-10\", \" insulin-like growth factor I\", \" endothelin-1 receptor\", \" heme oxygenase 1\", \"\\\" glutathione reductase, mitochondrial\\\"\", \" glutamine synthetase\"] \n return n"
+    # a.QueryList_To_Json(QueryList_temp)
 
-    arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 5 CUI-less-SARS-CoV-2 Disease'.split(" ")
-
-
-    a.conditional_start(arg)
+    # arg = '/var/www/cgi-bin/LionDB_Bolts_Class.py 5 CUI-less-SARS-CoV-2 Disease'.split(" ")
+    #
+    #
+    # a.conditional_start(arg)
 
     #edge_year_input("/3TB/test/191231/pmid_result_Gene_filtered_pro_191230.psv")
 

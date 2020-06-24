@@ -2,26 +2,91 @@ import requests
 import io
 import json
 import sys
+import time
+import random
+
+
+def web_request(method_name, url, dict_data, is_urlencoded=True, timeout_seconds=3):
+    """Web GET or POST request를 호출 후 그 결과를 dict형으로 반환 """
+    method_name = method_name.upper()  # 메소드이름을 대문자로 바꾼다
+    if method_name not in ('GET', 'POST'):
+        raise Exception('method_name is GET or POST plz...')
+
+    if method_name == 'GET':  # GET방식인 경우
+        response = requests.get(url=url, params=dict_data, timeout=timeout_seconds)
+    elif method_name == 'POST':  # POST방식인 경우
+        if is_urlencoded is True:
+            response = requests.post(url=url, data=dict_data, \
+                                     timeout=timeout_seconds,
+                                     headers={'Content-Type': 'application/x-www-form-urlencoded'})
+        else:
+            response = requests.post(url=url, data=json.dumps(dict_data), \
+                                     timeout=timeout_seconds, headers={'Content-Type': 'application/json'})
+
+    dict_meta = {'status_code': response.status_code, 'ok': response.ok, 'encoding': response.encoding,
+                 'Content-Type': response.headers['Content-Type']}
+    if 'json' in str(response.headers['Content-Type']):  # JSON 형태인 경우
+        return {**dict_meta, **response.json()}
+    else:  # 문자열 형태인 경우
+        return {**dict_meta, **{'text': response.text}}
+
+
+def web_request_retry(num_retry=3, sleep_seconds=1, **kwargs):
+    """timeout발생 시 sleep_seconds쉬고 num_retyrp번 재시도 한다"""
+    for n in range(num_retry):
+        try:
+            return web_request(**kwargs)
+        except requests.exceptions.Timeout:
+            print(str(n + 1) + ' Timeout')
+            time.sleep(sleep_seconds)
+            continue
+    return None
+
 
 def SubmitPMIDList_BERN(Inputfile):
     json = {}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 
     #
     # load pmids
     #
     f_in = open(Inputfile,"r")
+    f2_out = open("error_log.txt", "w")
     cnt = 1
     f_out = open("COVID19_pubmed_result.txt","w")
     while True:
-        if(cnt <= 5525):
-            cnt = cnt +1
-            continue
+
         line = f_in.readline().rstrip("\n")
         if not line : break
+        if (cnt <= 20129):
+            cnt = cnt + 1
+            continue
+        time.sleep(random.randint(10, 30))
 
-        r = requests.get("https://bern.korea.ac.kr/pubmed/" + line + "/pubtator")
+        try:
+            r = requests.get("https://bern.korea.ac.kr/pubmed/" + line + "/pubtator",headers = headers, timeout = 60)
+        except requests.exceptions.Timeout:
+            print('Timeout Error : ' + line)
+            time.sleep(60)
+            try:
+                r = requests.get("https://bern.korea.ac.kr/pubmed/" + line + "/pubtator", headers=headers, timeout = 60)
+            except requests.exceptions.Timeout:
+                print('Timeout Error : ' + line)
+                time.sleep(60)
+                try:
+                    r = requests.get("https://bern.korea.ac.kr/pubmed/" + line + "/pubtator", headers=headers, timeout=500)
+                except requests.exceptions.Timeout:
+                    print('Timeout Error : ' + line)
+                    f2_out.write('Timeout Error : ' + line + '\n')
+                    f2_out.flush()
+                    print(cnt)
+                    cnt = cnt + 1
+                    continue
         if r.status_code != 200:
             print("[Error]: HTTP code " + str(r.status_code))
+            f2_out.write("[Error]: HTTP code " + str(r.status_code) + ":" + line + '\n')
+            f2_out.flush()
         else:
             f_out.write(r.text)
             f_out.write("!#$@!#$@!#$@!#$@\n")
@@ -31,6 +96,7 @@ def SubmitPMIDList_BERN(Inputfile):
 
     f_out.close()
     f_in.close()
+    f2_out.close()
 def SubmitPMIDList(Inputfile, Format, Bioconcept):
     json = {}
 
