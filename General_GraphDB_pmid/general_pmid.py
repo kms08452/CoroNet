@@ -97,38 +97,65 @@ def SubmitPMIDList_BERN(Inputfile):
     f_out.close()
     f_in.close()
     f2_out.close()
+
+def chunks(l, n):
+    """Yield n number of striped chunks from l."""
+    for i in range(0, n):
+        yield l[i::n]
 def SubmitPMIDList(Inputfile, Format = "pubtator", Bioconcept = ""):
     json = {}
 
     #
     # load pmids
     #
-    with io.open(Inputfile, 'r', encoding="utf-8") as file_input:
-        json = {"pmids": [pmid.strip() for pmid in file_input.readlines()]}
+    cnt = 0
+
+    f = open("pubtator_list.txt", "w")
+
+    file_input = open(Inputfile, 'r', encoding="utf-8")
+    pmid_list = []
+    while True:
+        temp_input = file_input.readline().rstrip("\n")
+        if not temp_input : break
+        pmid_list.append(temp_input)
+    pmid_len = len(pmid_list)
+    while True:
+        time.sleep(random.randint(5, 15))
+        cnt = cnt + 1
+        if(cnt*20 > pmid_len):
+            break
+        json2 = {"pmids": []}
+        json2["pmids"] = pmid_list[(cnt-1)*20:(cnt)*20]
 
 
-    f = open("pubtator_list.txt","w")
-    #
-    # load bioconcepts
-    #
-    if Bioconcept != "":
-        json["concepts"] = Bioconcept.split(",")
+        #
+        # load bioconcepts
+        #
+        if Bioconcept != "":
+            json["concepts"] = Bioconcept.split(",")
 
-    #
-    # request
-    #
-    r = requests.post("https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/" + Format, json=json)
-    if r.status_code != 200:
-        print("[Error]: HTTP code " + str(r.status_code))
-    else:
-        text = r.text.split("\n")
+        #
+        # request
+        #
+        r = requests.post("https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/" + Format,
+                          json=json2)
+        if r.status_code != 200:
+            print("[Error]: HTTP code " + str(r.status_code))
+            print(str(json2))
+        else:
+            text = r.text.split("\n")
 
-        for i in text:
-            f.write(i)
-            f.write("\n")
+            for i in text:
+                f.write(i)
+                f.write("\n")
 
 
+
+    file_input.close()
     f.close()
+    # with io.open(Inputfile, 'r', encoding="utf-8") as file_input:
+    #     json = {"pmids": [pmid.strip() for pmid in file_input.readlines()]}
+
 
 def SubmitPMIDList_To_pubmed(Inputfile, Format = "pubtator", Bioconcept = ""):
     json = {}
@@ -191,9 +218,9 @@ def SubmitPMIDList_To_pubmed(Inputfile, Format = "pubtator", Bioconcept = ""):
 
 if __name__ == "__main__":
 
-    SubmitPMIDList_To_pubmed("./general_pmid_list", "pubtator", "")
+    SubmitPMIDList("./general_pmid_list", "pubtator", "")
 
-    #SubmitPMIDList("./general_pmid_list", "pubtator", "")
+    #SubmitPMIDList_BERN("./general_pmid_list")
     #SubmitPMIDList("./pmid_list_0325.txt", "pubtator", "")
     #
     # arg_count = 0
