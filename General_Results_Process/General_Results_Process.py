@@ -147,8 +147,6 @@ def Node_Sort(results_file_name):
         f.close()
         f_out.close()
 
-
-
 def CUI_less():
     f = open("./bern_miRNA.txt","r")
     f_out = open("./bern_miRNA_cui.txt","w")

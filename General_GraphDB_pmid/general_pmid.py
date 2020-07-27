@@ -119,13 +119,14 @@ def SubmitPMIDList(Inputfile, Format = "pubtator", Bioconcept = ""):
         if not temp_input : break
         pmid_list.append(temp_input)
     pmid_len = len(pmid_list)
+    pmid_span = 1
     while True:
         time.sleep(random.randint(5, 15))
         cnt = cnt + 1
-        if(cnt*20 > pmid_len):
+        if(cnt*pmid_span > pmid_len):
             break
         json2 = {"pmids": []}
-        json2["pmids"] = pmid_list[(cnt-1)*20:(cnt)*20]
+        json2["pmids"] = pmid_list[(cnt-1)*pmid_span:(cnt)*pmid_span]
 
 
         #
@@ -218,7 +219,7 @@ def SubmitPMIDList_To_pubmed(Inputfile, Format = "pubtator", Bioconcept = ""):
 
 if __name__ == "__main__":
 
-    SubmitPMIDList("./general_pmid_list", "pubtator", "")
+    SubmitPMIDList("./general_pmid_list_error", "pubtator", "")
 
     #SubmitPMIDList_BERN("./general_pmid_list")
     #SubmitPMIDList("./pmid_list_0325.txt", "pubtator", "")
